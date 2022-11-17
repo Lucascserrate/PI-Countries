@@ -1,0 +1,161 @@
+:root {
+    --aliceblue: #f0f8ff;
+    --north: #0048d8;
+    --oceania: #2394b6;
+    --asia: #b01134;
+    --europe: #00c698;
+    --south: #9fb800;
+    --africa: #5100a2;
+    --bgHover: #0a101d;
+    --radius: 15px;
+}
+
+
+/* Asia */
+
+.Asia {
+    background-color: var(--bgHover);
+    border-radius: 8px;
+    padding: 0 15px;
+}
+
+.asia:hover .Asia {
+    background-color: var(--asia);
+    transition: .5s;
+}
+
+
+.asia:hover {
+    box-shadow: 6px 6px 12px var(--asia);
+    width: 340px;
+    border-radius: var(--radius);
+    transition: .5s;
+    background-color: var(--bgHover);
+}
+
+
+/* North */
+.North {
+    background-color: var(--bgHover);
+    border-radius: 8px;
+    padding: 0 15px;
+}
+
+.north:hover .North {
+    background-color: var(--north);
+    transition: .5s;
+}
+
+.north:hover {
+    box-shadow: 6px 6px 12px var(--north);
+    width: 340px;
+    border-radius: var(--radius);
+    transition: .5s;
+    background-color: var(--bgHover);
+}
+
+
+/* Europe */
+
+.Europe {
+    background-color: var(--bgHover);
+    border-radius: 8px;
+    padding: 0 15px;
+}
+
+.europe:hover .Europe {
+    background-color: var(--europe);
+    transition: .5s;
+}
+
+.europe:hover {
+    box-shadow: 6px 6px 12px var(--europe);
+    width: 340px;
+    border-radius: var(--radius);
+    transition: .5s;
+    background-color: var(--bgHover);
+}
+
+/* Antarctica */
+
+.Antarctica {
+    background-color: var(--bgHover);
+    border-radius: 8px;
+    padding: 0 15px;
+}
+
+.antarctica:hover .Antarctica {
+    background-color: #707070;
+    transition: .5s;
+}
+
+.antarctica:hover {
+    box-shadow: 6px 6px 12px #fafefd;
+    width: 340px;
+    border-radius: var(--radius);
+    transition: .5s;
+    background-color: var(--bgHover);
+}
+
+
+/* Africa*/
+
+.Africa {
+    background-color: var(--bgHover);
+    border-radius: 8px;
+    padding: 0 15px;
+}
+
+.africa:hover .Africa {
+    background-color: var(--africa);
+    transition: .5s;
+}
+
+.africa:hover {
+    box-shadow: 6px 6px 12px var(--africa);
+    width: 340px;
+    border-radius: var(--radius);
+    transition: .5s;
+    background-color: var(--bgHover);
+}
+
+/* Oceania */
+
+.Oceania {
+    background-color: var(--bgHover);
+    border-radius: 8px;
+    padding: 0 15px;
+}
+
+.oceania:hover .Oceania {
+    background-color: var(--oceania);
+    transition: .5s;
+}
+
+.oceania:hover {
+    box-shadow: 6px 6px 12px var(--oceania);
+    width: 340px;
+    border-radius: var(--radius);
+    transition: .5s;
+    background-color: var(--bgHover);
+}
+
+
+.South {
+    background-color: var(--bgHover);
+    border-radius: 8px;
+    padding: 0 15px;
+}
+
+.south:hover .South {
+    background-color: var(--south);
+    transition: .5s;
+}
+
+.south:hover {
+    box-shadow: 6px 6px 12px var(--south);
+    width: 340px;
+    border-radius: var(--radius);
+    transition: .5s;
+    background-color: var(--bgHover);
+}

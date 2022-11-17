@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    background-color: #0f1723;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.nav {
+    display: flex;
+    height: 50px;
+    background-color: #0a0f17;
+    padding-left: 25px;
+    align-items: center;
+}
+
+.back {
+    color: aliceblue;
+}
