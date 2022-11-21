@@ -8,7 +8,7 @@ export const ERROR = 'ERROR';
 export const CLOSE = 'CLOSE';
 
 export const getCountries = () => async dispatch => {
-    let json = await axios.get('http://localhost:3001/countries')
+    let json = await axios.get('/countries')
     return dispatch({ type: GET_COUNTRIES, payload: json.data })
 }
 
@@ -26,7 +26,7 @@ export const continent = payload => dispatch => {
 
 export const getByName = (value) => async dispatch => {
     try {
-        let json = await axios.get(`http://localhost:3001/countries?name=${value}`)
+        let json = await axios.get(`/countries?name=${value}`)
         return dispatch({ type: SEARCH, payload: json.data })
     } catch (error) {
         return dispatch({ type: ERROR })

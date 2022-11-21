@@ -41,7 +41,7 @@ const Create = () => {
     }
 
     const handleCreate = () => {
-        axios.post('http://localhost:3001/activities', create)
+        axios.post('/activities', create)
         alert('Activity created')
     }
 

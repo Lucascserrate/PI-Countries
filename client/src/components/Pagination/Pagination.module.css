@@ -19,7 +19,7 @@
     padding: 4px 9px;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 17px;
     color: aliceblue;
     background-color: #0a0f17;
     user-select: none;
@@ -31,9 +31,21 @@
     color: #02d3f8;
 }
 
+.btn:disabled {
+    color: #0a0f17;
+}
+
+.btn:disabled:hover {
+    background-color: #0a0f17;
+    cursor: auto;
+}
+
 .input {
     width: 20px;
     border-radius: 5px;
     border: none;
     padding: 3px;
+    /*     font-size: 16px;
+    background-color: #0a0f17;
+    color: aliceblue; */
 }
