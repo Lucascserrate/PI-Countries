@@ -1,10 +1,9 @@
 import React from "react";
-import { useDispatch, /* useSelector  */ } from "react-redux";
-import { getSort, getCountries, population, continent } from "../../redux/actions";
+import { useDispatch } from "react-redux";
+import { getSort, population, continent, deleteFilters } from "../../redux/actions";
 import s from './Filters.module.css'
 
 const Filters = ({ setSort, sort }) => {
-    // const countries = useSelector(state => state.countries)
     const dispatch = useDispatch()
 
 
@@ -24,7 +23,7 @@ const Filters = ({ setSort, sort }) => {
 
     const handleClick = (e) => {
         e.preventDefault()
-        dispatch(getCountries())
+        dispatch(deleteFilters())
         document.getElementById('sort').value = 'sort'
         document.getElementById('population').value = 'population'
         document.getElementById('continents').value = 'all'

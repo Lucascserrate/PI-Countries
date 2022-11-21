@@ -1,13 +1,14 @@
 :root {
     --aliceblue: #f0f8ff;
-    --north: #0048d8;
+    --north: #38726C;
     --oceania: #2394b6;
-    --asia: #b01134;
-    --europe: #00c698;
-    --south: #9fb800;
-    --africa: #5100a2;
+    --asia: #cd99a1;
+    --europe: #82e4c6;
+    --south: #c6ec5c;
+    --africa: #b08ec1;
     --bgHover: #0a101d;
-    --radius: 15px;
+    --radius: 20px;
+    --transition: .8s;
 }
 
 
@@ -21,7 +22,7 @@
 
 .asia:hover .Asia {
     background-color: var(--asia);
-    transition: .5s;
+    transition: var(--transition);
 }
 
 
@@ -29,7 +30,7 @@
     box-shadow: 6px 6px 12px var(--asia);
     width: 340px;
     border-radius: var(--radius);
-    transition: .5s;
+    transition: var(--transition);
     background-color: var(--bgHover);
 }
 
@@ -43,14 +44,14 @@
 
 .north:hover .North {
     background-color: var(--north);
-    transition: .5s;
+    transition: var(--transition);
 }
 
 .north:hover {
     box-shadow: 6px 6px 12px var(--north);
     width: 340px;
     border-radius: var(--radius);
-    transition: .5s;
+    transition: var(--transition);
     background-color: var(--bgHover);
 }
 
@@ -65,14 +66,14 @@
 
 .europe:hover .Europe {
     background-color: var(--europe);
-    transition: .5s;
+    transition: var(--transition);
 }
 
 .europe:hover {
     box-shadow: 6px 6px 12px var(--europe);
     width: 340px;
     border-radius: var(--radius);
-    transition: .5s;
+    transition: var(--transition);
     background-color: var(--bgHover);
 }
 
@@ -85,15 +86,15 @@
 }
 
 .antarctica:hover .Antarctica {
-    background-color: #707070;
-    transition: .5s;
+    background-color: #b1b1b1;
+    transition: var(--transition);
 }
 
 .antarctica:hover {
     box-shadow: 6px 6px 12px #fafefd;
     width: 340px;
     border-radius: var(--radius);
-    transition: .5s;
+    transition: var(--transition);
     background-color: var(--bgHover);
 }
 
@@ -108,14 +109,14 @@
 
 .africa:hover .Africa {
     background-color: var(--africa);
-    transition: .5s;
+    transition: var(--transition);
 }
 
 .africa:hover {
     box-shadow: 6px 6px 12px var(--africa);
     width: 340px;
     border-radius: var(--radius);
-    transition: .5s;
+    transition: var(--transition);
     background-color: var(--bgHover);
 }
 
@@ -129,14 +130,14 @@
 
 .oceania:hover .Oceania {
     background-color: var(--oceania);
-    transition: .5s;
+    transition: var(--transition);
 }
 
 .oceania:hover {
     box-shadow: 6px 6px 12px var(--oceania);
     width: 340px;
     border-radius: var(--radius);
-    transition: .5s;
+    transition: var(--transition);
     background-color: var(--bgHover);
 }
 
@@ -149,13 +150,13 @@
 
 .south:hover .South {
     background-color: var(--south);
-    transition: .5s;
+    transition: var(--transition);
 }
 
 .south:hover {
     box-shadow: 6px 6px 12px var(--south);
     width: 340px;
     border-radius: var(--radius);
-    transition: .5s;
+    transition: var(--transition);
     background-color: var(--bgHover);
 }

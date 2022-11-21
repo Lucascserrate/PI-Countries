@@ -1,22 +1,56 @@
 import axios from "axios";
-import React, { useState } from "react";
-import { useSelector } from "react-redux";
+import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { getCountries } from "../../redux/actions";
 import s from './Create.module.css';
 
 const Create = () => {
     let countries = useSelector(state => state.countries)
-    countries = countries.sort()
+
+    const dispatch = useDispatch()
+    useEffect(() => {
+        dispatch(getCountries())
+    }, [dispatch])
+
 
     const [create, setCreate] = useState({
         name: '',
         difficulty: '',
-        duration: 0,
+        duration: '',
         season: '',
+        country: []
     })
 
-    const handleCreate = async () => {
-        const post = await axios.post('http://localhost:3001/activities')
+    const handleInput = (e) => {
+        if (e.target.value !== 'season') {
+            setCreate({
+                ...create,
+                [e.target.name]: e.target.value
+            })
+        }
+    }
+
+    const handleSelect = (e) => {
+        if (e.target.value !== 'countries') {
+            setCreate({
+                ...create,
+                country: [...create.country, e.target.value]
+            })
+        }
+    }
+
+    const handleCreate = () => {
+        axios.post('http://localhost:3001/activities', create)
+        alert('Activity created')
+    }
+
+    const handleDelete = (e) => {
+        e.preventDefault()
+        setCreate({
+            ...create,
+            country: create.country.filter(el => el !== e.target.value)
+        })
     }
 
     return (
@@ -27,15 +61,15 @@ const Create = () => {
                 </Link>
             </div>
             <div className={s.bg}>
-                <form className={s.form} >
+                <form className={s.form} onSubmit={handleCreate} >
                     <h2 className={s.title}>Create Activity</h2>
                     <div className={s.div} >
-                        <label className={s.label} htmlFor="">Name</label>
-                        <input type="text" className={s.input} />
+                        <label className={s.label} >Name</label>
+                        <input type="text" name="name" onChange={handleInput} className={s.input} />
                     </div>
                     <div className={s.div} >
-                        <label className={s.label} htmlFor="">Difficulty</label>
-                        <select className={s.input} >
+                        <label className={s.label} >Difficulty</label>
+                        <select name="difficulty" onChange={handleInput} className={s.input} >
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -44,12 +78,13 @@ const Create = () => {
                         </select>
                     </div>
                     <div className={s.div} >
-                        <label className={s.label} htmlFor="">Duration</label>
-                        <input type="number" className={s.input} />
+                        <label className={s.label} >Duration</label>
+                        <input type="number" name="duration" onChange={handleInput} className={s.input} min='1' />
                     </div>
                     <div className={s.div} >
-                        <label className={s.label} htmlFor="">Season</label>
-                        <select className={s.input} >
+                        <label className={s.label} >Season</label>
+                        <select name="season" onChange={handleInput} className={s.input} >
+                            <option value='season'>Select Season</option>
                             <option value="Summer">Summer</option>
                             <option value="Autumn">Autumn</option>
                             <option value="Winter">Winter</option>
@@ -57,20 +92,21 @@ const Create = () => {
                         </select>
                     </div>
                     <div className={s.div}>
-                        <label className={s.label} htmlFor="">Countries</label>
-                        <select className={s.input} >
-                            {countries?.map(e => {
-                                return (
-                                    <option key={e.id} value={e.name}>{e.name}</option>
-                                )
-                            })}
+                        <label className={s.label} >Countries</label>
+                        <select name="country" onChange={handleSelect} className={s.input} >
+                            <option value='countries' >Select Countries</option>
+                            {countries?.map((e, i) => <option key={i} value={e.name}>{e.name}</option>)}
                         </select>
                     </div>
+                    <div className={s.flagBox}>
+                        {/* {create.country?.map(e => <button onClick={handleDelete} key={e}><img className={s.flag} src={e} alt='flag' /></button>)} */}
+                        {create.country?.map((e, i) => <span key={i} className={s.span} value={e} >{e}<button onClick={handleDelete} className={s.btnDelete} value={e} >x</button> </span>)}
+                    </div>
                     <div className={s.btnBox}>
-                        <button className={s.btn}>
+                        <button type="submit" className={s.btn} >
                             <span className={s.shadow}></span>
                             <span className={s.edge}></span>
-                            <span className={s.front}>Submit</span>
+                            <span className={s.front}>Create</span>
                         </button>
                     </div>
                 </form>

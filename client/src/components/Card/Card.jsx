@@ -5,7 +5,7 @@ import '../Home/Continents.css'
 
 const Card = ({ id, flag, name, continent }) => {
     return (
-        <Link to='/detail'>
+        <Link to={`/home/${id}`}>
             <div className={s.container}>
                 <img src={flag} alt={name} className={s.img} />
                 <div className={s.textBox}>

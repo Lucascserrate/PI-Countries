@@ -28,7 +28,7 @@
     margin-top: 60px;
     border-radius: 15px;
     width: 500px;
-    height: 550px;
+    height: 590px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,3 +138,43 @@
 .btn:focus:not(:focus-visible) {
     outline: none;
 }
+
+.flagBox {
+    padding: 10px 0;
+}
+
+.span {
+    color: #dddddd;
+}
+
+.btnDelete {
+    font-size: 14px;
+    color: #dddddd;
+    font-weight: bold;
+    background-color: #0a0f17;
+    border: none;
+}
+
+.btnDelete:hover {
+    cursor: pointer;
+    color: red;
+}
+
+
+
+/* .flagBox button {
+    background-color: #0a0f17;
+    border: none;
+}
+
+.flag {
+    height: 35px;
+    width: 65px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.flag:hover {
+    opacity: .5;
+    cursor: pointer;
+} */

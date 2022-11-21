@@ -1,6 +1,6 @@
 .container {
     background-color: #0a0f17;
-    height: 60px;
+    height: 65px;
     display: flex;
     align-items: center;
     position: fixed;
@@ -25,6 +25,11 @@ a {
     align-items: center;
 }
 
+.logo:hover img {
+    filter: drop-shadow(0 0 5px rgb(46, 224, 247));
+
+}
+
 .img {
     height: 50px;
     margin-right: 10px;
@@ -34,6 +39,7 @@ a {
     font-family: monospace;
     font-size: 18px;
     color: #f4f4f4;
+    user-select: none;
 }
 
 .title:hover {

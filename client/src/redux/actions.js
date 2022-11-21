@@ -1,9 +1,11 @@
 import axios from 'axios';
 export const GET_COUNTRIES = 'GET_COUNTRIES';
 export const GET_SORT = 'GET_SORT';
-export const POPULATION = 'POPULATION'
-export const CONTINENTS = 'CONTINENTS'
-export const SEARCH = 'SEARCH '
+export const POPULATION = 'POPULATION';
+export const CONTINENTS = 'CONTINENTS';
+export const SEARCH = 'SEARCH';
+export const ERROR = 'ERROR';
+export const CLOSE = 'CLOSE';
 
 export const getCountries = () => async dispatch => {
     let json = await axios.get('http://localhost:3001/countries')
@@ -27,6 +29,14 @@ export const getByName = (value) => async dispatch => {
         let json = await axios.get(`http://localhost:3001/countries?name=${value}`)
         return dispatch({ type: SEARCH, payload: json.data })
     } catch (error) {
-        alert('Country not found')
+        return dispatch({ type: ERROR })
     }
+}
+
+export const deleteFilters = () => dispatch => {
+    return dispatch({ type: 'DELETE_FILTERS' })
+}
+
+export const errorClose = () => dispatch => {
+    return dispatch({ type: CLOSE })
 }

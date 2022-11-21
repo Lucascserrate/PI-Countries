@@ -11,14 +11,14 @@ function App() {
       <Route exact path='/'>
         <LandingPage />
       </Route>
+      <Route path='/home/:id'>
+        <Detail />
+      </Route>
       <Route path='/home' >
         <Home />
       </Route>
       <Route path='/create'>
         <Create />
-      </Route>
-      <Route path='/detail'>
-        <Detail />
       </Route>
     </div>
   );

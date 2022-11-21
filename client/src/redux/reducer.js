@@ -1,9 +1,10 @@
-import { CONTINENTS, GET_COUNTRIES, GET_SORT, POPULATION, SEARCH } from "./actions"
+import { CLOSE, CONTINENTS, ERROR, GET_COUNTRIES, GET_SORT, POPULATION, SEARCH } from "./actions"
 
 
 const initialState = {
     countries: [],
     sorting: [],
+    error: false
 
 }
 
@@ -35,7 +36,8 @@ const rootReducer = (state = initialState, action) => {
                 sorting: sort
             }
         case POPULATION:
-            const sortPopulation = action.payload === 'high' ? state.sorting.sort((a, b) => b.population - a.population) :
+            const sortPopulation = action.payload === 'high' ?
+                state.sorting.sort((a, b) => b.population - a.population) :
                 action.payload === 'low' ? state.sorting.sort((a, b) => a.population - b.population) : [...state.countries]
             return {
                 ...state,
@@ -55,6 +57,22 @@ const rootReducer = (state = initialState, action) => {
             return {
                 ...state,
                 sorting: [action.payload]
+            }
+
+        case 'DELETE_FILTERS':
+            return {
+                ...state,
+                sorting: state.countries
+            }
+        case ERROR:
+            return {
+                ...state,
+                error: true
+            }
+        case CLOSE:
+            return {
+                ...state,
+                error: false
             }
         default: return state
     }

@@ -15,11 +15,12 @@ const Search = () => {
 
     const handleSubmit = (e) => {
         dispatch(getByName(search))
+        document.getElementById('search').value = ''
     }
 
     return (
         <div className={s.searchBar}>
-            <input type="search" className={s.input} placeholder="Search..." onChange={(e) => handleSearch(e)} value={search} />
+            <input id="search" type="search" className={s.input} placeholder="Search..." onChange={(e) => handleSearch(e)} value={search} />
             <button type="submit" className={s.searchBtn} onClick={(e) => handleSubmit(e)} >Search</button>
         </div>
     )

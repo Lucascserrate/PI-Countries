@@ -10,8 +10,8 @@
 
 .img {
     border-radius: 8px;
-    width: 300px;
-    height: 180px;
+    width: 310px;
+    height: 187px;
     object-fit: cover;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .name {
-    font-size: 16px;
+    font-size: 16.5px;
     line-height: 0.5;
     color: aliceblue;
 }

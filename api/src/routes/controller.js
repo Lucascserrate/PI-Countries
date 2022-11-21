@@ -72,7 +72,7 @@ const getById = async (id) => {
     api = {
         id: api.cca3,
         name: api.name.common,
-        img: api.flags[1],
+        flag: api.flags[1],
         continent: api.continents[0],
         capital: api.capital,
         subregion: api.subregion,
