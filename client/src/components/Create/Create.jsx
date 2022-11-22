@@ -23,12 +23,10 @@ const Create = () => {
     })
 
     const handleInput = (e) => {
-        if (e.target.value !== 'season') {
-            setCreate({
-                ...create,
-                [e.target.name]: e.target.value
-            })
-        }
+        setCreate({
+            ...create,
+            [e.target.name]: e.target.value
+        })
     }
 
     const handleSelect = (e) => {
@@ -65,26 +63,27 @@ const Create = () => {
                     <h2 className={s.title}>Create Activity</h2>
                     <div className={s.div} >
                         <label className={s.label} >Name</label>
-                        <input type="text" name="name" onChange={handleInput} className={s.input} />
+                        <input type="text" name="name" onChange={handleInput} className={s.input} required />
                     </div>
                     <div className={s.div} >
                         <label className={s.label} >Difficulty</label>
-                        <select name="difficulty" onChange={handleInput} className={s.input} >
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
+                        <select name="difficulty" onChange={handleInput} className={s.input} required >
+                            <option value="">--Select Difficulty--</option>
+                            <option value="1">⭐ ☆ ☆ ☆ ☆</option>
+                            <option value="2">⭐⭐ ☆ ☆ ☆</option>
+                            <option value="3">⭐⭐⭐ ☆ ☆</option>
+                            <option value="4">⭐⭐⭐⭐ ☆</option>
+                            <option value="5">⭐⭐⭐⭐⭐</option>
                         </select>
                     </div>
                     <div className={s.div} >
                         <label className={s.label} >Duration</label>
-                        <input type="number" name="duration" onChange={handleInput} className={s.input} min='1' />
+                        <input type="number" name="duration" onChange={handleInput} className={s.input} min='1' required />
                     </div>
                     <div className={s.div} >
                         <label className={s.label} >Season</label>
-                        <select name="season" onChange={handleInput} className={s.input} >
-                            <option value='season'>Select Season</option>
+                        <select name="season" onChange={handleInput} className={s.input} required >
+                            <option value=''>--Select Season--</option>
                             <option value="Summer">Summer</option>
                             <option value="Autumn">Autumn</option>
                             <option value="Winter">Winter</option>
@@ -94,7 +93,7 @@ const Create = () => {
                     <div className={s.div}>
                         <label className={s.label} >Countries</label>
                         <select name="country" onChange={handleSelect} className={s.input} >
-                            <option value='countries' >Select Countries</option>
+                            <option value='countries' >--Select Countries--</option>
                             {countries?.map((e, i) => <option key={i} value={e.name}>{e.name}</option>)}
                         </select>
                     </div>

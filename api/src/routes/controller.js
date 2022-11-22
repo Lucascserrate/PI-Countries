@@ -36,6 +36,7 @@ const getHome = async () => {
                 population: e.population,
             }
         })
+        //api = api.filter(e => e.name !== 'Åland Islands' && e.name !== 'São Tomé and Príncipe' && e.name !== 'Réunion' && e.name !== 'Saint Barthélemy' && e.name !== 'Curaçao')
         let db = await Country.findAll()
         //console.log(db);
         if (!db.length) {

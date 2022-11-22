@@ -9,7 +9,7 @@ const Detail = () => {
     let { id } = useParams()
     console.log('id', id);
     useEffect(() => {
-        axios.get(`http://localhost:3001/countries/${id}`)
+        axios.get(`/countries/${id}`)
             .then(res => setCountry(res.data))
 
     }, [])

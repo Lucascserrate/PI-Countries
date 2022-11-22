@@ -14,8 +14,10 @@ const Search = () => {
     }
 
     const handleSubmit = (e) => {
-        dispatch(getByName(search))
-        document.getElementById('search').value = ''
+        if (search.length) {
+            dispatch(getByName(search))
+            document.getElementById('search').value = ''
+        }
     }
 
     return (
