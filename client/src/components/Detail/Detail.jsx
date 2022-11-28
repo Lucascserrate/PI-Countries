@@ -7,14 +7,11 @@ const Detail = () => {
 
     const [country, setCountry] = useState()
     let { id } = useParams()
-    console.log('id', id);
     useEffect(() => {
         axios.get(`/countries/${id}`)
             .then(res => setCountry(res.data))
 
-    }, [])
-
-    console.log('country', country);
+    }, [id])
 
     return (
         <div className={s.container}>

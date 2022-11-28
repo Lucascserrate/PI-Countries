@@ -41,7 +41,6 @@ const getHome = async () => {
         //console.log(db);
         if (!db.length) {
             await Country.bulkCreate(api)
-            console.log('Entrooooo');
         }
         return api
 

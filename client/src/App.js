@@ -2,7 +2,6 @@ import { Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import './App.css';
 import LandingPage from './components/LandingPage/LandingPage';
-import Create from './components/Create/Create';
 import Detail from './components/Detail/Detail';
 
 function App() {
@@ -16,9 +15,6 @@ function App() {
       </Route>
       <Route path='/home' >
         <Home />
-      </Route>
-      <Route path='/create'>
-        <Create />
       </Route>
     </div>
   );

@@ -22,7 +22,7 @@ const Search = () => {
 
     return (
         <div className={s.searchBar}>
-            <input id="search" type="search" className={s.input} placeholder="Search..." onChange={(e) => handleSearch(e)} value={search} />
+            <input id="search" type="search" className={s.input} placeholder="Search..." onChange={(e) => handleSearch(e)} value={search} autoComplete='off' />
             <button type="submit" className={s.searchBtn} onClick={(e) => handleSubmit(e)} >Search</button>
         </div>
     )

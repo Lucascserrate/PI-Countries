@@ -26,14 +26,15 @@ const Pagination = ({ current, setCurrent, max }) => {
         }
     }
 
-    const handleChange = (e) => {
-        setInput(e.target.value)
-    }
+    /*     const handleChange = (e) => {
+            setInput(e.target.value)
+        } */
+    console.log(input)
 
     return (
         <div className={s.container}>
             <button disabled={current === 1} className={s.btn} onClick={previous}>{'<'}</button>
-            <input className={s.input} type="text" maxLength='2' name="page" autoComplete="off" onChange={handleChange} value={input} onKeyDown={(e) => onKeyDown(e)} />
+            <input className={s.input} type="text" maxLength='2' name="page" autoComplete="off" onChange={(e) => setInput(e)} value={input} onKeyDown={(e) => onKeyDown(e)} />
             <span>of {max}</span>
             <button disabled={current === max} className={s.btn} onClick={next} >{'>'}</button>
         </div>

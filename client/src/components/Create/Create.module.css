@@ -1,19 +1,46 @@
-.nav {
+.container {
     display: flex;
-    height: 50px;
-    background-color: #0a0f17;
-    padding-left: 25px;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
     align-items: center;
-}
-
-.back {
-    color: aliceblue;
-}
-
-.bg {
-    display: flex;
-    height: 95vh;
     justify-content: center;
+    background-color: #0a0f176d;
+    z-index: 300;
+    user-select: none;
+}
+
+.card {
+    background-color: #0a0f17;
+    border-radius: 15px;
+    box-shadow: 5px 5px 12px #0a0f17;
+
+}
+
+
+
+.close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px 20px 0 0;
+    line-height: 0;
+    position: relative;
+    top: 20px;
+    left: 480px;
+}
+
+.close:hover {
+    color: rgb(2, 211, 248);
+    cursor: pointer;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+
 }
 
 .div {
@@ -23,16 +50,12 @@
 }
 
 .form {
-    background-color: #0a0f17;
-    box-shadow: 5px 5px 12px #0a0f17;
-    margin-top: 60px;
-    border-radius: 15px;
-    width: 500px;
-    height: 590px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    box-sizing: border-box;
+    padding-left: 50px;
+    width: 520px;
+    height: 600px;
+    display: grid;
+    grid-template-rows: 4fr 1fr;
 }
 
 .title {
@@ -45,16 +68,44 @@
     font-size: 18px;
 }
 
-.input {
-    border-radius: 5px;
-    font-size: 18px;
-    width: 200px;
-    height: 25px;
+.x {
+    padding-left: 10px;
 }
 
-.btnBox {
-    padding: 20px 0 0 0;
+.input {
+    background: #0a0f17;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+    height: 22px;
 }
+
+
+.flagBox {
+    margin-right: 30px;
+    padding: 10px 20px;
+    height: 50px;
+}
+
+.span {
+    color: #dddddd;
+}
+
+.btnDelete {
+    font-size: 14px;
+    color: #dddddd;
+    font-weight: bold;
+    background-color: #0a0f17;
+    border: none;
+}
+
+.btnDelete:hover {
+    cursor: pointer;
+    color: red;
+}
+
 
 .btn {
     position: relative;
@@ -66,6 +117,7 @@
     transition: filter 250ms;
     user-select: none;
     touch-action: manipulation;
+    top: 50px;
 }
 
 .shadow {
@@ -139,26 +191,8 @@
     outline: none;
 }
 
-.flagBox {
-    padding: 10px 0;
-}
 
-.span {
-    color: #dddddd;
-}
 
-.btnDelete {
-    font-size: 14px;
-    color: #dddddd;
-    font-weight: bold;
-    background-color: #0a0f17;
-    border: none;
-}
-
-.btnDelete:hover {
-    cursor: pointer;
-    color: red;
-}
 
 
 

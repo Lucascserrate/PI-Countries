@@ -1,10 +1,10 @@
 import React from "react";
-import s from './Errors.module.css';
-import img from '../../Assets/earth.png'
+import s from './Check.module.css';
+import img from '../../Assets/check.png'
 import { useDispatch } from "react-redux";
 import { errorClose } from "../../redux/actions";
 
-const Errors = () => {
+const Check = () => {
 
     const dispatch = useDispatch()
 
@@ -19,16 +19,14 @@ const Errors = () => {
                     <button className={s.btn} onClick={handleClick}>X</button>
                 </div>
                 <div className={s.title} >
-                    <h1 className={s.h1} >Not Found</h1>
+                    <h1 className={s.h1} >Activity Created!</h1>
                 </div>
                 <div className={s.status}>
-                    <h2 className={s.h2}>4</h2>
-                    <img className={s.img} src={img} alt="error" />
-                    <h2 className={s.h2}>4</h2>
+                    <img className={s.img} src={img} alt="check" />
                 </div>
             </div>
         </div>
     )
 }
 
-export default Errors;
+export default Check;

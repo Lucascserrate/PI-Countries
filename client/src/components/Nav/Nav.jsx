@@ -5,8 +5,7 @@ import { Link } from "react-router-dom";
 import Search from "../Search/Search";
 
 
-const Nav = () => {
-
+const Nav = ({ setForm }) => {
     return (
         <div className={s.container}>
             <div className={s.flex}>
@@ -17,13 +16,12 @@ const Nav = () => {
                     </div>
                 </Link>
                 <Search />
-                <Link to='/create'>
-                    <button className={s.btn}>
-                        <span className={s.shadow}></span>
-                        <span className={s.edge}></span>
-                        <span className={s.front}>Create</span>
-                    </button>
-                </Link>
+                <button className={s.btn} onClick={() => setForm(true)} >
+                    <span className={s.shadow}></span>
+                    <span className={s.edge}></span>
+                    <span className={s.front}>Create</span>
+                </button>
+
             </div>
         </div>
     )

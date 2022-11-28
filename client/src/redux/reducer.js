@@ -1,10 +1,12 @@
-import { CLOSE, CONTINENTS, ERROR, GET_COUNTRIES, GET_SORT, POPULATION, SEARCH } from "./actions"
+import { CHECKING, CLOSE, CONTINENTS, ERROR, GET_COUNTRIES, GET_SORT, POPULATION, SEARCH } from "./actions"
 
 
 const initialState = {
     countries: [],
     sorting: [],
-    error: false
+    error: false,
+    check: false,
+    /* input: 1 */
 
 }
 
@@ -45,8 +47,8 @@ const rootReducer = (state = initialState, action) => {
             }
 
         case CONTINENTS:
-            const asd = [...state.countries]
-            let filter = asd.filter(e => e.continent === action.payload)
+            const select = [...state.countries]
+            let filter = select.filter(e => e.continent === action.payload)
             console.log(filter);
             return {
                 ...state,
@@ -72,7 +74,13 @@ const rootReducer = (state = initialState, action) => {
         case CLOSE:
             return {
                 ...state,
-                error: false
+                error: state.error === false ? false : false,
+                check: state.check === false ? false : false
+            }
+        case CHECKING:
+            return {
+                ...state,
+                check: true
             }
         default: return state
     }

@@ -9,12 +9,16 @@ import Loader from "../Loader/Loader";
 import Filters from "../Filters/Filters";
 import Pagination from "../Pagination/Pagination";
 import Errors from "../Errors/Errors";
+import Create from "../Create/Create";
+import Check from "../Check/Check";
 
 const Home = () => {
 
     const dispatch = useDispatch()
     const sorting = useSelector(state => state.sorting)
     const error = useSelector(state => state.error)
+    const check = useSelector(state => state.check)
+    const [form, setForm] = useState(false)
     /*   const countries = useSelector(state => state.countries) */
 
     const [sort, setSort] = useState(true)
@@ -24,15 +28,20 @@ const Home = () => {
     const max = Math.ceil(sorting.length / perPage);
 
     useEffect(() => {
-        dispatch(getCountries())
-    }, [dispatch])
+        if (!sorting[0]) {
+            dispatch(getCountries())
+        }
+
+    }, [dispatch, sorting])
 
     return (
         <div className={s.container}>
             {sorting.length ?
                 <div>
-                    <Nav />
+                    <Nav setForm={setForm} />
                     {error && <Errors />}
+                    {check && <Check />}
+                    {form && <Create setForm={setForm} />}
                     <Filters setSort={setSort} sort={sort} />
                     <div className={s.gridContainer}>
                         <div className={s.grid}>

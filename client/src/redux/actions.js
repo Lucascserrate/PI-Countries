@@ -6,6 +6,7 @@ export const CONTINENTS = 'CONTINENTS';
 export const SEARCH = 'SEARCH';
 export const ERROR = 'ERROR';
 export const CLOSE = 'CLOSE';
+export const CHECKING = 'CHECKING';
 
 export const getCountries = () => async dispatch => {
     let json = await axios.get('/countries')
@@ -39,4 +40,7 @@ export const deleteFilters = () => dispatch => {
 
 export const errorClose = () => dispatch => {
     return dispatch({ type: CLOSE })
+}
+export const checking = () => dispatch => {
+    return dispatch({ type: CHECKING })
 }
