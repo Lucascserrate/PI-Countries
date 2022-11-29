@@ -18,6 +18,9 @@ module.exports = (sequelize) => {
         },
         country: {
             type: DataTypes.ARRAY(DataTypes.STRING)
-        }
+        },
+        /*        flags: {
+                   type: DataTypes.ARRAY(DataTypes.STRING)
+               } */
     }, { timestamps: false })
 }

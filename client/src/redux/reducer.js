@@ -6,8 +6,6 @@ const initialState = {
     sorting: [],
     error: false,
     check: false,
-    /* input: 1 */
-
 }
 
 const rootReducer = (state = initialState, action) => {

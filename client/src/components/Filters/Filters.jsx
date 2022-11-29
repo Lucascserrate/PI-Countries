@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { getSort, population, continent, deleteFilters } from "../../redux/actions";
 import s from './Filters.module.css'
 
-const Filters = ({ setSort, sort }) => {
+const Filters = ({ setSort, sort, setInput, setCurrent }) => {
     const dispatch = useDispatch()
 
 
@@ -19,6 +19,8 @@ const Filters = ({ setSort, sort }) => {
 
     const handleContinent = (e) => {
         dispatch(continent(e.target.value))
+        setInput(1)
+        setCurrent(1)
     }
 
     const handleClick = (e) => {

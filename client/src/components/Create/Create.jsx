@@ -15,37 +15,30 @@ const Create = ({ setForm }) => {
         difficulty: '',
         duration: '',
         season: '',
-        country: []
+        country: [],
+        /*  flags: [] */
     })
-    console.log(create)
+    console.log(create.flags)
 
     useEffect(() => {
         setError(validateCreate(create))
-        if (!sorting[0]) {
-            dispatch(getCountries())
-        }
+        if (!sorting[0]) dispatch(getCountries())
+
     }, [dispatch, sorting, create])
-
-
 
 
     const validateCreate = (create) => {
         const errors = {}
-        if (create.name.length < 3) {
-            errors.name = true
-        }
-        if (create.difficulty === '') {
-            errors.difficulty = 'error'
-        }
-        if (create.duration === '') {
-            errors.duration = 'error'
-        }
-        if (create.season === '') {
-            errors.season = 'error'
-        }
-        if (!create.country[0]) {
-            errors.country = 'error'
-        }
+        if (create.name.length < 3) errors.name = true
+
+        if (create.difficulty === '') errors.difficulty = 'error'
+
+        if (create.duration === '') errors.duration = 'error'
+
+        if (create.season === '') errors.season = 'error'
+
+        if (!create.country[0]) errors.country = 'error'
+
         return errors
     }
 
@@ -60,7 +53,8 @@ const Create = ({ setForm }) => {
         if (e.target.value !== 'countries') {
             setCreate({
                 ...create,
-                country: [...create.country, e.target.value]
+                country: [...create.country, e.target.value],
+                /* flags: [...create.flags, e.target.valor] */
             })
         }
     }
@@ -70,7 +64,6 @@ const Create = ({ setForm }) => {
         axios.post('/activities', create)
         setForm(false)
         dispatch(checking())
-
     }
 
     const handleDelete = (e) => {
@@ -80,6 +73,7 @@ const Create = ({ setForm }) => {
             country: create.country.filter(el => el !== e.target.value)
         })
     }
+
 
     return (
         <div className={s.container}>
@@ -95,7 +89,7 @@ const Create = ({ setForm }) => {
                                 <label className={s.label} >Name</label>
                                 <input type="text" name="name" onChange={handleInput} className={s.input} autoComplete='off' />
                             </div>
-                            <span className={s.x} hidden={!error.name}>❌</span>
+                            {error.name && <span className={s.x} >❌</span>}
                         </div>
                         <div className={s.column}>
                             <div className={s.div} >
@@ -109,14 +103,14 @@ const Create = ({ setForm }) => {
                                     <option value="5">⭐⭐⭐⭐⭐</option>
                                 </select>
                             </div>
-                            <span className={s.x} hidden={error.difficulty === 'error' ? false : true}>❌</span>
+                            {error.difficulty && <span className={s.x} >❌</span>}
                         </div>
                         <div className={s.column}>
                             <div className={s.div} >
                                 <label className={s.label} >Duration</label>
                                 <input type="number" name="duration" onChange={handleInput} className={s.input} min='1' max='100' />
                             </div>
-                            <span className={s.x} hidden={error.duration === 'error' ? false : true}>❌</span>
+                            {error.duration && <span className={s.x} >❌</span>}
                         </div>
                         <div className={s.column}>
                             <div className={s.div} >
@@ -129,7 +123,7 @@ const Create = ({ setForm }) => {
                                     <option value="Spring">Spring</option>
                                 </select>
                             </div>
-                            <span className={s.x} hidden={error.season === 'error' ? false : true}>❌</span>
+                            {error.season && <span className={s.x} >❌</span>}
                         </div>
                         <div className={s.column}>
                             <div className={s.div}>
@@ -139,7 +133,7 @@ const Create = ({ setForm }) => {
                                     {countries?.map((e, i) => <option key={i} value={e.name}>{e.name}</option>)}
                                 </select>
                             </div>
-                            <span className={s.x} hidden={error.country === 'error' ? false : true}>❌</span>
+                            {error.country && <span className={s.x} >❌</span>}
                         </div>
                         <div className={s.flagBox}>
                             {/* {create.country?.map(e => <button onClick={handleDelete} key={e}><img className={s.flag} src={e} alt='flag' /></button>)} */}
@@ -158,5 +152,4 @@ const Create = ({ setForm }) => {
         </div >
     )
 }
-
 export default Create;
