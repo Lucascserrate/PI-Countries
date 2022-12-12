@@ -18,7 +18,6 @@ const Create = ({ setForm }) => {
         country: [],
         /*  flags: [] */
     })
-    console.log(create.flags)
 
     useEffect(() => {
         setError(validateCreate(create))
@@ -60,7 +59,6 @@ const Create = ({ setForm }) => {
     }
 
     const handleCreate = (e) => {
-        e.preventDefault()
         axios.post('/activities', create)
         setForm(false)
         dispatch(checking())

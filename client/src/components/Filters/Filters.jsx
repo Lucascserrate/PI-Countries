@@ -1,10 +1,11 @@
 import React from "react";
-import { useDispatch } from "react-redux";
-import { getSort, population, continent, deleteFilters } from "../../redux/actions";
+import { useDispatch, useSelector } from "react-redux";
+import { getSort, population, continent, deleteFilters, getSelectActivity } from "../../redux/actions";
 import s from './Filters.module.css'
 
 const Filters = ({ setSort, sort, setInput, setCurrent }) => {
     const dispatch = useDispatch()
+    const activities = useSelector(state => state.activities)
 
 
     const handleSort = (e) => {
@@ -31,6 +32,11 @@ const Filters = ({ setSort, sort, setInput, setCurrent }) => {
         document.getElementById('continents').value = 'all'
     }
 
+    const handleActivity = (e) => {
+        dispatch(getSelectActivity(e.target.value))
+        setInput(1)
+        setCurrent(1)
+    }
 
     return (
         <div className={s.container}>
@@ -65,8 +71,9 @@ const Filters = ({ setSort, sort, setInput, setCurrent }) => {
             </div>
             <div className={s.selectContainer}>
                 <label htmlFor="" className={s.label}>Activity</label>
-                <select name="Activity" className={s.select}>
-                    <option value='all' className={s.option}>All</option>
+                <select name="Activity" className={s.select} onChange={handleActivity}>
+                    <option value='activities' className={s.option}>Activities</option>
+                    {activities?.map((e, i) => <option key={i} value={e.name} >{e.name}</option>)}
                 </select>
             </div>
             <button className={s.deleteFilter} onClick={handleClick}>

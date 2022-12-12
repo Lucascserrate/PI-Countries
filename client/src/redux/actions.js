@@ -7,12 +7,25 @@ export const SEARCH = 'SEARCH';
 export const ERROR = 'ERROR';
 export const CLOSE = 'CLOSE';
 export const CHECKING = 'CHECKING';
+export const GET_ACTIVITIES = 'GET_ACTIVITIES';
+export const GET_SELECT_ACTIVITY = 'GET_SELECT_ACTIVITY';
 
 export const getCountries = () => async dispatch => {
-    let json = await axios.get('/countries')
-    return dispatch({ type: GET_COUNTRIES, payload: json.data })
+    try {
+        let json = await axios.get('/countries')
+        return dispatch({ type: GET_COUNTRIES, payload: json.data })
+    } catch (error) {
+        console.log(error.message)
+    }
+}
+export const getActivities = () => async dispatch => {
+    let json = await axios.get('/activities')
+    return dispatch({ type: GET_ACTIVITIES, payload: json.data })
 }
 
+export const getSelectActivity = (payload) => dispatch => {
+    return dispatch({ type: GET_SELECT_ACTIVITY, payload })
+}
 export const getSort = (payload) => dispatch => {
     return dispatch({ type: GET_SORT, payload })
 }

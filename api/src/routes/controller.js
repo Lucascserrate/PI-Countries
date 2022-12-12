@@ -1,28 +1,9 @@
 const axios = require('axios');
-const { Country } = require('../db')
+const { Country, Activity } = require('../db')
 
 
 const getHome = async () => {
     try {
-        /*         let arr = [{
-                    "id": "ASD",
-                    "name": "asd",
-                    "flag": "asdasd",
-                    "continent": "4",
-                    "capital": "90",
-                    "subregion": "Summer",
-                    "area": 12312,
-                    "population": 12,
-                }, {
-                    "id": "ASS",
-                    "name": "aasdd",
-                    "flag": "asdasd",
-                    "continent": "4",
-                    "capital": "90",
-                    "subregion": "Summer",
-                    "area": 12312,
-                    "population": 12,
-                }] */
         let api = await axios.get('https://restcountries.com/v3/all')
         api = api.data?.map(e => {
             return {
@@ -36,16 +17,40 @@ const getHome = async () => {
                 population: e.population,
             }
         })
-        //api = api.filter(e => e.name !== 'Åland Islands' && e.name !== 'São Tomé and Príncipe' && e.name !== 'Réunion' && e.name !== 'Saint Barthélemy' && e.name !== 'Curaçao')
-        let db = await Country.findAll()
-        //console.log(db);
-        if (!db.length) {
+        api = api.filter(e => e.name !== 'Moldova')
+        /* console.log('api', api) */
+
+        let bdd = await Country.findAll()
+        if (!bdd.length) {
             await Country.bulkCreate(api)
         }
-        return api
+        let db = await Country.findAll({
+            include: {
+                model: Activity,
+                attributes: ["name"],
+                through: {
+                    attributes: []
+                }
+            }
+        })
+
+        db = db.map(e => {
+            return {
+                id: e.id,
+                name: e.name,
+                flag: e.flag,
+                continent: e.continent,
+                capital: e.capital,
+                subregion: e.subregion,
+                area: e.area,
+                population: e.population,
+                activity: e.activities?.map(el => el.name)
+            }
+        })
+        return db
 
     } catch (error) {
-        console.log(error);
+        console.log(error.message);
     }
 
 }
@@ -63,6 +68,7 @@ const getByName = async (name) => {
         area: `${api.area}km²`,
         population: api.population,
     }
+    api = api.filter(e => e.name !== 'Moldova')
     return api
 }
 

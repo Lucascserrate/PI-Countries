@@ -3,7 +3,7 @@ import './Continents.css'
 import s from './Home.module.css'
 import Nav from "../Nav/Nav";
 import { useDispatch, useSelector } from 'react-redux'
-import { getCountries } from "../../redux/actions";
+import { getActivities, getCountries } from "../../redux/actions";
 import Card from "../Card/Card";
 import Loader from "../Loader/Loader";
 import Filters from "../Filters/Filters";
@@ -19,7 +19,7 @@ const Home = () => {
     const error = useSelector(state => state.error)
     const check = useSelector(state => state.check)
     const [form, setForm] = useState(false)
-    /*   const countries = useSelector(state => state.countries) */
+    const activities = useSelector(state => state.activities)
 
     const [sort, setSort] = useState(true)
     // Pagination
@@ -32,9 +32,11 @@ const Home = () => {
         if (!sorting[0]) {
             dispatch(getCountries())
         }
+        if (!activities[0]) {
+            dispatch(getActivities())
+        }
 
-    }, [dispatch, sorting])
-
+    }, [dispatch, sorting, activities])
     return (
         <div className={s.container}>
             {sorting.length ?

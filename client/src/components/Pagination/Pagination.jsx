@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import s from './Pagination.module.css'
 
 const Pagination = ({ current, setCurrent, max, input, setInput }) => {
@@ -27,7 +27,6 @@ const Pagination = ({ current, setCurrent, max, input, setInput }) => {
     /*     const handleChange = (e) => {
             setInput(e.target.value)
         } */
-    console.log(input)
 
     return (
         <div className={s.container}>

@@ -1,4 +1,4 @@
-import { CHECKING, CLOSE, CONTINENTS, ERROR, GET_COUNTRIES, GET_SORT, POPULATION, SEARCH } from "./actions"
+import { CHECKING, CLOSE, CONTINENTS, ERROR, GET_ACTIVITIES, GET_COUNTRIES, GET_SELECT_ACTIVITY, GET_SORT, POPULATION, SEARCH } from "./actions"
 
 
 const initialState = {
@@ -6,6 +6,7 @@ const initialState = {
     sorting: [],
     error: false,
     check: false,
+    activities: []
 }
 
 const rootReducer = (state = initialState, action) => {
@@ -16,6 +17,17 @@ const rootReducer = (state = initialState, action) => {
                 ...state,
                 countries: action.payload,
                 sorting: a,
+            }
+        case GET_ACTIVITIES:
+            return {
+                ...state,
+                activities: action.payload,
+            }
+        case GET_SELECT_ACTIVITY:
+            const result = state.countries.filter(e => e.activity.includes(action.payload))
+            return {
+                ...state,
+                sorting: result,
             }
         case GET_SORT:
             const sort = action.payload === 'asc' ? state.sorting.sort((a, b) => {
