@@ -57,18 +57,21 @@ const getHome = async () => {
 
 const getByName = async (name) => {
     let api = await axios.get(`https://restcountries.com/v3/name/${name}`)
-    api = api.data[0]
-    api = {
-        id: api.cca3,
-        name: api.name.common,
-        flag: api.flags[1],
-        continent: api.continents[0],
-        capital: api.capital,
-        subregion: api.subregion,
-        area: `${api.area}km²`,
-        population: api.population,
-    }
-    api = api.filter(e => e.name !== 'Moldova')
+    api = api.data
+    api = api?.map(e => {
+        return {
+            id: e.cca3,
+            name: e.name.common,
+            flag: e.flags[1],
+            continent: e.continents[0],
+            capital: e.capital,
+            subregion: e.subregion,
+            area: `${e.area}km²`,
+            population: e.population
+        }
+
+    })
+    console.log(api);
     return api
 }
 

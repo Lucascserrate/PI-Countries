@@ -68,7 +68,7 @@ const rootReducer = (state = initialState, action) => {
         case SEARCH:
             return {
                 ...state,
-                sorting: [action.payload]
+                sorting: action.payload
             }
 
         case 'DELETE_FILTERS':
