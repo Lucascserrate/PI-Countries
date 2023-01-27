@@ -16,7 +16,7 @@ const Errors = () => {
         <div className={s.container}>
             <div className={s.card}>
                 <div className={s.flex}>
-                    <button className={s.btn} onClick={handleClick}>X</button>
+                    <button className={s.btn} onClick={handleClick}>✖</button>
                 </div>
                 <div className={s.title} >
                     <h1 className={s.h1} >Not Found</h1>

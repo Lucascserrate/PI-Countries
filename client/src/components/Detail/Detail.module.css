@@ -42,11 +42,12 @@ h4 {
     font-size: 15px;
     font-weight: bold;
     padding-top: 10px;
+    cursor: pointer;
 }
 
 .btn:hover {
     color: #02d3f8;
-    cursor: pointer;
+
 }
 
 .flag {

@@ -21,7 +21,7 @@ const Detail = () => {
                         <div className={s.flex}>
                             <h3>{country.id}</h3>
                             <Link to='/home'>
-                                <button className={s.btn}>X</button>
+                                <button className={s.btn}>✖</button>
                             </Link>
                         </div>
                         <img className={s.flag} src={country.flag} alt={country.name} />

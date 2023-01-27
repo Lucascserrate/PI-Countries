@@ -77,7 +77,7 @@ const Create = ({ setForm }) => {
         <div className={s.container}>
             <div className={s.card}>
                 <div className={s.flex}>
-                    <button className={s.close} onClick={() => setForm(false)}>X</button>
+                    <button className={s.close} onClick={() => setForm(false)}>✖</button>
                 </div>
                 <form className={s.form} onSubmit={handleCreate} >
                     <div>
