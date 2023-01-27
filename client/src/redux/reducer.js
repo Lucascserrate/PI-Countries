@@ -59,7 +59,6 @@ const rootReducer = (state = initialState, action) => {
         case CONTINENTS:
             const select = [...state.countries]
             let filter = select.filter(e => e.continent === action.payload)
-            console.log(filter);
             return {
                 ...state,
                 sorting: action.payload === 'all' ? [...state.countries] : filter

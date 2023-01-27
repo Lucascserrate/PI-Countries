@@ -10,7 +10,6 @@ const Search = () => {
 
     const handleSearch = (e) => {
         setSearch(e.target.value)
-        console.log(search)
     }
 
     const handleSubmit = (e) => {
