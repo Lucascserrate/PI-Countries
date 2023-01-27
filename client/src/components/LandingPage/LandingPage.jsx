@@ -21,9 +21,7 @@ const LandingPage = () => {
                         Enjoy  {':)'}
                     </p>
                     <Link to='/home'>
-                        <button className={s.btn}>
-                            <span className={s.span}>START</span>
-                        </button>
+                        <button>Start</button>
                     </Link>
                 </div>
             </div>
