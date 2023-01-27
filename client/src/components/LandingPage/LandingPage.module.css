@@ -28,20 +28,20 @@
     line-height: 28px;
 }
 
-button {
+.btn {
     height: 2.6em;
     width: 6.8em;
     border: none;
     border-radius: 8px;
     background: #fff;
     font-size: 18px;
-    color: #00358b;
+    color: #92bbfe;
     font-family: inherit;
     font-weight: bold;
     cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
     animation: shake3856 0.3s linear infinite both;
 }
 
