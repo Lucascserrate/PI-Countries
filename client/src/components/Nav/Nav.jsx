@@ -3,6 +3,7 @@ import s from './Nav.module.css';
 import img from '../../Assets/earth.png'
 import { Link } from "react-router-dom";
 import Search from "../Search/Search";
+import Button from '../Button/Button';
 
 
 const Nav = ({ setForm }) => {
@@ -16,12 +17,7 @@ const Nav = ({ setForm }) => {
                     </div>
                 </Link>
                 <Search />
-                <button className={s.btn} onClick={() => setForm(true)} >
-                    <span className={s.shadow}></span>
-                    <span className={s.edge}></span>
-                    <span className={s.front}>Create</span>
-                </button>
-
+                <Button value='Create' handlerClick={() => setForm(true)} />
             </div>
         </div>
     )

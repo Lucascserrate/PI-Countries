@@ -18,7 +18,6 @@ const getHome = async () => {
             }
         })
         api = api.filter(e => e.name !== 'Moldova')
-        /* console.log('api', api) */
 
         let bdd = await Country.findAll()
         if (!bdd.length) {
@@ -71,7 +70,6 @@ const getByName = async (name) => {
         }
 
     })
-    console.log(api);
     return api
 }
 
@@ -91,19 +89,9 @@ const getById = async (id) => {
     return api
 }
 
-/* const postActivity = (id, name, difficulty, duration, season) => {
-    return {
-        id,
-        name,
-        difficulty,
-        duration,
-        season
-    }
-} */
 
 module.exports = {
     getHome,
     getByName,
-    getById,
-    /*  postActivity */
+    getById
 }

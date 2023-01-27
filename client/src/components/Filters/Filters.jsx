@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getSort, population, continent, deleteFilters, getSelectActivity } from "../../redux/actions";
+import Button from '../Button/Button';
 import s from './Filters.module.css'
 
 const Filters = ({ setSort, sort, setInput, setCurrent }) => {
@@ -76,11 +77,7 @@ const Filters = ({ setSort, sort, setInput, setCurrent }) => {
                     {activities?.map((e, i) => <option key={i} value={e.name} >{e.name}</option>)}
                 </select>
             </div>
-            <button className={s.deleteFilter} onClick={handleClick}>
-                <span className={s.shadow}></span>
-                <span className={s.edge}></span>
-                <span className={s.front}>Delete Filters</span>
-            </button>
+            <Button value='Delete Filters' handlerClick={handleClick} />
         </div>
     )
 }
