@@ -1,11 +1,11 @@
 :root {
     --aliceblue: #f0f8ff;
-    --north: #38726C;
-    --oceania: #2394b6;
-    --asia: #cd99a1;
-    --europe: #82e4c6;
-    --south: #c6ec5c;
-    --africa: #b08ec1;
+    --north: #0277bd;
+    --oceania: #d81b60;
+    --asia: #e53935;
+    --europe: #009688;
+    --south: #00acc1;
+    --africa: #673ab7;
     --bgHover: #0a101d;
     --radius: 20px;
     --transition: .8s;
