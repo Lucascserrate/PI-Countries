@@ -8,7 +8,6 @@ const Filters = ({ setSort, sort, setInput, setCurrent }) => {
     const dispatch = useDispatch()
     const activities = useSelector(state => state.activities)
 
-    console.log(activities)
     const handleSort = (e) => {
         dispatch(getSort(e.target.value))
         setSort(!sort)
