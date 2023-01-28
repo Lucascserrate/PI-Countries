@@ -45,7 +45,9 @@
     animation: shake3856 0.3s linear infinite both;
 }
 
-
+.earth {
+    animation: earthMove 10s linear infinite both;
+}
 
 .bg,
 .earth,
@@ -67,6 +69,7 @@
     top: 200px;
     right: 350px;
     z-index: 20;
+    filter: blur(1px);
 }
 
 .cloud1,
@@ -118,6 +121,38 @@
 }
 
 @keyframes shake3856 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    20% {
+        -webkit-transform: translate(-6px, 6px);
+        transform: translate(-6px, 6px);
+    }
+
+    40% {
+        -webkit-transform: translate(-6px, -6px);
+        transform: translate(-6px, -6px);
+    }
+
+    60% {
+        -webkit-transform: translate(6px, 6px);
+        transform: translate(6px, 6px);
+    }
+
+    80% {
+        -webkit-transform: translate(6px, -6px);
+        transform: translate(6px, -6px);
+    }
+
+    100% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}
+
+@keyframes earthMove {
     0% {
         -webkit-transform: translate(0);
         transform: translate(0);
