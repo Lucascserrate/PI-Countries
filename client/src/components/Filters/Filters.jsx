@@ -76,10 +76,10 @@ const Filters = ({ setSort, sort, setInput, setCurrent }) => {
                 <label htmlFor="" className={s.label}>Activity</label>
                 <select name="Activity" className={s.select} onChange={handleActivity}>
                     <option value='activities' className={s.option}>Activities</option>
-                    {/*                     {activities?.length
+                    {activities?.length
                         ? activities.map(e => <option key={e.id} value={e.name} >{e.name}</option>)
                         : undefined
-                    } */}
+                    }
                 </select>
             </div>
             <Button value='Delete Filters' handlerClick={handleClick} />
