@@ -8,7 +8,6 @@ const Filters = ({ setSort, sort, setInput, setCurrent }) => {
     const dispatch = useDispatch()
     const activities = useSelector(state => state.activities)
 
-
     const handleSort = (e) => {
         dispatch(getSort(e.target.value))
         setSort(!sort)
@@ -74,7 +73,10 @@ const Filters = ({ setSort, sort, setInput, setCurrent }) => {
                 <label htmlFor="" className={s.label}>Activity</label>
                 <select name="Activity" className={s.select} onChange={handleActivity}>
                     <option value='activities' className={s.option}>Activities</option>
-                    {activities?.map((e, i) => <option key={i} value={e.name} >{e.name}</option>)}
+                    {activities.length
+                        ? activities.map((e, i) => <option key={i} value={e.name} >{e.name}</option>)
+                        : undefined
+                    }
                 </select>
             </div>
             <Button value='Delete Filters' handlerClick={handleClick} />
