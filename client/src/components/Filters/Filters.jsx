@@ -74,7 +74,7 @@ const Filters = ({ setSort, sort, setInput, setCurrent }) => {
                 <select name="Activity" className={s.select} onChange={handleActivity}>
                     <option value='activities' className={s.option}>Activities</option>
                     {activities.length
-                        ? activities.map(e => <option key={e.id} value={e.name} >{e.name}</option>)
+                        ? activities?.map(e => <option key={e.id} value={e.name}>{e.name}</option>)
                         : undefined
                     }
                 </select>
