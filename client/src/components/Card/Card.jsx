@@ -10,7 +10,7 @@ const Card = ({ id, flag, name, continent }) => {
                 <img src={flag} alt={name} className={s.img} />
                 <div className={s.textBox}>
                     <h3 className={s.name}>{name}</h3>
-                    <div className={continent.split(' ')[0]} >
+                    <div className={continent?.split(' ')[0]} >
                         <p className={s.continent}>{continent}</p>
                     </div>
                 </div>
