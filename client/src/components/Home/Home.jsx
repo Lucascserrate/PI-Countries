@@ -50,7 +50,7 @@ const Home = () => {
                         <div className={s.grid}>
                             {sorting?.slice((current - 1) * perPage, (current - 1) * perPage + perPage).map(e => {
                                 return (
-                                    <div className={e.continent.split(' ')[0].toLowerCase()} key={e.id}  >
+                                    <div className={e.continent?.split(' ')[0].toLowerCase()} key={e.id}  >
                                         <Card id={e.id} name={e.name} flag={e.flag} continent={e.continent} />
                                     </div>
                                 )
