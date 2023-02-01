@@ -8,6 +8,9 @@ import cloud2 from '../../Assets/cloud2.png';
 import cloud3 from '../../Assets/cloud3.png';
 import cloud4 from '../../Assets/cloud4.png';
 import bg from '../../Assets/bg.png';
+import linkedin from '../../Assets/linkedin-logo.svg'
+import github from '../../Assets/github-logo.svg'
+
 
 const LandingPage = () => {
     return (
@@ -32,7 +35,11 @@ const LandingPage = () => {
                 <img className={s.cloud2} src={cloud2} alt="cloud2" />
                 <img className={s.cloud4} src={cloud3} alt="cloud3" />
                 <img className={s.cloud3} src={cloud4} alt="cloud4" />
-
+            </div>
+            <div className={s.contact}>
+                <p>Contact me:</p>
+                <a href="https://www.linkedin.com/in/lucascserrate/" target='_blank'><img className={s.logo} src={linkedin} alt="linkedin" /></a>
+                <a href="https://github.com/Lucascserrate" target='_blank'><img className={s.logo} src={github} alt="github" /></a>
             </div>
         </div>
     )
