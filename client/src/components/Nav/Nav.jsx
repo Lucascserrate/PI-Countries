@@ -6,7 +6,7 @@ import Search from "../Search/Search";
 import Button from '../Button/Button';
 
 
-const Nav = ({ setForm }) => {
+const Nav = ({ setForm, searchBar }) => {
     return (
         <div className={s.container}>
             <div className={s.flex}>
@@ -16,7 +16,9 @@ const Nav = ({ setForm }) => {
                         <h1 className={s.title}>PI Countries</h1>
                     </div>
                 </Link>
-                <Search />
+                {
+                    searchBar && <Search />
+                }
                 <Button value='Create' handlerClick={() => setForm(true)} />
             </div>
         </div>
