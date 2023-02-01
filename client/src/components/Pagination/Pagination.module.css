@@ -23,12 +23,16 @@
     color: aliceblue;
     background-color: #0a0f17;
     user-select: none;
+    cursor: pointer;
 }
 
 .btn:hover {
-    cursor: pointer;
     background-color: #151921da;
     color: #02d3f8;
+}
+
+.btn:active {
+    filter: brightness(1.5);
 }
 
 .btn:disabled {
