@@ -34,6 +34,6 @@
 }
 
 .select:hover {
-    border: 1px solid #8dddfcf5;
+    outline: 1px solid #8dddfcf5;
     cursor: pointer;
 }
