@@ -49,10 +49,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "CRI",
-            "HND"
-        ],
         "area": 130373.0,
         "demonyms": {
             "eng": {
@@ -140,11 +136,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "BRA",
-            "COL",
-            "GUY"
-        ],
         "area": 916445.0,
         "demonyms": {
             "eng": {
@@ -239,9 +230,6 @@
             "nld": "Dutch"
         },
         "landlocked": false,
-        "borders": [
-            "MAF"
-        ],
         "area": 34.0,
         "demonyms": {
             "eng": {
@@ -428,10 +416,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "GTM",
-            "MEX"
-        ],
         "area": 22966.0,
         "demonyms": {
             "eng": {
@@ -518,12 +502,6 @@
             "slv": "Slovene"
         },
         "landlocked": false,
-        "borders": [
-            "AUT",
-            "HRV",
-            "ITA",
-            "HUN"
-        ],
         "area": 20273.0,
         "demonyms": {
             "eng": {
@@ -616,11 +594,6 @@
             "run": "Kirundi"
         },
         "landlocked": true,
-        "borders": [
-            "COD",
-            "RWA",
-            "TZA"
-        ],
         "area": 27834.0,
         "demonyms": {
             "eng": {
@@ -773,13 +746,6 @@
             "swa": "Swahili"
         },
         "landlocked": false,
-        "borders": [
-            "ETH",
-            "SOM",
-            "SSD",
-            "TZA",
-            "UGA"
-        ],
         "area": 580367.0,
         "demonyms": {
             "eng": {
@@ -876,9 +842,6 @@
             "tpi": "Tok Pisin"
         },
         "landlocked": false,
-        "borders": [
-            "IDN"
-        ],
         "area": 462840.0,
         "demonyms": {
             "eng": {
@@ -1048,14 +1011,6 @@
             "fra": "French"
         },
         "landlocked": true,
-        "borders": [
-            "CMR",
-            "CAF",
-            "LBY",
-            "NER",
-            "NGA",
-            "SDN"
-        ],
         "area": 1284000.0,
         "demonyms": {
             "eng": {
@@ -1142,13 +1097,6 @@
             "bul": "Bulgarian"
         },
         "landlocked": false,
-        "borders": [
-            "GRC",
-            "MKD",
-            "ROU",
-            "SRB",
-            "TUR"
-        ],
         "area": 110879.0,
         "demonyms": {
             "eng": {
@@ -1237,11 +1185,6 @@
             "nld": "Dutch"
         },
         "landlocked": false,
-        "borders": [
-            "BRA",
-            "GUF",
-            "GUY"
-        ],
         "area": 163820.0,
         "demonyms": {
             "eng": {
@@ -1328,12 +1271,6 @@
             "lit": "Lithuanian"
         },
         "landlocked": false,
-        "borders": [
-            "BLR",
-            "LVA",
-            "POL",
-            "RUS"
-        ],
         "area": 65300.0,
         "demonyms": {
             "eng": {
@@ -1420,9 +1357,6 @@
             "fra": "French"
         },
         "landlocked": false,
-        "borders": [
-            "FRA"
-        ],
         "area": 2.02,
         "demonyms": {
             "eng": {
@@ -1505,10 +1439,6 @@
             "ara": "Arabic"
         },
         "landlocked": false,
-        "borders": [
-            "IRQ",
-            "SAU"
-        ],
         "area": 17818.0,
         "demonyms": {
             "eng": {
@@ -1595,9 +1525,6 @@
             "fra": "French"
         },
         "landlocked": false,
-        "borders": [
-            "USA"
-        ],
         "area": 9984670.0,
         "demonyms": {
             "eng": {
@@ -1686,9 +1613,6 @@
             "eng": "English"
         },
         "landlocked": false,
-        "borders": [
-            "ESP"
-        ],
         "area": 6.0,
         "demonyms": {
             "eng": {
@@ -1858,10 +1782,6 @@
             "ben": "Bengali"
         },
         "landlocked": false,
-        "borders": [
-            "MMR",
-            "IND"
-        ],
         "area": 147570.0,
         "demonyms": {
             "eng": {
@@ -1949,12 +1869,6 @@
             "eng": "English"
         },
         "landlocked": false,
-        "borders": [
-            "BEN",
-            "CMR",
-            "TCD",
-            "NER"
-        ],
         "area": 923768.0,
         "demonyms": {
             "eng": {
@@ -2068,11 +1982,11 @@
             "https://flagcdn.com/w320/fk.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://www.danflyingsolo.com/wp-content/uploads/2019/12/Falkland-Islands-The-Neck.jpg",
+            "https://wallpapercave.com/wp/wp10156695.jpg",
+            "https://eu-assets.simpleview-europe.com/falklandislands/imageresizer/?image=%2Fdbimgs%2FIMG_1979%20copy.jpeg&action=FeaturedItemsHeaderGallery3x2",
+            "https://cdn.expeditions.com/globalassets/der-images/ed/ed142235/ed022522-a.jpg?width=1920&height=1080&mode=crop&scale=none&quality=50",
+            "https://cdn.expeditions.com/globalassets/der-images/ex/ex72122/ex120721-a.jpg?width=1920&height=1080&mode=crop&scale=none&quality=50"
         ]
     },
     {
@@ -2150,11 +2064,11 @@
             "https://flagcdn.com/w320/ax.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://windows10spotlight.com/wp-content/uploads/2019/01/e9081a0a4680bf90a2e380d7d96741a9.jpg",
+            "https://c1.wallpaperflare.com/preview/22/738/489/mariehamn-aland-aland-islands-island.jpg",
+            "https://www.oneplanetnetwork.org/sites/default/files/2022-01/Aland%20Island.jpg",
+            "https://windows10spotlight.com/wp-content/uploads/2019/03/b54b4f7695a5bde635768e78120b3a21.jpg",
+            "https://thoth.pickvisa.com/wp-content/uploads/2021/12/487ce05699bd4433830d52df4439a938.jpg"
         ]
     },
     {
@@ -2214,14 +2128,6 @@
             "ckb": "Sorani"
         },
         "landlocked": false,
-        "borders": [
-            "IRN",
-            "JOR",
-            "KWT",
-            "SAU",
-            "SYR",
-            "TUR"
-        ],
         "area": 438317.0,
         "demonyms": {
             "eng": {
@@ -2254,11 +2160,11 @@
             "https://flagcdn.com/w320/iq.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://wallpaperaccess.com/full/2496867.jpg",
+            "https://i.pinimg.com/originals/e7/48/fa/e748fac857dc8127fb3a0e6a2a36f0f0.jpg",
+            "https://wallpapers.com/images/featured/xptqk5xw6adpezzv.jpg",
+            "https://cdnn1.img.sputniknews.com/img/103179/53/1031795371_0:218:4361:2671_1920x0_80_0_0_2ec2c18a466a027dcd51f1fad8fdcc83.jpg",
+            "https://www.expo2020dubai.com/-/media/expo2020/pavilions/20-iraq/iraq-hero-1920x1080.jpg"
         ]
     },
     {
@@ -2309,9 +2215,6 @@
             "ara": "Arabic"
         },
         "landlocked": false,
-        "borders": [
-            "SAU"
-        ],
         "area": 11586.0,
         "demonyms": {
             "eng": {
@@ -2341,11 +2244,11 @@
             "https://flagcdn.com/w320/qa.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://s1.1zoom.me/b5050/324/Evening_Houses_Skyscrapers_Qatar_Doha_Waterfront_584088_1920x1080.jpg",
+            "https://utopiaurbana.city/wp-content/uploads/2022/04/al-wakrah-stadium_13oplz20536n01gpn6vlucvnsf.jpg",
+            "https://wallpapercave.com/wp/wp1984178.jpg",
+            "https://wallpapercave.com/wp/wp1984215.jpg",
+            "https://laverdadnoticias.com/__export/1668206428811/sites/laverdad/img/2022/11/11/catar_3.jpg_478486366.jpg"
         ]
     },
     {
@@ -2394,15 +2297,6 @@
             "fra": "French"
         },
         "landlocked": true,
-        "borders": [
-            "DZA",
-            "BEN",
-            "BFA",
-            "TCD",
-            "LBY",
-            "MLI",
-            "NGA"
-        ],
         "area": 1267000.0,
         "demonyms": {
             "eng": {
@@ -2488,9 +2382,6 @@
             "eng": "English"
         },
         "landlocked": false,
-        "borders": [
-            "SEN"
-        ],
         "area": 10689.0,
         "demonyms": {
             "eng": {
@@ -2586,9 +2477,6 @@
             "tet": "Tetum"
         },
         "landlocked": false,
-        "borders": [
-            "IDN"
-        ],
         "area": 14874.0,
         "demonyms": {
             "eng": {
@@ -2691,12 +2579,6 @@
             "nld": "Dutch"
         },
         "landlocked": false,
-        "borders": [
-            "FRA",
-            "DEU",
-            "LUX",
-            "NLD"
-        ],
         "area": 30528.0,
         "demonyms": {
             "eng": {
@@ -2783,10 +2665,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "NIC",
-            "PAN"
-        ],
         "area": 51100.0,
         "demonyms": {
             "eng": {
@@ -2873,12 +2751,6 @@
             "por": "Portuguese"
         },
         "landlocked": false,
-        "borders": [
-            "COG",
-            "COD",
-            "ZMB",
-            "NAM"
-        ],
         "area": 1246700.0,
         "demonyms": {
             "eng": {
@@ -2963,14 +2835,6 @@
             "fra": "French"
         },
         "landlocked": true,
-        "borders": [
-            "BEN",
-            "CIV",
-            "GHA",
-            "MLI",
-            "NER",
-            "TGO"
-        ],
         "area": 272967.0,
         "demonyms": {
             "eng": {
@@ -3056,10 +2920,6 @@
             "fra": "French"
         },
         "landlocked": false,
-        "borders": [
-            "BRA",
-            "SUR"
-        ],
         "area": 83534.0,
         "demonyms": {
             "eng": {
@@ -3489,13 +3349,6 @@
             "ara": "Arabic"
         },
         "landlocked": false,
-        "borders": [
-            "IRQ",
-            "ISR",
-            "JOR",
-            "LBN",
-            "TUR"
-        ],
         "area": 185180.0,
         "demonyms": {
             "eng": {
@@ -3582,13 +3435,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "BRA",
-            "ECU",
-            "PAN",
-            "PER",
-            "VEN"
-        ],
         "area": 1141748.0,
         "demonyms": {
             "eng": {
@@ -3874,11 +3720,6 @@
             "ara": "Arabic"
         },
         "landlocked": false,
-        "borders": [
-            "ISR",
-            "EGY",
-            "JOR"
-        ],
         "area": 6220.0,
         "demonyms": {
             "eng": {
@@ -3970,13 +3811,6 @@
             "swa": "Swahili"
         },
         "landlocked": true,
-        "borders": [
-            "COD",
-            "KEN",
-            "RWA",
-            "SSD",
-            "TZA"
-        ],
         "area": 241550.0,
         "demonyms": {
             "eng": {
@@ -4072,11 +3906,6 @@
             "srp": "Serbian"
         },
         "landlocked": false,
-        "borders": [
-            "HRV",
-            "MNE",
-            "SRB"
-        ],
         "area": 51209.0,
         "demonyms": {
             "eng": {
@@ -4255,11 +4084,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "DZA",
-            "MRT",
-            "MAR"
-        ],
         "area": 266000.0,
         "demonyms": {
             "eng": {
@@ -4506,10 +4330,6 @@
             "fra": "French"
         },
         "landlocked": false,
-        "borders": [
-            "ISR",
-            "SYR"
-        ],
         "area": 10452.0,
         "demonyms": {
             "eng": {
@@ -4594,10 +4414,6 @@
             "mon": "Mongolian"
         },
         "landlocked": true,
-        "borders": [
-            "CHN",
-            "RUS"
-        ],
         "area": 1564110.0,
         "demonyms": {
             "eng": {
@@ -4690,14 +4506,6 @@
             "sag": "Sango"
         },
         "landlocked": true,
-        "borders": [
-            "CMR",
-            "TCD",
-            "COD",
-            "COG",
-            "SSD",
-            "SDN"
-        ],
         "area": 622984.0,
         "demonyms": {
             "eng": {
@@ -4865,11 +4673,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "BLZ",
-            "GTM",
-            "USA"
-        ],
         "area": 1964375.0,
         "demonyms": {
             "eng": {
@@ -4963,9 +4766,6 @@
             "msa": "Malay"
         },
         "landlocked": false,
-        "borders": [
-            "MYS"
-        ],
         "area": 5765.0,
         "demonyms": {
             "eng": {
@@ -5058,9 +4858,6 @@
             "sot": "Sotho"
         },
         "landlocked": true,
-        "borders": [
-            "ZAF"
-        ],
         "area": 30355.0,
         "demonyms": {
             "eng": {
@@ -5226,9 +5023,6 @@
             "kor": "Korean"
         },
         "landlocked": false,
-        "borders": [
-            "PRK"
-        ],
         "area": 100210.0,
         "demonyms": {
             "eng": {
@@ -5315,13 +5109,6 @@
             "slk": "Slovak"
         },
         "landlocked": true,
-        "borders": [
-            "AUT",
-            "CZE",
-            "HUN",
-            "POL",
-            "UKR"
-        ],
         "area": 49037.0,
         "demonyms": {
             "eng": {
@@ -5409,12 +5196,6 @@
             "ell": "Greek"
         },
         "landlocked": false,
-        "borders": [
-            "ALB",
-            "BGR",
-            "TUR",
-            "MKD"
-        ],
         "area": 131990.0,
         "demonyms": {
             "eng": {
@@ -5507,9 +5288,6 @@
             "lat": "Latin"
         },
         "landlocked": true,
-        "borders": [
-            "ITA"
-        ],
         "area": 0.44,
         "demonyms": {
             "eng": {
@@ -5595,12 +5373,6 @@
             "tuk": "Turkmen"
         },
         "landlocked": true,
-        "borders": [
-            "AFG",
-            "IRN",
-            "KAZ",
-            "UZB"
-        ],
         "area": 488100.0,
         "demonyms": {
             "eng": {
@@ -5857,12 +5629,6 @@
             "fra": "French"
         },
         "landlocked": false,
-        "borders": [
-            "BFA",
-            "NER",
-            "NGA",
-            "TGO"
-        ],
         "area": 112622.0,
         "demonyms": {
             "eng": {
@@ -5949,14 +5715,6 @@
             "ara": "Arabic"
         },
         "landlocked": false,
-        "borders": [
-            "DZA",
-            "TCD",
-            "EGY",
-            "NER",
-            "SDN",
-            "TUN"
-        ],
         "area": 1759540.0,
         "demonyms": {
             "eng": {
@@ -6045,13 +5803,6 @@
             "rus": "Russian"
         },
         "landlocked": true,
-        "borders": [
-            "ARM",
-            "GEO",
-            "IRN",
-            "RUS",
-            "TUR"
-        ],
         "area": 86600.0,
         "demonyms": {
             "eng": {
@@ -6182,12 +5933,6 @@
             "tsn": "Tswana"
         },
         "landlocked": false,
-        "borders": [
-            "AGO",
-            "BWA",
-            "ZAF",
-            "ZMB"
-        ],
         "area": 825615.0,
         "demonyms": {
             "eng": {
@@ -6275,13 +6020,6 @@
             "hrv": "Croatian"
         },
         "landlocked": false,
-        "borders": [
-            "BIH",
-            "HUN",
-            "MNE",
-            "SRB",
-            "SVN"
-        ],
         "area": 56594.0,
         "demonyms": {
             "eng": {
@@ -6373,12 +6111,6 @@
             "slk": "Slovak"
         },
         "landlocked": true,
-        "borders": [
-            "AUT",
-            "DEU",
-            "POL",
-            "SVK"
-        ],
         "area": 78865.0,
         "demonyms": {
             "eng": {
@@ -6552,11 +6284,6 @@
             "spa": "Spanish"
         },
         "landlocked": true,
-        "borders": [
-            "ARG",
-            "BOL",
-            "BRA"
-        ],
         "area": 406752.0,
         "demonyms": {
             "eng": {
@@ -6729,10 +6456,6 @@
             "dzo": "Dzongkha"
         },
         "landlocked": true,
-        "borders": [
-            "CHN",
-            "IND"
-        ],
         "area": 38394.0,
         "demonyms": {
             "eng": {
@@ -6904,10 +6627,6 @@
             "pov": "Upper Guinea Creole"
         },
         "landlocked": false,
-        "borders": [
-            "GIN",
-            "SEN"
-        ],
         "area": 36125.0,
         "demonyms": {
             "eng": {
@@ -7077,11 +6796,6 @@
             "eng": "English"
         },
         "landlocked": false,
-        "borders": [
-            "BFA",
-            "CIV",
-            "TGO"
-        ],
         "area": 238533.0,
         "demonyms": {
             "eng": {
@@ -7168,14 +6882,6 @@
             "fra": "French"
         },
         "landlocked": false,
-        "borders": [
-            "CIV",
-            "GNB",
-            "LBR",
-            "MLI",
-            "SEN",
-            "SLE"
-        ],
         "area": 245857.0,
         "demonyms": {
             "eng": {
@@ -7275,11 +6981,6 @@
             "smi": "Sami"
         },
         "landlocked": false,
-        "borders": [
-            "FIN",
-            "SWE",
-            "RUS"
-        ],
         "area": 323802.0,
         "demonyms": {
             "eng": {
@@ -7539,12 +7240,6 @@
             "sqi": "Albanian"
         },
         "landlocked": false,
-        "borders": [
-            "MNE",
-            "GRC",
-            "MKD",
-            "UNK"
-        ],
         "area": 28748.0,
         "demonyms": {
             "eng": {
@@ -7812,15 +7507,6 @@
             "pol": "Polish"
         },
         "landlocked": false,
-        "borders": [
-            "BLR",
-            "CZE",
-            "DEU",
-            "LTU",
-            "RUS",
-            "SVK",
-            "UKR"
-        ],
         "area": 312679.0,
         "demonyms": {
             "eng": {
@@ -7918,12 +7604,6 @@
             "kin": "Kinyarwanda"
         },
         "landlocked": true,
-        "borders": [
-            "BDI",
-            "COD",
-            "TZA",
-            "UGA"
-        ],
         "area": 26338.0,
         "demonyms": {
             "eng": {
@@ -8010,12 +7690,6 @@
             "ara": "Arabic"
         },
         "landlocked": false,
-        "borders": [
-            "ISR",
-            "LBY",
-            "PSE",
-            "SDN"
-        ],
         "area": 1002450.0,
         "demonyms": {
             "eng": {
@@ -8103,13 +7777,6 @@
             "ron": "Romanian"
         },
         "landlocked": false,
-        "borders": [
-            "BGR",
-            "HUN",
-            "MDA",
-            "SRB",
-            "UKR"
-        ],
         "area": 238391.0,
         "demonyms": {
             "eng": {
@@ -8196,10 +7863,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "COL",
-            "PER"
-        ],
         "area": 276841.0,
         "demonyms": {
             "eng": {
@@ -8305,13 +7968,6 @@
             "roh": "Romansh"
         },
         "landlocked": true,
-        "borders": [
-            "AUT",
-            "FRA",
-            "ITA",
-            "LIE",
-            "DEU"
-        ],
         "area": 41284.0,
         "demonyms": {
             "eng": {
@@ -8664,9 +8320,6 @@
             "ita": "Italian"
         },
         "landlocked": true,
-        "borders": [
-            "ITA"
-        ],
         "area": 61.0,
         "demonyms": {
             "eng": {
@@ -8853,14 +8506,6 @@
             "tam": "Tamil"
         },
         "landlocked": false,
-        "borders": [
-            "BGD",
-            "BTN",
-            "MMR",
-            "CHN",
-            "NPL",
-            "PAK"
-        ],
         "area": 3287590.0,
         "demonyms": {
             "eng": {
@@ -8948,10 +8593,6 @@
             "ara": "Arabic"
         },
         "landlocked": false,
-        "borders": [
-            "OMN",
-            "SAU"
-        ],
         "area": 83600.0,
         "demonyms": {
             "eng": {
@@ -9045,12 +8686,6 @@
             "tgk": "Tajik"
         },
         "landlocked": true,
-        "borders": [
-            "AFG",
-            "CHN",
-            "KGZ",
-            "UZB"
-        ],
         "area": 143100.0,
         "demonyms": {
             "eng": {
@@ -9201,17 +8836,6 @@
             "deu": "German"
         },
         "landlocked": false,
-        "borders": [
-            "AUT",
-            "BEL",
-            "CZE",
-            "DNK",
-            "FRA",
-            "LUX",
-            "NLD",
-            "POL",
-            "CHE"
-        ],
         "area": 357114.0,
         "demonyms": {
             "eng": {
@@ -9319,13 +8943,6 @@
             "spa": "Spanish"
         },
         "landlocked": true,
-        "borders": [
-            "ARG",
-            "BRA",
-            "CHL",
-            "PRY",
-            "PER"
-        ],
         "area": 1098581.0,
         "demonyms": {
             "eng": {
@@ -9418,22 +9035,6 @@
             "rus": "Russian"
         },
         "landlocked": false,
-        "borders": [
-            "AZE",
-            "BLR",
-            "CHN",
-            "EST",
-            "FIN",
-            "GEO",
-            "KAZ",
-            "PRK",
-            "LVA",
-            "LTU",
-            "MNG",
-            "NOR",
-            "POL",
-            "UKR"
-        ],
         "area": 17098242,
         "demonyms": {
             "eng": {
@@ -9618,16 +9219,6 @@
             "tur": "Turkish"
         },
         "landlocked": false,
-        "borders": [
-            "ARM",
-            "AZE",
-            "BGR",
-            "GEO",
-            "GRC",
-            "IRN",
-            "IRQ",
-            "SYR"
-        ],
         "area": 783562.0,
         "demonyms": {
             "eng": {
@@ -9805,13 +9396,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "BOL",
-            "BRA",
-            "CHL",
-            "COL",
-            "ECU"
-        ],
         "area": 1285216.0,
         "demonyms": {
             "eng": {
@@ -9904,16 +9488,6 @@
             "swa": "Swahili"
         },
         "landlocked": false,
-        "borders": [
-            "BDI",
-            "COD",
-            "KEN",
-            "MWI",
-            "MOZ",
-            "RWA",
-            "UGA",
-            "ZMB"
-        ],
         "area": 945087.0,
         "demonyms": {
             "eng": {
@@ -10175,10 +9749,6 @@
             "ron": "Moldavian"
         },
         "landlocked": true,
-        "borders": [
-            "ROU",
-            "UKR"
-        ],
         "area": 33846.0,
         "demonyms": {
             "eng": {
@@ -10268,11 +9838,6 @@
             "khm": "Khmer"
         },
         "landlocked": false,
-        "borders": [
-            "LAO",
-            "THA",
-            "VNM"
-        ],
         "area": 181035.0,
         "demonyms": {
             "eng": {
@@ -10357,13 +9922,6 @@
             "lao": "Lao"
         },
         "landlocked": true,
-        "borders": [
-            "MMR",
-            "KHM",
-            "CHN",
-            "THA",
-            "VNM"
-        ],
         "area": 236800.0,
         "demonyms": {
             "eng": {
@@ -10598,10 +10156,6 @@
             "deu": "German"
         },
         "landlocked": true,
-        "borders": [
-            "AUT",
-            "CHE"
-        ],
         "area": 160.0,
         "demonyms": {
             "eng": {
@@ -10763,9 +10317,6 @@
             "fra": "French"
         },
         "landlocked": false,
-        "borders": [
-            "SXM"
-        ],
         "area": 53.0,
         "demonyms": {
             "eng": {
@@ -10848,14 +10399,6 @@
             "por": "Portuguese"
         },
         "landlocked": false,
-        "borders": [
-            "MWI",
-            "ZAF",
-            "SWZ",
-            "TZA",
-            "ZMB",
-            "ZWE"
-        ],
         "area": 801590.0,
         "demonyms": {
             "eng": {
@@ -10942,10 +10485,6 @@
             "cat": "Catalan"
         },
         "landlocked": true,
-        "borders": [
-            "FRA",
-            "ESP"
-        ],
         "area": 468.0,
         "demonyms": {
             "eng": {
@@ -11293,10 +10832,6 @@
             "est": "Estonian"
         },
         "landlocked": false,
-        "borders": [
-            "LVA",
-            "RUS"
-        ],
         "area": 45227.0,
         "demonyms": {
             "eng": {
@@ -11390,11 +10925,6 @@
             "som": "Somali"
         },
         "landlocked": false,
-        "borders": [
-            "DJI",
-            "ETH",
-            "KEN"
-        ],
         "area": 637657.0,
         "demonyms": {
             "eng": {
@@ -11481,14 +11011,6 @@
             "ita": "Italian"
         },
         "landlocked": false,
-        "borders": [
-            "AUT",
-            "FRA",
-            "SMR",
-            "SVN",
-            "CHE",
-            "VAT"
-        ],
         "area": 301336.0,
         "demonyms": {
             "eng": {
@@ -11749,11 +11271,6 @@
             "ber": "Berber"
         },
         "landlocked": false,
-        "borders": [
-            "DZA",
-            "ESH",
-            "ESP"
-        ],
         "area": 446550.0,
         "demonyms": {
             "eng": {
@@ -11847,11 +11364,6 @@
             "swe": "Swedish"
         },
         "landlocked": false,
-        "borders": [
-            "NOR",
-            "SWE",
-            "RUS"
-        ],
         "area": 338424.0,
         "demonyms": {
             "eng": {
@@ -11938,10 +11450,6 @@
             "ara": "Arabic"
         },
         "landlocked": false,
-        "borders": [
-            "OMN",
-            "SAU"
-        ],
         "area": 527968.0,
         "demonyms": {
             "eng": {
@@ -12028,15 +11536,6 @@
             "ukr": "Ukrainian"
         },
         "landlocked": false,
-        "borders": [
-            "BLR",
-            "HUN",
-            "MDA",
-            "POL",
-            "ROU",
-            "RUS",
-            "SVK"
-        ],
         "area": 603500.0,
         "demonyms": {
             "eng": {
@@ -12439,10 +11938,6 @@
             "eng": "English"
         },
         "landlocked": false,
-        "borders": [
-            "CAN",
-            "MEX"
-        ],
         "area": 9372610.0,
         "demonyms": {
             "eng": {
@@ -12538,10 +12033,6 @@
             "eng": "English"
         },
         "landlocked": false,
-        "borders": [
-            "GIN",
-            "LBR"
-        ],
         "area": 71740.0,
         "demonyms": {
             "eng": {
@@ -12727,17 +12218,6 @@
         },
 
         "landlocked": false,
-        "borders": [
-            "AGO",
-            "BDI",
-            "CAF",
-            "COG",
-            "RWA",
-            "SSD",
-            "TZA",
-            "UGA",
-            "ZMB"
-        ],
         "area": 2344858.0,
         "demonyms": {
             "eng": {
@@ -12837,11 +12317,6 @@
             "ltz": "Luxembourgish"
         },
         "landlocked": true,
-        "borders": [
-            "BEL",
-            "FRA",
-            "DEU"
-        ],
         "area": 2586.0,
         "demonyms": {
             "eng": {
@@ -12927,12 +12402,6 @@
             "srp": "Serbian"
         },
         "landlocked": true,
-        "borders": [
-            "ALB",
-            "MKD",
-            "MNE",
-            "SRB"
-        ],
         "area": 10908.0,
         "demonyms": {
             "eng": {
@@ -13024,13 +12493,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "BOL",
-            "BRA",
-            "CHL",
-            "PRY",
-            "URY"
-        ],
         "area": 2780400.0,
         "demonyms": {
             "eng": {
@@ -13186,12 +12648,6 @@
             "zib": "Zimbabwean Sign Language"
         },
         "landlocked": true,
-        "borders": [
-            "BWA",
-            "MOZ",
-            "ZAF",
-            "ZMB"
-        ],
         "area": 390757.0,
         "demonyms": {
             "eng": {
@@ -13362,13 +12818,6 @@
             "lin": "Lingala"
         },
         "landlocked": false,
-        "borders": [
-            "AGO",
-            "CMR",
-            "CAF",
-            "COD",
-            "GAB"
-        ],
         "area": 342000.0,
         "demonyms": {
             "eng": {
@@ -13551,14 +13000,6 @@
             "tuk": "Turkmen"
         },
         "landlocked": true,
-        "borders": [
-            "IRN",
-            "PAK",
-            "TKM",
-            "UZB",
-            "TJK",
-            "CHN"
-        ],
         "area": 652230.0,
         "demonyms": {
             "eng": {
@@ -13726,9 +13167,6 @@
             "zho": "Chinese"
         },
         "landlocked": false,
-        "borders": [
-            "CHN"
-        ],
         "area": 1104.0,
         "demonyms": {
             "eng": {
@@ -13813,15 +13251,6 @@
             "ara": "Arabic"
         },
         "landlocked": false,
-        "borders": [
-            "TUN",
-            "LBY",
-            "NER",
-            "ESH",
-            "MRT",
-            "MLI",
-            "MAR"
-        ],
         "area": 2381741.0,
         "demonyms": {
             "eng": {
@@ -13911,16 +13340,6 @@
             "srp": "Serbian"
         },
         "landlocked": true,
-        "borders": [
-            "BIH",
-            "BGR",
-            "HRV",
-            "HUN",
-            "UNK",
-            "MKD",
-            "MNE",
-            "ROU"
-        ],
         "area": 88361.0,
         "demonyms": {
             "eng": {
@@ -14191,9 +13610,6 @@
             "hat": "Haitian Creole"
         },
         "landlocked": false,
-        "borders": [
-            "DOM"
-        ],
         "area": 27750.0,
         "demonyms": {
             "eng": {
@@ -14373,11 +13789,6 @@
             "vie": "Vietnamese"
         },
         "landlocked": false,
-        "borders": [
-            "KHM",
-            "CHN",
-            "LAO"
-        ],
         "area": 331212.0,
         "demonyms": {
             "eng": {
@@ -14469,12 +13880,6 @@
             "tsn": "Tswana"
         },
         "landlocked": true,
-        "borders": [
-            "NAM",
-            "ZAF",
-            "ZMB",
-            "ZWE"
-        ],
         "area": 582000.0,
         "demonyms": {
             "eng": {
@@ -14562,13 +13967,6 @@
             "mya": "Burmese"
         },
         "landlocked": false,
-        "borders": [
-            "BGD",
-            "CHN",
-            "IND",
-            "LAO",
-            "THA"
-        ],
         "area": 676578.0,
         "demonyms": {
             "eng": {
@@ -14655,10 +14053,6 @@
             "nep": "Nepali"
         },
         "landlocked": true,
-        "borders": [
-            "CHN",
-            "IND"
-        ],
         "area": 147181.0,
         "demonyms": {
             "eng": {
@@ -14921,16 +14315,6 @@
             "bar": "Austro-Bavarian German"
         },
         "landlocked": true,
-        "borders": [
-            "CZE",
-            "DEU",
-            "HUN",
-            "ITA",
-            "LIE",
-            "SVK",
-            "SVN",
-            "CHE"
-        ],
         "area": 83871.0,
         "demonyms": {
             "eng": {
@@ -15017,11 +14401,6 @@
             "ind": "Indonesian"
         },
         "landlocked": false,
-        "borders": [
-            "TLS",
-            "MYS",
-            "PNG"
-        ],
         "area": 1904569.0,
         "demonyms": {
             "eng": {
@@ -15114,11 +14493,6 @@
             "nya": "Chewa"
         },
         "landlocked": true,
-        "borders": [
-            "MOZ",
-            "TZA",
-            "ZMB"
-        ],
         "area": 118484.0,
         "demonyms": {
             "eng": {
@@ -15209,10 +14583,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "COL",
-            "CRI"
-        ],
         "area": 75417.0,
         "demonyms": {
             "eng": {
@@ -15301,15 +14671,6 @@
             "ara": "Arabic"
         },
         "landlocked": false,
-        "borders": [
-            "IRQ",
-            "JOR",
-            "KWT",
-            "OMN",
-            "QAT",
-            "ARE",
-            "YEM"
-        ],
         "area": 2149690.0,
         "demonyms": {
             "eng": {
@@ -15666,12 +15027,6 @@
             "ara": "Arabic"
         },
         "landlocked": false,
-        "borders": [
-            "DZA",
-            "MLI",
-            "SEN",
-            "ESH"
-        ],
         "area": 1030700.0,
         "demonyms": {
             "eng": {
@@ -16010,15 +15365,6 @@
             "hun": "Hungarian"
         },
         "landlocked": true,
-        "borders": [
-            "AUT",
-            "HRV",
-            "ROU",
-            "SRB",
-            "SVK",
-            "SVN",
-            "UKR"
-        ],
         "area": 93028.0,
         "demonyms": {
             "eng": {
@@ -16109,12 +15455,6 @@
             "tha": "Thai"
         },
         "landlocked": false,
-        "borders": [
-            "MMR",
-            "KHM",
-            "LAO",
-            "MYS"
-        ],
         "area": 513120.0,
         "demonyms": {
             "eng": {
@@ -16201,10 +15541,6 @@
             "ara": "Arabic"
         },
         "landlocked": false,
-        "borders": [
-            "DZA",
-            "LBY"
-        ],
         "area": 163610.0,
         "demonyms": {
             "eng": {
@@ -16292,12 +15628,6 @@
             "hye": "Armenian"
         },
         "landlocked": true,
-        "borders": [
-            "AZE",
-            "GEO",
-            "IRN",
-            "TUR"
-        ],
         "area": 29743.0,
         "demonyms": {
             "eng": {
@@ -16383,13 +15713,6 @@
             "cnr": "Montenegrin"
         },
         "landlocked": false,
-        "borders": [
-            "ALB",
-            "BIH",
-            "HRV",
-            "UNK",
-            "SRB"
-        ],
         "area": 13812.0,
         "demonyms": {
             "eng": {
@@ -16489,10 +15812,6 @@
             "ssw": "Swazi"
         },
         "landlocked": true,
-        "borders": [
-            "MOZ",
-            "ZAF"
-        ],
         "area": 17364.0,
         "demonyms": {
             "eng": {
@@ -16580,9 +15899,6 @@
             "por": "Portuguese"
         },
         "landlocked": false,
-        "borders": [
-            "ESP"
-        ],
         "area": 92090.0,
         "demonyms": {
             "eng": {
@@ -16757,9 +16073,6 @@
             "dan": "Danish"
         },
         "landlocked": false,
-        "borders": [
-            "DEU"
-        ],
         "area": 43094.0,
         "demonyms": {
             "eng": {
@@ -17099,12 +16412,6 @@
             "lav": "Latvian"
         },
         "landlocked": false,
-        "borders": [
-            "BLR",
-            "EST",
-            "LTU",
-            "RUS"
-        ],
         "area": 64559.0,
         "demonyms": {
             "eng": {
@@ -17203,10 +16510,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "CMR",
-            "GAB"
-        ],
         "area": 28051.0,
         "demonyms": {
             "eng": {
@@ -17290,11 +16593,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "GTM",
-            "SLV",
-            "NIC"
-        ],
         "area": 112492.0,
         "demonyms": {
             "eng": {
@@ -17467,11 +16765,6 @@
             "eng": "English"
         },
         "landlocked": false,
-        "borders": [
-            "GIN",
-            "CIV",
-            "SLE"
-        ],
         "area": 111369.0,
         "demonyms": {
             "eng": {
@@ -17648,11 +16941,6 @@
             "msa": "Malay"
         },
         "landlocked": false,
-        "borders": [
-            "BRN",
-            "IDN",
-            "THA"
-        ],
         "area": 330803.0,
         "demonyms": {
             "eng": {
@@ -17828,10 +17116,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "GTM",
-            "HND"
-        ],
         "area": 21041.0,
         "demonyms": {
             "eng": {
@@ -18009,9 +17293,6 @@
             "gle": "Irish"
         },
         "landlocked": false,
-        "borders": [
-            "GBR"
-        ],
         "area": 70273.0,
         "demonyms": {
             "eng": {
@@ -18372,11 +17653,6 @@
             "fra": "French"
         },
         "landlocked": false,
-        "borders": [
-            "BEN",
-            "BFA",
-            "GHA"
-        ],
         "area": 56785.0,
         "demonyms": {
             "eng": {
@@ -18469,13 +17745,6 @@
             "uzb": "Uzbek"
         },
         "landlocked": true,
-        "borders": [
-            "AFG",
-            "KAZ",
-            "KGZ",
-            "TJK",
-            "TKM"
-        ],
         "area": 447400.0,
         "demonyms": {
             "eng": {
@@ -18561,12 +17830,6 @@
             "kat": "Georgian"
         },
         "landlocked": false,
-        "borders": [
-            "ARM",
-            "AZE",
-            "RUS",
-            "TUR"
-        ],
         "area": 69700.0,
         "demonyms": {
             "eng": {
@@ -18660,12 +17923,6 @@
             "rus": "Russian"
         },
         "landlocked": true,
-        "borders": [
-            "CHN",
-            "KAZ",
-            "TJK",
-            "UZB"
-        ],
         "area": 199951.0,
         "demonyms": {
             "eng": {
@@ -18848,11 +18105,6 @@
             "kor": "Korean"
         },
         "landlocked": false,
-        "borders": [
-            "CHN",
-            "KOR",
-            "RUS"
-        ],
         "area": 120538.0,
         "demonyms": {
             "eng": {
@@ -19028,10 +18280,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "ARG",
-            "BRA"
-        ],
         "area": 181034.0,
         "demonyms": {
             "eng": {
@@ -19125,13 +18373,6 @@
             "rus": "Russian"
         },
         "landlocked": true,
-        "borders": [
-            "LVA",
-            "LTU",
-            "POL",
-            "RUS",
-            "UKR"
-        ],
         "area": 207600.0,
         "demonyms": {
             "eng": {
@@ -19218,10 +18459,6 @@
             "swe": "Swedish"
         },
         "landlocked": false,
-        "borders": [
-            "FIN",
-            "NOR"
-        ],
         "area": 450295.0,
         "demonyms": {
             "eng": {
@@ -19305,14 +18542,6 @@
             "eng": "English"
         },
         "landlocked": true,
-        "borders": [
-            "CAF",
-            "COD",
-            "ETH",
-            "KEN",
-            "SDN",
-            "UGA"
-        ],
         "area": 619745.0,
         "demonyms": {
             "eng": {
@@ -19403,9 +18632,6 @@
             "zho": "Chinese"
         },
         "landlocked": false,
-        "borders": [
-            "CHN"
-        ],
         "area": 30.0,
         "demonyms": {
             "eng": {
@@ -19493,15 +18719,6 @@
             "eng": "English"
         },
         "landlocked": false,
-        "borders": [
-            "CAF",
-            "TCD",
-            "EGY",
-            "ERI",
-            "ETH",
-            "LBY",
-            "SSD"
-        ],
         "area": 1886068.0,
         "demonyms": {
             "eng": {
@@ -19589,10 +18806,6 @@
             "nld": "Dutch"
         },
         "landlocked": false,
-        "borders": [
-            "BEL",
-            "DEU"
-        ],
         "area": 41850.0,
         "demonyms": {
             "eng": {
@@ -19680,11 +18893,6 @@
             "fra": "French"
         },
         "landlocked": false,
-        "borders": [
-            "CMR",
-            "COG",
-            "GNQ"
-        ],
         "area": 267668.0,
         "demonyms": {
             "eng": {
@@ -19773,13 +18981,6 @@
             "fra": "French"
         },
         "landlocked": false,
-        "borders": [
-            "BFA",
-            "GHA",
-            "GIN",
-            "LBR",
-            "MLI"
-        ],
         "area": 322463.0,
         "demonyms": {
             "eng": {
@@ -19919,14 +19120,6 @@
             "zul": "Zulu"
         },
         "landlocked": false,
-        "borders": [
-            "BWA",
-            "LSO",
-            "MOZ",
-            "NAM",
-            "SWZ",
-            "ZWE"
-        ],
         "area": 1221037.0,
         "demonyms": {
             "eng": {
@@ -20021,24 +19214,6 @@
             "zho": "Chinese"
         },
         "landlocked": false,
-        "borders": [
-            "AFG",
-            "BTN",
-            "MMR",
-            "HKG",
-            "IND",
-            "KAZ",
-            "NPL",
-            "PRK",
-            "KGZ",
-            "LAO",
-            "MAC",
-            "MNG",
-            "PAK",
-            "RUS",
-            "TJK",
-            "VNM"
-        ],
         "area": 9706961.0,
         "demonyms": {
             "eng": {
@@ -20134,11 +19309,6 @@
             "fra": "French"
         },
         "landlocked": false,
-        "borders": [
-            "ERI",
-            "ETH",
-            "SOM"
-        ],
         "area": 23200.0,
         "demonyms": {
             "eng": {
@@ -20227,15 +19397,6 @@
             "fas": "Persian (Farsi)"
         },
         "landlocked": false,
-        "borders": [
-            "AFG",
-            "ARM",
-            "AZE",
-            "IRQ",
-            "PAK",
-            "TUR",
-            "TKM"
-        ],
         "area": 1648195.0,
         "demonyms": {
             "eng": {
@@ -20414,9 +19575,6 @@
             "eng": "English"
         },
         "landlocked": false,
-        "borders": [
-            "IRL"
-        ],
         "area": 242900.0,
         "demonyms": {
             "eng": {
@@ -20686,14 +19844,6 @@
             "fra": "French"
         },
         "landlocked": false,
-        "borders": [
-            "CAF",
-            "TCD",
-            "COG",
-            "GNQ",
-            "GAB",
-            "NGA"
-        ],
         "area": 475442.0,
         "demonyms": {
             "eng": {
@@ -20863,13 +20013,6 @@
             "mkd": "Macedonian"
         },
         "landlocked": true,
-        "borders": [
-            "ALB",
-            "BGR",
-            "GRC",
-            "UNK",
-            "SRB"
-        ],
         "area": 25713.0,
         "demonyms": {
             "eng": {
@@ -21039,13 +20182,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "AND",
-            "FRA",
-            "GIB",
-            "PRT",
-            "MAR"
-        ],
         "area": 505992.0,
         "demonyms": {
             "eng": {
@@ -21224,11 +20360,6 @@
             "ara": "Arabic"
         },
         "landlocked": false,
-        "borders": [
-            "SAU",
-            "ARE",
-            "YEM"
-        ],
         "area": 309500.0,
         "demonyms": {
             "eng": {
@@ -21311,11 +20442,6 @@
             "eng": "English"
         },
         "landlocked": false,
-        "borders": [
-            "BRA",
-            "SUR",
-            "VEN"
-        ],
         "area": 214969.0,
         "demonyms": {
             "eng": {
@@ -21409,9 +20535,6 @@
             "tam": "Tamil"
         },
         "landlocked": false,
-        "borders": [
-            "IND"
-        ],
         "area": 65610.0,
         "demonyms": {
             "eng": {
@@ -21496,12 +20619,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "BLZ",
-            "SLV",
-            "HND",
-            "MEX"
-        ],
         "area": 108889.0,
         "demonyms": {
             "eng": {
@@ -21589,13 +20706,6 @@
             "ara": "Arabic"
         },
         "landlocked": false,
-        "borders": [
-            "IRQ",
-            "ISR",
-            "PSE",
-            "SAU",
-            "SYR"
-        ],
         "area": 89342.0,
         "demonyms": {
             "eng": {
@@ -21682,13 +20792,6 @@
             "fra": "French"
         },
         "landlocked": false,
-        "borders": [
-            "GMB",
-            "GIN",
-            "GNB",
-            "MLI",
-            "MRT"
-        ],
         "area": 196722.0,
         "demonyms": {
             "eng": {
@@ -21775,16 +20878,6 @@
             "fra": "French"
         },
         "landlocked": false,
-        "borders": [
-            "AND",
-            "BEL",
-            "DEU",
-            "ITA",
-            "LUX",
-            "MCO",
-            "ESP",
-            "CHE"
-        ],
         "area": 551695.0,
         "demonyms": {
             "eng": {
@@ -21960,16 +21053,6 @@
             "eng": "English"
         },
         "landlocked": true,
-        "borders": [
-            "AGO",
-            "BWA",
-            "COD",
-            "MWI",
-            "MOZ",
-            "NAM",
-            "TZA",
-            "ZWE"
-        ],
         "area": 752612.0,
         "demonyms": {
             "eng": {
@@ -22057,18 +21140,6 @@
             "por": "Portuguese"
         },
         "landlocked": false,
-        "borders": [
-            "ARG",
-            "BOL",
-            "COL",
-            "GUF",
-            "GUY",
-            "PRY",
-            "PER",
-            "SUR",
-            "URY",
-            "VEN"
-        ],
         "area": 8515767.0,
         "demonyms": {
             "eng": {
@@ -22158,9 +21229,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "HTI"
-        ],
         "area": 48671.0,
         "demonyms": {
             "eng": {
@@ -22342,11 +21410,6 @@
             "tir": "Tigrinya"
         },
         "landlocked": false,
-        "borders": [
-            "DJI",
-            "ETH",
-            "SDN"
-        ],
         "area": 117600.0,
         "demonyms": {
             "eng": {
@@ -22510,14 +21573,6 @@
             "amh": "Amharic"
         },
         "landlocked": true,
-        "borders": [
-            "DJI",
-            "ERI",
-            "KEN",
-            "SOM",
-            "SSD",
-            "SDN"
-        ],
         "area": 1104300.0,
         "demonyms": {
             "eng": {
@@ -22609,13 +21664,6 @@
             "heb": "Hebrew"
         },
         "landlocked": false,
-        "borders": [
-            "EGY",
-            "JOR",
-            "LBN",
-            "PSE",
-            "SYR"
-        ],
         "area": 20770.0,
         "demonyms": {
             "eng": {
@@ -22873,11 +21921,6 @@
             "spa": "Spanish"
         },
         "landlocked": false,
-        "borders": [
-            "ARG",
-            "BOL",
-            "PER"
-        ],
         "area": 756102.0,
         "demonyms": {
             "eng": {
@@ -23054,15 +22097,6 @@
             "fra": "French"
         },
         "landlocked": true,
-        "borders": [
-            "DZA",
-            "BFA",
-            "GIN",
-            "CIV",
-            "MRT",
-            "NER",
-            "SEN"
-        ],
         "area": 1240192.0,
         "demonyms": {
             "eng": {
@@ -23252,13 +22286,6 @@
             "rus": "Russian"
         },
         "landlocked": true,
-        "borders": [
-            "CHN",
-            "KGZ",
-            "RUS",
-            "TKM",
-            "UZB"
-        ],
         "area": 2724900.0,
         "demonyms": {
             "eng": {
@@ -23352,12 +22379,6 @@
             "urd": "Urdu"
         },
         "landlocked": false,
-        "borders": [
-            "AFG",
-            "CHN",
-            "IND",
-            "IRN"
-        ],
         "area": 881912.0,
         "demonyms": {
             "eng": {
