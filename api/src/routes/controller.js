@@ -1,9 +1,11 @@
 const axios = require('axios');
 const { Country, Activity } = require('../db')
+const countries = require('../../api')
 
 
 const getHome = async () => {
     try {
+        console.log('localApi', countries)
         let api = await axios.get('https://restcountries.com/v3/all')
         api = api.data?.map(e => {
             return {

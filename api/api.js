@@ -1,7 +1,4 @@
-// 20230202170556
-// https://restcountries.com/v3/all
-
-[
+const countries = [
     {
         "name": {
             "common": "Nicaragua",
