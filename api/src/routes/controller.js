@@ -1,13 +1,13 @@
 const axios = require('axios');
 const { Country, Activity } = require('../db')
-const countries = require('../../api')
+const countries = require('../../api');
+const { Op } = require('sequelize');
 
 
-const getHome = async () => {
+const getAllCountries = async () => {
     try {
-        console.log('localApi', countries)
-        let api = await axios.get('https://restcountries.com/v3/all')
-        api = api.data?.map(e => {
+        let api = await countries
+        api = api?.map(e => {
             return {
                 id: e.cca3,
                 name: e.name.common,
@@ -17,6 +17,7 @@ const getHome = async () => {
                 subregion: e.subregion,
                 area: `${e.area}km2`,
                 population: e.population,
+                images: e.images
             }
         })
         api = api.filter(e => e.name !== 'Moldova')
@@ -45,7 +46,8 @@ const getHome = async () => {
                 subregion: e.subregion,
                 area: e.area,
                 population: e.population,
-                activity: e.activities?.map(el => el.name)
+                activity: e.activities?.map(el => el.name),
+                images: e.images
             }
         })
         return db
@@ -57,43 +59,24 @@ const getHome = async () => {
 }
 
 const getByName = async (name) => {
-    let api = await axios.get(`https://restcountries.com/v3/name/${name}`)
-    api = api.data
-    api = api?.map(e => {
-        return {
-            id: e.cca3,
-            name: e.name.common,
-            flag: e.flags[1],
-            continent: e.continents[0],
-            capital: e.capital,
-            subregion: e.subregion,
-            area: `${e.area}km²`,
-            population: e.population
+    let api = await Country.findAll({
+        where: {
+            name: {
+                [Op.iLike]: `%${name}%`
+            }
         }
-
     })
     return api
 }
 
 const getById = async (id) => {
-    let api = await axios.get(`https://restcountries.com/v3/alpha/${id}`);
-    api = api.data[0]
-    api = {
-        id: api.cca3,
-        name: api.name.common,
-        flag: api.flags[1],
-        continent: api.continents[0],
-        capital: api.capital,
-        subregion: api.subregion,
-        area: `${api.area}km²`,
-        population: api.population,
-    }
+    let api = await Country.findByPk(id);
     return api
 }
 
 
 module.exports = {
-    getHome,
+    getAllCountries,
     getByName,
     getById
 }

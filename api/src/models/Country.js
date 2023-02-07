@@ -30,6 +30,9 @@ module.exports = (sequelize) => {
     },
     population: {
       type: DataTypes.INTEGER,
+    },
+    images: {
+      type: DataTypes.ARRAY(DataTypes.STRING),
     }
   }, { timestamps: false });
 };
