@@ -7238,8 +7238,8 @@ const countries = [
             "Europe"
         ],
         "flags": [
-            "https://flagcdn.com/ch.svg",
-            "https://flagcdn.com/w320/ch.png"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Bandera_de_Suiza.png/640px-Bandera_de_Suiza.png",
+            "https://flagcdn.com/ch.svg"
         ],
         "images": [
             "",
