@@ -53,32 +53,41 @@ h4 {
     font-weight: bold;
     font-size: 25px;
     cursor: pointer;
+    padding: 0 15px;
+    top: 0;
+    bottom: 0;
 
     position: absolute;
 }
 
-.arrow:nth-child(1) {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    padding: 0 10px;
+.arrow>.material-symbols-outlined:active {
+    scale: .8;
 }
 
-.arrow:nth-child(1):hover {
+.carouselDiv:hover>.arrow:nth-child(1) {
     color: #fff;
     background-color: #0000001e;
+}
+
+.carouselDiv:hover>.arrow:nth-child(2) {
+    color: #fff;
+    background-color: #0000001e;
+}
+
+
+.arrow:nth-child(1) {
+    left: 0;
 }
 
 .arrow:nth-child(2) {
-    top: 0;
-    bottom: 0;
     right: 0;
-    padding: 0 10px;
 }
 
-.arrow:nth-child(2):hover {
-    color: #fff;
-    background-color: #0000001e;
+
+.carouselDiv:hover>.arrow:disabled {
+    background-color: transparent;
+    color: transparent;
+    cursor: auto;
 }
 
 .bigImg {

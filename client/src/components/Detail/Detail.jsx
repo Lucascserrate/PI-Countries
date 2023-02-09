@@ -28,8 +28,16 @@ const Detail = () => {
                 <div className={s.card}>
                     <div className={s.carousel}>
                         <div className={s.carouselDiv}>
-                            <button className={s.arrow} disabled={image === 0} onClick={() => setImage(image - 1)} >{'<'}</button>
-                            <button className={s.arrow} disabled={image === max - 1} onClick={() => setImage(image + 1)} >{'>'}</button>
+                            <button className={s.arrow} disabled={image === 0} onClick={() => setImage(image - 1)} >
+                                <span class="material-symbols-outlined">
+                                    arrow_back_ios
+                                </span>
+                            </button>
+                            <button className={s.arrow} disabled={image === max - 1} onClick={() => setImage(image + 1)} >
+                                <span className="material-symbols-outlined">
+                                    arrow_forward_ios
+                                </span>
+                            </button>
                             <img className={s.bigImg} src={country?.images[image]} />
                         </div>
                         <div className={s.imgsContainer}>
