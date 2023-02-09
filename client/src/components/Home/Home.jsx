@@ -38,7 +38,7 @@ const Home = () => {
         <div className={s.container}>
             {sorting.length ?
                 <div>
-                    <Nav setForm={setForm} searchBar='true' />
+                    <Nav setForm={setForm} setInput={setInput} setCurrent={setCurrent} searchBar='true' />
                     {error && <Errors />}
                     {check && <Check />}
                     {form && <Create setForm={setForm} />}

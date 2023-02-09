@@ -3,13 +3,15 @@ import s from './Search.module.css'
 import { useDispatch } from "react-redux";
 import { getByName } from "../../redux/actions";
 
-const Search = () => {
+const Search = ({ setCurrent, setInput }) => {
 
     const dispatch = useDispatch()
     const [search, setSearch] = useState('')
 
     const handleSearch = (e) => {
         setSearch(e.target.value)
+        setInput(1)
+        setCurrent(1)
     }
 
     const handleSubmit = (e) => {

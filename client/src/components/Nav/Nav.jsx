@@ -6,7 +6,7 @@ import Search from "../Search/Search";
 import Button from '../Button/Button';
 
 
-const Nav = ({ setForm, searchBar, back }) => {
+const Nav = ({ setForm, searchBar, back, setInput, setCurrent }) => {
     return (
         <div className={s.container}>
             {
@@ -23,7 +23,7 @@ const Nav = ({ setForm, searchBar, back }) => {
                     </div>
                 </Link>
                 {
-                    searchBar && <Search />
+                    searchBar && <Search setInput={setInput} setCurrent={setCurrent} />
                 }
                 <Button value='Create' handlerClick={() => setForm(true)} />
             </div>
