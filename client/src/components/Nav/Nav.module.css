@@ -2,6 +2,7 @@
     background-color: #0a0f17;
     height: 65px;
     display: flex;
+    justify-content: center;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -12,9 +13,20 @@ a {
     text-decoration: none;
 }
 
+.back {
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 55px;
+    cursor: pointer;
+}
+
+.back:hover {
+    color: #aaafb4;
+}
+
 .flex {
     width: 70%;
-    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;

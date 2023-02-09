@@ -6,9 +6,15 @@ import Search from "../Search/Search";
 import Button from '../Button/Button';
 
 
-const Nav = ({ setForm, searchBar }) => {
+const Nav = ({ setForm, searchBar, back }) => {
     return (
         <div className={s.container}>
+            {
+                back &&
+                <Link to='/home'>
+                    <p className={s.back}>{'<'}</p>
+                </Link>
+            }
             <div className={s.flex}>
                 <Link to='/'>
                     <div className={s.logo}>
