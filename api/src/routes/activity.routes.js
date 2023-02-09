@@ -22,7 +22,6 @@ router.post('/', async (req, res) => {
         })
 
         newActivity.addCountry(countryDb)
-
         res.send('Activity created successfully')
     } catch (error) {
         res.status(404).send(error)
