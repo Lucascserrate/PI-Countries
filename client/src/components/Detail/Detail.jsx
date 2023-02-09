@@ -1,6 +1,5 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import "react-multi-carousel/lib/styles.css";
 import { useParams } from 'react-router-dom';
 import Nav from '../Nav/Nav';
 import s from './Detail.module.css';
