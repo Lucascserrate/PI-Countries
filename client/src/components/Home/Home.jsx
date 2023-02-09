@@ -32,11 +32,8 @@ const Home = () => {
         if (!sorting[0]) {
             dispatch(getCountries())
         }
-        if (!activities[0]) {
-            dispatch(getActivities())
-        }
-
-    }, [dispatch, sorting, activities])
+        dispatch(getActivities())
+    }, [dispatch, sorting])
     return (
         <div className={s.container}>
             {sorting.length ?
