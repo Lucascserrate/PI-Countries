@@ -14,7 +14,11 @@ const Detail = () => {
 
     }, [id])
 
-    //Carousel
+    let max = country?.images.length
+
+    console.log(image)
+    console.log(max)
+
     return (
         <div className={s.container}>
             <nav>
@@ -23,7 +27,11 @@ const Detail = () => {
             <div className={s.flex}>
                 <div className={s.card}>
                     <div className={s.carousel}>
-                        <img className={s.bigImg} src={country?.images[image]} alt="" />
+                        <div className={s.carouselDiv}>
+                            <button className={s.arrow} disabled={image === 0} onClick={() => setImage(image - 1)} >{'<'}</button>
+                            <button className={s.arrow} disabled={image === max - 1} onClick={() => setImage(image + 1)} >{'>'}</button>
+                            <img className={s.bigImg} src={country?.images[image]} />
+                        </div>
                         <div className={s.imgsContainer}>
                             {
                                 country

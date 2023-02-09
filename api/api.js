@@ -5151,11 +5151,11 @@ const countries = [
             "https://flagcdn.com/w320/bj.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://wallpapercave.com/wp/wp1835768.jpg",
+            "https://wallpapercave.com/wp/wp4187775.jpg",
+            "https://wallpaperaccess.com/full/5071470.jpg",
+            "https://wallpapercave.com/wp/wp4187784.jpg",
+            "https://wallpaperaccess.com/full/5071692.jpg"
         ]
     },
     {
@@ -5228,11 +5228,12 @@ const countries = [
             "https://flagcdn.com/w320/ly.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://wallpaperaccess.com/full/3011350.jpg",
+            "https://i.pinimg.com/originals/5a/03/4e/5a034e9b899c86b9aa6cda242636fb66.png",
+            "https://wallpaperaccess.com/full/3011349.jpg",
+            "https://wallpapercave.com/wp/wp2174077.jpg",
+            "https://astelus.com/wp-content/viajes/La-actividad-volcanica-en-el-desierto-libico-en-libia.jpg",
+            "https://wallpaperaccess.com/full/457053.jpg"
         ]
     },
     {
@@ -5309,11 +5310,11 @@ const countries = [
             "https://flagcdn.com/w320/az.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://wallpapercave.com/wp/wp2106879.jpg",
+            "https://rare-gallery.com/uploads/posts/1228821-azerbaijan.jpg",
+            "https://wallpaperaccess.com/full/1271454.jpg",
+            "https://s1.1zoom.me/b5050/666/Houses_Baku_502478_1920x1080.jpg",
+            "https://www.victorytour.az/medias/service/big/63/explore-aze.jpg"
         ]
     },
     {
@@ -5401,9 +5402,9 @@ const countries = [
             "https://flagcdn.com/w320/na.png"
         ],
         "images": [
-            "",
-            "",
-            "",
+            "https://wallpapercave.com/wp/wp2226098.jpg",
+            "https://images8.alphacoders.com/110/1107071.jpg",
+            "https://s1.1zoom.me/b5050/643/424602-Kycb_1920x1080.jpg",
             "",
             ""
         ]
