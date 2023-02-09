@@ -37,6 +37,7 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .bigImg {
@@ -47,15 +48,21 @@ h4 {
 }
 
 .imgsContainer {
+
     display: flex;
+    gap: 20px;
 }
 
 .imgs {
-    width: 220px;
-    height: 120px;
+    width: 200px;
+    height: 100px;
     border-radius: 8px;
     object-fit: cover;
     cursor: pointer;
+}
+
+.imgs:hover {
+    opacity: .8;
 }
 
 .flag {
