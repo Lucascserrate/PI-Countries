@@ -26,7 +26,7 @@ const Detail = () => {
                     <div className={s.carousel}>
                         <div className={s.carouselDiv}>
                             <button className={s.arrow} disabled={image === 0} onClick={() => setImage(image - 1)} >
-                                <span class="material-symbols-outlined">
+                                <span className="material-symbols-outlined">
                                     arrow_back_ios
                                 </span>
                             </button>
