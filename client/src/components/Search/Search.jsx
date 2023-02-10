@@ -24,7 +24,9 @@ const Search = ({ setCurrent, setInput }) => {
     return (
         <div className={s.searchBar}>
             <input id="search" type="search" className={s.input} placeholder="Search..." onChange={(e) => handleSearch(e)} value={search} autoComplete='off' />
-            <button type="submit" className={s.searchBtn} onClick={(e) => handleSubmit(e)} >Search</button>
+            <button type="submit" className={s.searchBtn} onClick={(e) => handleSubmit(e)} ><span class="material-symbols-outlined">
+                search
+            </span></button>
         </div>
     )
 }
