@@ -52,18 +52,14 @@ h4 {
     color: transparent;
     font-weight: bold;
     font-size: 25px;
-    cursor: pointer;
     top: 0;
     bottom: 0;
 
     position: absolute;
 }
 
-.arrow>.material-symbols-outlined:active {
-    scale: .8;
-}
-
 .carouselDiv:hover>.arrow:nth-child(1) span {
+    cursor: pointer;
     border-radius: 4px;
     padding: 10px 5px 10px 12px;
     color: #fff;
@@ -71,6 +67,7 @@ h4 {
 }
 
 .carouselDiv:hover>.arrow:nth-child(2) span {
+    cursor: pointer;
     border-radius: 4px;
     padding: 10px 9px 10px 9px;
     color: #fff;
