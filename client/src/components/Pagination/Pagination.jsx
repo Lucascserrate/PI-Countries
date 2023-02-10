@@ -24,10 +24,6 @@ const Pagination = ({ current, setCurrent, max, input, setInput }) => {
         }
     }
 
-    /*     const handleChange = (e) => {
-            setInput(e.target.value)
-        } */
-
     return (
         <div className={s.container}>
             <button disabled={current === 1} className={s.btn} onClick={previous}>{'<'}</button>
