@@ -79,7 +79,7 @@ const Filters = ({ setSort, sort, setInput, setCurrent }) => {
                     }
                 </select>
             </div>
-            <Button value='↺' handlerClick={handleClick} />
+            <Button refresh='true' value='↺' handlerClick={handleClick} />
         </div>
     )
 }

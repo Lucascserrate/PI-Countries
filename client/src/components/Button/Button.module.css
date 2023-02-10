@@ -53,6 +53,21 @@
     transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
 }
 
+.refresh {
+    display: block;
+    position: relative;
+    padding: 5px 15px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #9ee7ff;
+    color: #31696d;
+    background: #dddddd;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
 .btn:hover {
     filter: brightness(110%);
 }
@@ -62,7 +77,17 @@
     transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
 }
 
+.btn:hover .refresh {
+    transform: translateY(-6px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
 .btn:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
+.btn:active .refresh {
     transform: translateY(-2px);
     transition: transform 34ms;
 }
