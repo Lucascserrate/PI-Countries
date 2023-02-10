@@ -20,12 +20,6 @@ const countries = [
                 "symbol": "C$"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "05"
-            ]
-        },
         "capital": [
             "Managua"
         ],
@@ -61,9 +55,6 @@ const countries = [
             "2014": 46.2
         },
         "fifa": "NCA",
-        "timezones": [
-            "UTC-06:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -99,12 +90,6 @@ const countries = [
                 "name": "Venezuelan bolívar soberano",
                 "symbol": "Bs.S."
             }
-        },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "8"
-            ]
         },
         "capital": [
             "Caracas"
@@ -142,9 +127,6 @@ const countries = [
             "2006": 44.8
         },
         "fifa": "VEN",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "South America"
         ],
@@ -180,12 +162,6 @@ const countries = [
                 "symbol": "ƒ"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "721"
-            ]
-        },
         "capital": [
             "Philipsburg"
         ],
@@ -218,9 +194,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1231790"
         },
         "population": 40812,
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -256,12 +229,6 @@ const countries = [
                 "name": "Mauritian rupee",
                 "symbol": "₨"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "30"
-            ]
         },
         "capital": [
             "Port Louis"
@@ -300,9 +267,6 @@ const countries = [
             "2017": 36.8
         },
         "fifa": "MRI",
-        "timezones": [
-            "UTC+04:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -339,12 +303,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "01"
-            ]
-        },
         "capital": [
             "Belmopan"
         ],
@@ -380,9 +338,6 @@ const countries = [
             "1999": 53.3
         },
         "fifa": "BLZ",
-        "timezones": [
-            "UTC-06:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -419,12 +374,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "86"
-            ]
-        },
         "capital": [
             "Ljubljana"
         ],
@@ -460,9 +409,6 @@ const countries = [
             "2018": 24.6
         },
         "fifa": "SVN",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -498,12 +444,6 @@ const countries = [
                 "name": "Burundian franc",
                 "symbol": "Fr"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "57"
-            ]
         },
         "capital": [
             "Gitega"
@@ -542,9 +482,6 @@ const countries = [
             "2013": 38.6
         },
         "fifa": "BDI",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -574,12 +511,6 @@ const countries = [
         "independent": false,
         "status": "officially-assigned",
         "unMember": false,
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "7"
-            ]
-        },
         "altSpellings": [
             "BV",
             "Bouvetøya",
@@ -597,9 +528,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/way/174996681"
         },
         "population": 0,
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Antarctica"
         ],
@@ -635,12 +563,6 @@ const countries = [
                 "name": "Kenyan shilling",
                 "symbol": "Sh"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "54"
-            ]
         },
         "capital": [
             "Nairobi"
@@ -678,9 +600,6 @@ const countries = [
             "2015": 40.8
         },
         "fifa": "KEN",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -716,12 +635,6 @@ const countries = [
                 "name": "Papua New Guinean kina",
                 "symbol": "K"
             }
-        },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "75"
-            ]
         },
         "capital": [
             "Port Moresby"
@@ -760,9 +673,6 @@ const countries = [
             "2009": 41.9
         },
         "fifa": "PNG",
-        "timezones": [
-            "UTC+10:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -798,12 +708,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "4"
-            ]
-        },
         "capital": [
             "Adamstown"
         ],
@@ -835,9 +739,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2185375"
         },
         "population": 56,
-        "timezones": [
-            "UTC-08:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -873,12 +774,6 @@ const countries = [
                 "name": "Central African CFA franc",
                 "symbol": "Fr"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "35"
-            ]
         },
         "capital": [
             "N'Djamena"
@@ -917,9 +812,6 @@ const countries = [
             "2011": 43.3
         },
         "fifa": "CHA",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -956,12 +848,6 @@ const countries = [
                 "symbol": "лв"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "59"
-            ]
-        },
         "capital": [
             "Sofia"
         ],
@@ -997,9 +883,6 @@ const countries = [
             "2018": 41.3
         },
         "fifa": "BUL",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -1035,12 +918,6 @@ const countries = [
                 "name": "Surinamese dollar",
                 "symbol": "$"
             }
-        },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "97"
-            ]
         },
         "capital": [
             "Paramaribo"
@@ -1079,9 +956,6 @@ const countries = [
             "1999": 57.9
         },
         "fifa": "SUR",
-        "timezones": [
-            "UTC-03:00"
-        ],
         "continents": [
             "South America"
         ],
@@ -1118,12 +992,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "70"
-            ]
-        },
         "capital": [
             "Vilnius"
         ],
@@ -1159,9 +1027,6 @@ const countries = [
             "2018": 35.7
         },
         "fifa": "LTU",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -1198,12 +1063,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "77"
-            ]
-        },
         "capital": [
             "Monaco"
         ],
@@ -1235,9 +1094,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1124039"
         },
         "population": 39244,
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -1274,12 +1130,6 @@ const countries = [
                 "symbol": "د.ك"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "65"
-            ]
-        },
         "capital": [
             "Kuwait City"
         ],
@@ -1312,9 +1162,6 @@ const countries = [
         },
         "population": 4270563,
         "fifa": "KUW",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -1351,12 +1198,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                ""
-            ]
-        },
         "capital": [
             "Ottawa"
         ],
@@ -1391,14 +1232,6 @@ const countries = [
             "2017": 33.3
         },
         "fifa": "CAN",
-        "timezones": [
-            "UTC-08:00",
-            "UTC-07:00",
-            "UTC-06:00",
-            "UTC-05:00",
-            "UTC-04:00",
-            "UTC-03:30"
-        ],
         "continents": [
             "North America"
         ],
@@ -1434,12 +1267,6 @@ const countries = [
                 "symbol": "£"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "50"
-            ]
-        },
         "capital": [
             "Gibraltar"
         ],
@@ -1470,9 +1297,6 @@ const countries = [
         },
         "population": 33691,
         "fifa": "GIB",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -1509,12 +1333,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "91"
-            ]
-        },
         "capital": [
             "Palikir"
         ],
@@ -1549,10 +1367,6 @@ const countries = [
         "gini": {
             "2013": 40.1
         },
-        "timezones": [
-            "UTC+10:00",
-            "UTC+11:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -1589,12 +1403,6 @@ const countries = [
                 "symbol": "৳"
             }
         },
-        "idd": {
-            "root": "+8",
-            "suffixes": [
-                "80"
-            ]
-        },
         "capital": [
             "Dhaka"
         ],
@@ -1630,9 +1438,6 @@ const countries = [
             "2016": 32.4
         },
         "fifa": "BAN",
-        "timezones": [
-            "UTC+06:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -1668,12 +1473,6 @@ const countries = [
                 "name": "Nigerian naira",
                 "symbol": "₦"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "34"
-            ]
         },
         "capital": [
             "Abuja"
@@ -1711,9 +1510,6 @@ const countries = [
             "2018": 35.1
         },
         "fifa": "NGA",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -1749,12 +1545,6 @@ const countries = [
                 "symbol": "£"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "00"
-            ]
-        },
         "capital": [
             "Stanley"
         ],
@@ -1786,9 +1576,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2185374"
         },
         "population": 2563,
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "South America"
         ],
@@ -1824,12 +1611,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "5818"
-            ]
-        },
         "capital": [
             "Mariehamn"
         ],
@@ -1862,9 +1643,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1650407"
         },
         "population": 29458,
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -1900,12 +1678,6 @@ const countries = [
                 "name": "Iraqi dinar",
                 "symbol": "ع.د"
             }
-        },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "64"
-            ]
         },
         "capital": [
             "Baghdad"
@@ -1944,9 +1716,6 @@ const countries = [
             "2012": 29.5
         },
         "fifa": "IRQ",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -1984,12 +1753,6 @@ const countries = [
                 "symbol": "ر.ق"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "74"
-            ]
-        },
         "capital": [
             "Doha"
         ],
@@ -2022,9 +1785,6 @@ const countries = [
         },
         "population": 2881060,
         "fifa": "QAT",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -2061,12 +1821,6 @@ const countries = [
                 "symbol": "Fr"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "27"
-            ]
-        },
         "capital": [
             "Niamey"
         ],
@@ -2097,9 +1851,6 @@ const countries = [
             "2014": 34.3
         },
         "fifa": "NIG",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -2136,12 +1887,6 @@ const countries = [
                 "symbol": "D"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "20"
-            ]
-        },
         "capital": [
             "Banjul"
         ],
@@ -2176,9 +1921,6 @@ const countries = [
             "2015": 35.9
         },
         "fifa": "GAM",
-        "timezones": [
-            "UTC+00:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -2214,12 +1956,6 @@ const countries = [
                 "name": "United States dollar",
                 "symbol": "$"
             }
-        },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "70"
-            ]
         },
         "capital": [
             "Dili"
@@ -2261,9 +1997,6 @@ const countries = [
             "2014": 28.7
         },
         "fifa": "TLS",
-        "timezones": [
-            "UTC+09:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -2299,12 +2032,6 @@ const countries = [
                 "name": "Euro",
                 "symbol": "€"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "2"
-            ]
         },
         "capital": [
             "Brussels"
@@ -2349,9 +2076,6 @@ const countries = [
             "2018": 27.2
         },
         "fifa": "BEL",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -2388,12 +2112,6 @@ const countries = [
                 "symbol": "₡"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "06"
-            ]
-        },
         "capital": [
             "San José"
         ],
@@ -2429,9 +2147,6 @@ const countries = [
             "2019": 48.2
         },
         "fifa": "CRC",
-        "timezones": [
-            "UTC-06:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -2468,12 +2183,6 @@ const countries = [
                 "symbol": "Kz"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "44"
-            ]
-        },
         "capital": [
             "Luanda"
         ],
@@ -2509,9 +2218,6 @@ const countries = [
             "2018": 51.3
         },
         "fifa": "ANG",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -2548,12 +2254,6 @@ const countries = [
                 "symbol": "Fr"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "26"
-            ]
-        },
         "capital": [
             "Ouagadougou"
         ],
@@ -2587,9 +2287,6 @@ const countries = [
             "2014": 35.3
         },
         "fifa": "BFA",
-        "timezones": [
-            "UTC"
-        ],
         "continents": [
             "Africa"
         ],
@@ -2625,12 +2322,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "94"
-            ]
-        },
         "capital": [
             "Cayenne"
         ],
@@ -2662,9 +2353,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2502058"
         },
         "population": 254541,
-        "timezones": [
-            "UTC-03:00"
-        ],
         "continents": [
             "South America"
         ],
@@ -2700,12 +2388,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "670"
-            ]
-        },
         "capital": [
             "Saipan"
         ],
@@ -2739,9 +2421,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/306004"
         },
         "population": 57557,
-        "timezones": [
-            "UTC+10:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -2777,12 +2456,6 @@ const countries = [
                 "symbol": "₣"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "87"
-            ]
-        },
         "capital": [
             "Nouméa"
         ],
@@ -2813,9 +2486,6 @@ const countries = [
         },
         "population": 271960,
         "fifa": "NCL",
-        "timezones": [
-            "UTC+11:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -2851,12 +2521,6 @@ const countries = [
                 "name": "Vanuatu vatu",
                 "symbol": "Vt"
             }
-        },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "78"
-            ]
         },
         "capital": [
             "Port Vila"
@@ -2896,9 +2560,6 @@ const countries = [
             "2010": 37.6
         },
         "fifa": "VAN",
-        "timezones": [
-            "UTC+11:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -2935,12 +2596,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "284"
-            ]
-        },
         "capital": [
             "Road Town"
         ],
@@ -2968,9 +2623,6 @@ const countries = [
         },
         "population": 30237,
         "fifa": "VGB",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -3008,12 +2660,6 @@ const countries = [
                 "symbol": "£"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "63"
-            ]
-        },
         "capital": [
             "Damascus"
         ],
@@ -3049,9 +2695,6 @@ const countries = [
             "2003": 37.5
         },
         "fifa": "SYR",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -3088,12 +2731,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "7"
-            ]
-        },
         "capital": [
             "Bogotá"
         ],
@@ -3129,9 +2766,6 @@ const countries = [
             "2019": 51.3
         },
         "fifa": "COL",
-        "timezones": [
-            "UTC-05:00"
-        ],
         "continents": [
             "South America"
         ],
@@ -3167,12 +2801,6 @@ const countries = [
                 "name": "Comorian franc",
                 "symbol": "Fr"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "69"
-            ]
         },
         "capital": [
             "Moroni"
@@ -3213,9 +2841,6 @@ const countries = [
             "2014": 45.3
         },
         "fifa": "COM",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -3251,12 +2876,6 @@ const countries = [
                 "name": "Euro",
                 "symbol": "€"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "56"
-            ]
         },
         "capital": [
             "Valletta"
@@ -3294,9 +2913,6 @@ const countries = [
             "2018": 28.7
         },
         "fifa": "MLT",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -3342,12 +2958,6 @@ const countries = [
                 "symbol": "JD"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "70"
-            ]
-        },
         "capital": [
             "Ramallah"
         ],
@@ -3384,9 +2994,6 @@ const countries = [
             "2016": 33.7
         },
         "fifa": "PLE",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -3422,12 +3029,6 @@ const countries = [
                 "name": "Ugandan shilling",
                 "symbol": "Sh"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "56"
-            ]
         },
         "capital": [
             "Kampala"
@@ -3465,9 +3066,6 @@ const countries = [
             "2016": 42.8
         },
         "fifa": "UGA",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -3502,12 +3100,6 @@ const countries = [
             "BAM": {
                 "name": "Bosnia and Herzegovina convertible mark"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "87"
-            ]
         },
         "capital": [
             "Sarajevo"
@@ -3546,9 +3138,6 @@ const countries = [
             "2011": 33.0
         },
         "fifa": "BIH",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -3584,12 +3173,6 @@ const countries = [
                 "symbol": "£"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "00"
-            ]
-        },
         "capital": [
             "King Edward Point"
         ],
@@ -3615,9 +3198,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1983629"
         },
         "population": 30,
-        "timezones": [
-            "UTC-02:00"
-        ],
         "continents": [
             "Antarctica"
         ],
@@ -3661,13 +3241,6 @@ const countries = [
                 "symbol": "UM"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "125288",
-                "125289"
-            ]
-        },
         "capital": [
             "El Aaiún"
         ],
@@ -3696,9 +3269,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/5441968"
         },
         "population": 510713,
-        "timezones": [
-            "UTC+00:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -3739,13 +3309,6 @@ const countries = [
                 "symbol": "£"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "90",
-                "47"
-            ]
-        },
         "capital": [
             "Jamestown"
         ],
@@ -3777,9 +3340,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/4868269#map=13/-15.9657/-5.7120"
         },
         "population": 53192,
-        "timezones": [
-            "UTC+00:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -3815,12 +3375,6 @@ const countries = [
                 "symbol": "kr"
             }
         },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "779"
-            ]
-        },
         "capital": [
             "Longyearbyen"
         ],
@@ -3847,9 +3401,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1337397"
         },
         "population": 2562,
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -3885,12 +3436,6 @@ const countries = [
                 "name": "Lebanese pound",
                 "symbol": "ل.ل"
             }
-        },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "61"
-            ]
         },
         "capital": [
             "Beirut"
@@ -3928,9 +3473,6 @@ const countries = [
             "2011": 31.8
         },
         "fifa": "LBN",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -3967,12 +3509,6 @@ const countries = [
                 "symbol": "₮"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "76"
-            ]
-        },
         "capital": [
             "Ulan Bator"
         ],
@@ -4006,10 +3542,6 @@ const countries = [
             "2018": 32.7
         },
         "fifa": "MNG",
-        "timezones": [
-            "UTC+07:00",
-            "UTC+08:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -4045,12 +3577,6 @@ const countries = [
                 "name": "Central African CFA franc",
                 "symbol": "Fr"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "36"
-            ]
         },
         "capital": [
             "Bangui"
@@ -4088,9 +3614,6 @@ const countries = [
             "2008": 56.2
         },
         "fifa": "CTA",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -4126,12 +3649,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "08"
-            ]
-        },
         "capital": [
             "Saint-Pierre"
         ],
@@ -4162,9 +3679,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/3406826"
         },
         "population": 6069,
-        "timezones": [
-            "UTC-03:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -4202,12 +3716,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "2"
-            ]
-        },
         "capital": [
             "Mexico City"
         ],
@@ -4244,11 +3752,6 @@ const countries = [
             "2018": 45.4
         },
         "fifa": "MEX",
-        "timezones": [
-            "UTC-08:00",
-            "UTC-07:00",
-            "UTC-06:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -4257,13 +3760,12 @@ const countries = [
             "https://flagcdn.com/w320/mx.png"
         ],
         "images": [
-            "https://images.wallpapersden.com/image/download/mexico-ocean-water_ZmxpamuUmZqaraWkpJRnamtlrWZqZ20.jpg",
             "https://s1.1zoom.me/b5070/442/Mexico_Sunrises_and_sunsets_Temples_Temple_of_542460_1920x1080.jpg",
+            "https://wallpaperboat.com/wp-content/uploads/2019/05/cancun-mexico-1.jpg",
             "https://www.teahub.io/photos/full/18-185583_mexico-city.jpg",
-            "https://images.wallpapersden.com/image/download/mexico-starry-night-sky_bGdpZmeUmZqaraWkpJRnamVlrWZpZWs.jpg",
             "https://www.todofondos.net/wp-content/uploads/1920x1080-Mexico-Desktop-Wallpaper-fondo-de-pantalla-de-Mexico.-28-Fondo-de-pantalla-HD-HD.jpg",
-            "https://s2.best-wallpaper.net/wallpaper/1920x1080/1505/Mexico-ocean-coast-bridge-lights-evening-boats_1920x1080.jpg",
-            "https://s1.1zoom.me/b5050/129/Mexico_Houses_Waves_Sky_Coast_Sea_Cancun_Horizon_512437_1920x1080.jpg"
+            "https://s1.1zoom.me/b5050/129/Mexico_Houses_Waves_Sky_Coast_Sea_Cancun_Horizon_512437_1920x1080.jpg",
+            "https://wallpaperaccess.com/full/3979080.jpg",
         ]
     },
     {
@@ -4290,12 +3792,6 @@ const countries = [
                 "name": "Singapore dollar",
                 "symbol": "$"
             }
-        },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "73"
-            ]
         },
         "capital": [
             "Bandar Seri Begawan"
@@ -4330,9 +3826,6 @@ const countries = [
         },
         "population": 437483,
         "fifa": "BRU",
-        "timezones": [
-            "UTC+08:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -4373,12 +3866,6 @@ const countries = [
                 "symbol": "R"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "66"
-            ]
-        },
         "capital": [
             "Maseru"
         ],
@@ -4415,9 +3902,6 @@ const countries = [
             "2017": 44.9
         },
         "fifa": "LES",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -4453,12 +3937,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "649"
-            ]
-        },
         "capital": [
             "Cockburn Town"
         ],
@@ -4485,9 +3963,6 @@ const countries = [
         },
         "population": 38718,
         "fifa": "TCA",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -4524,12 +3999,6 @@ const countries = [
                 "name": "South Korean won",
                 "symbol": "₩"
             }
-        },
-        "idd": {
-            "root": "+8",
-            "suffixes": [
-                "2"
-            ]
         },
         "capital": [
             "Seoul"
@@ -4568,9 +4037,6 @@ const countries = [
             "2016": 31.4
         },
         "fifa": "KOR",
-        "timezones": [
-            "UTC+09:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -4610,12 +4076,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "21"
-            ]
-        },
         "capital": [
             "Bratislava"
         ],
@@ -4651,9 +4111,6 @@ const countries = [
             "2018": 25.0
         },
         "fifa": "SVK",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -4693,12 +4150,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "0"
-            ]
-        },
         "capital": [
             "Athens"
         ],
@@ -4735,9 +4186,6 @@ const countries = [
             "2018": 32.9
         },
         "fifa": "GRE",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -4778,13 +4226,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "906698",
-                "79"
-            ]
-        },
         "capital": [
             "Vatican City"
         ],
@@ -4818,9 +4259,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/36989"
         },
         "population": 451,
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -4858,12 +4296,6 @@ const countries = [
                 "symbol": "m"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "93"
-            ]
-        },
         "capital": [
             "Ashgabat"
         ],
@@ -4898,9 +4330,6 @@ const countries = [
             "1998": 40.8
         },
         "fifa": "TKM",
-        "timezones": [
-            "UTC+05:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -4940,12 +4369,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "77"
-            ]
-        },
         "capital": [
             "Honiara"
         ],
@@ -4979,9 +4402,6 @@ const countries = [
             "2012": 37.1
         },
         "fifa": "SOL",
-        "timezones": [
-            "UTC+11:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -5022,12 +4442,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "242"
-            ]
-        },
         "capital": [
             "Nassau"
         ],
@@ -5059,9 +4473,6 @@ const countries = [
         },
         "population": 393248,
         "fifa": "BAH",
-        "timezones": [
-            "UTC-05:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -5099,12 +4510,6 @@ const countries = [
                 "symbol": "Fr"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "29"
-            ]
-        },
         "capital": [
             "Porto-Novo"
         ],
@@ -5140,9 +4545,6 @@ const countries = [
             "2015": 47.8
         },
         "fifa": "BEN",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -5179,12 +4581,6 @@ const countries = [
                 "symbol": "ل.د"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "18"
-            ]
-        },
         "capital": [
             "Tripoli"
         ],
@@ -5217,9 +4613,6 @@ const countries = [
         },
         "population": 6871287,
         "fifa": "LBY",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -5257,12 +4650,6 @@ const countries = [
                 "symbol": "₼"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "94"
-            ]
-        },
         "capital": [
             "Baku"
         ],
@@ -5299,9 +4686,6 @@ const countries = [
             "2005": 26.6
         },
         "fifa": "AZE",
-        "timezones": [
-            "UTC+04:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -5341,12 +4725,6 @@ const countries = [
                 "name": "South African rand",
                 "symbol": "R"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "64"
-            ]
         },
         "capital": [
             "Windhoek"
@@ -5391,9 +4769,6 @@ const countries = [
             "2015": 59.1
         },
         "fifa": "NAM",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -5403,10 +4778,12 @@ const countries = [
         ],
         "images": [
             "https://wallpapercave.com/wp/wp2226098.jpg",
+            "https://windows10spotlight.com/wp-content/uploads/2022/06/15cd58bfc9cd79207ab5aab185135edb.jpg",
             "https://images8.alphacoders.com/110/1107071.jpg",
             "https://s1.1zoom.me/b5050/643/424602-Kycb_1920x1080.jpg",
-            "",
-            ""
+            "https://mobimg.b-cdn.net/v3/fetch/f9/f93e7bad5f5738a85121b7899706c90a.jpeg",
+            "https://wallpaperaccess.com/full/129039.jpg",
+            "https://www.hdwallpapers.in/download/africa_earth_fall_forest_namibia_rock_tree_waterfall_hd_african-1920x1080.jpg"
         ]
     },
     {
@@ -5429,12 +4806,6 @@ const countries = [
                 "name": "Euro",
                 "symbol": "€"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "85"
-            ]
         },
         "capital": [
             "Zagreb"
@@ -5472,9 +4843,6 @@ const countries = [
             "2018": 29.7
         },
         "fifa": "CRO",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -5483,11 +4851,11 @@ const countries = [
             "https://flagcdn.com/w320/hr.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://images8.alphacoders.com/565/565413.jpg",
+            "https://cdn.wallpapersafari.com/18/53/CW1wZb.jpg",
+            "https://images.wallpapersden.com/image/download/dubrovnik-croatia_bG5lamyUmZqaraWkpJRmbmdlrWZlbWU.jpg",
+            "https://www.wallpapers13.com/wp-content/uploads/2018/05/Plitvice-Lakes-landscape-photo-National-Park-Croatia-Wallpapers-HD-for-Desktop-and-Mobile-3840x2400-1920x1080.jpg",
+            "https://s1.1zoom.me/b5563/861/Croatia_Marinas_Boats_Houses_Trogir_Dalmatia_566251_1920x1080.jpg"
         ]
     },
     {
@@ -5510,12 +4878,6 @@ const countries = [
                 "name": "Czech koruna",
                 "symbol": "Kč"
             }
-        },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "20"
-            ]
         },
         "capital": [
             "Prague"
@@ -5553,9 +4915,6 @@ const countries = [
             "2018": 25.0
         },
         "fifa": "CZE",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -5564,11 +4923,12 @@ const countries = [
             "https://flagcdn.com/w320/cz.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://wallpapercave.com/wp/wp1939508.jpg",
+            "https://images.hdqwalls.com/download/forests-czech-republic-parks-bohemian-switzerland-am-1920x1080.jpg",
+            "https://wallpapercave.com/wp/wp1939498.jpg",
+            "https://www.10wallpaper.com/wallpaper/1366x768/1606/Cesky_Krumlov_travel_landscape_HD_Wallpaper_01_1366x768.jpg",
+            "https://wallpapercave.com/wp/wp6895953.jpg",
+            "https://images.wallpapersden.com/image/download/prague-czech-republic-winter_ZmxpZWyUmZqaraWkpJRmbmdlrWZnZWU.jpg"
         ]
     },
     {
@@ -5591,12 +4951,6 @@ const countries = [
                 "name": "Eastern Caribbean dollar",
                 "symbol": "$"
             }
-        },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "784"
-            ]
         },
         "capital": [
             "Kingstown"
@@ -5628,9 +4982,6 @@ const countries = [
         },
         "population": 110947,
         "fifa": "VIN",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -5639,11 +4990,11 @@ const countries = [
             "https://flagcdn.com/w320/vc.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://www.aroundthecaribbean.com/wp-content/uploads/2021/08/st-vincent-and-the-grenadines-caribbean-sea-7R69UKM-scaled.jpg",
+            "https://wallpapercave.com/wp/wp2247965.jpg",
+            "https://wallpapercave.com/wp/wp2251420.jpg",
+            "https://free4kwallpapers.com/uploads/originals/2015/10/12/saint-vincent-and-the-grenadines-wallpaper.jpg",
+            "https://f.vividscreen.info/soft/9eb62bf0cdf544be1a4809401bd577c2/Saint-Vincent-and-the-Grenadines-1920x1080.jpg"
         ]
     },
     {
@@ -5666,12 +5017,6 @@ const countries = [
                 "name": "Paraguayan guaraní",
                 "symbol": "₲"
             }
-        },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "95"
-            ]
         },
         "capital": [
             "Asunción"
@@ -5710,9 +5055,6 @@ const countries = [
             "2019": 45.7
         },
         "fifa": "PAR",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "South America"
         ],
@@ -5721,11 +5063,11 @@ const countries = [
             "https://flagcdn.com/w320/py.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://wallpapers.com/images/hd/paraguay-waterfalls-covered-in-moss-tsoti1b26r2mi504.jpg",
+            "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/LEX3ICBIMBAGRGCWKL5ORDQOHA.jpg",
+            "https://www.undp.org/sites/g/files/zskgke326/files/styles/banner_image_desktop/public/migration/py/UNDP_PRY_Asuncion_2018.jpg?h=be11c322&itok=MFerVJtV",
+            "https://fundacionio.com/wp-content/uploads/2020/11/Paraguay-1.png",
+            "https://wallpapercave.com/wp/wp2241428.jpg"
         ]
     },
     {
@@ -5747,12 +5089,6 @@ const countries = [
                 "name": "krone",
                 "symbol": "kr."
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "99"
-            ]
         },
         "capital": [
             "Nuuk"
@@ -5784,12 +5120,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2184073"
         },
         "population": 56367,
-        "timezones": [
-            "UTC-04:00",
-            "UTC-03:00",
-            "UTC-01:00",
-            "UTC+00:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -5798,11 +5128,14 @@ const countries = [
             "https://flagcdn.com/w320/gl.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://rare-gallery.com/uploads/posts/352652-4k-wallpaper.jpg",
+            "https://rare-gallery.com/uploads/posts/981327-mountains-snow-ice-sunset-Greenland-nature-lights.jpg",
+            "https://news.cgtn.com/news/3d3d674e7955544d31457a6333566d54/img/8c7d3713832b4f46aad22ba03694b53c/8c7d3713832b4f46aad22ba03694b53c.jpg",
+            "https://images8.alphacoders.com/878/thumb-1920-878965.jpg",
+            "https://assets.weforum.org/article/image/zqPuJ-cvat0_tDr9fESKZ0Gu7Xnif9o0uVJi5c8iFfc.jpg",
+            "https://pbs.twimg.com/media/Ck20mBPUoAA5bvo?format=jpg&name=4096x4096",
+            "https://i.pinimg.com/originals/35/05/01/350501188602083d6bd47816a0a98fd4.jpg",
+            "https://wallpapercrafter.com/desktop3/1024494-grass-greenland-lake-mountains-snow-tasermiut.jpg"
         ]
     },
     {
@@ -5829,12 +5162,6 @@ const countries = [
                 "name": "Indian rupee",
                 "symbol": "₹"
             }
-        },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "75"
-            ]
         },
         "capital": [
             "Thimphu"
@@ -5870,9 +5197,6 @@ const countries = [
             "2017": 37.4
         },
         "fifa": "BHU",
-        "timezones": [
-            "UTC+06:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -5881,11 +5205,11 @@ const countries = [
             "https://flagcdn.com/w320/bt.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://www.fpri.org/wp-content/uploads/2020/07/himalayas-scaled.jpeg",
+            "https://wallpapercave.com/wp/wp1991359.jpg",
+            "https://www.andbeyond.com/wp-content/uploads/sites/5/bhutan-punakha-dzong-river.jpg",
+            "https://jdtravelhub.in/wp-content/uploads/2019/09/bhutan01a.jpg",
+            "https://www.wallpapersdsc.net/wp-content/uploads/2017/11/Bhutan-High-Definition-Wallpapers.jpg"
         ]
     },
     {
@@ -5907,12 +5231,6 @@ const countries = [
                 "name": "Eastern Caribbean dollar",
                 "symbol": "$"
             }
-        },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "664"
-            ]
         },
         "capital": [
             "Plymouth"
@@ -5944,9 +5262,6 @@ const countries = [
         },
         "population": 4922,
         "fifa": "MSR",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -5955,11 +5270,11 @@ const countries = [
             "https://flagcdn.com/w320/ms.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://rebelcry.com/img/2017/07/01/1498872436-plymouth-montserrat-story-superhighlight-1920x1080.jpg",
+            "https://adventure.com/wp-content/uploads/2018/01/Montserrat-Carribean-Plymouth-4-a-modern-day-Pompeii.-Andrew-Eames-1920x1080.jpg",
+            "https://wallpapers.com/images/hd/montserrat-forest-mountain-g0k183w0p97ker4g.jpg",
+            "https://es.ncl.com/sites/default/files/ANU_60_Soufriere_Hills_Volcano_Montserrat_1920x1080_LG.jpg",
+            "https://static.nationalgeographic.co.uk/files/styles/image_3200/public/gettyimages-828769106.jpg?w=1600&h=900"
         ]
     },
     {
@@ -5982,12 +5297,6 @@ const countries = [
                 "name": "West African CFA franc",
                 "symbol": "Fr"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "45"
-            ]
         },
         "capital": [
             "Bissau"
@@ -6025,9 +5334,6 @@ const countries = [
             "2010": 50.7
         },
         "fifa": "GNB",
-        "timezones": [
-            "UTC"
-        ],
         "continents": [
             "Africa"
         ],
@@ -6036,11 +5342,11 @@ const countries = [
             "https://flagcdn.com/w320/gw.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://windows10spotlight.com/wp-content/uploads/2021/10/ed3010b051419513f99ef71203d98120.jpg",
+            "https://cdn.wallpapersafari.com/50/59/qlanI9.jpg",
+            "https://media.traveler.es/photos/61b4d43dc88053b3a47d9f7d/master/w_1600%2Cc_limit/EnTransicionSocialFilms_OPH-4.jpg",
+            "https://wallpapercave.com/wp/wp4188114.jpg",
+            "https://wallpapercave.com/wp/wp4188123.jpg",
         ]
     },
     {
@@ -6063,12 +5369,6 @@ const countries = [
                 "name": "United States dollar",
                 "symbol": "$"
             }
-        },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "99"
-            ]
         },
         "capital": [
             "Kralendijk"
@@ -6100,9 +5400,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1216720"
         },
         "population": 25987,
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -6139,12 +5436,6 @@ const countries = [
                 "symbol": "₵"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "33"
-            ]
-        },
         "capital": [
             "Accra"
         ],
@@ -6178,9 +5469,6 @@ const countries = [
             "2016": 43.5
         },
         "fifa": "GHA",
-        "timezones": [
-            "UTC"
-        ],
         "continents": [
             "Africa"
         ],
@@ -6217,12 +5505,6 @@ const countries = [
                 "symbol": "Fr"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "24"
-            ]
-        },
         "capital": [
             "Conakry"
         ],
@@ -6258,9 +5540,6 @@ const countries = [
             "2012": 33.7
         },
         "fifa": "GUI",
-        "timezones": [
-            "UTC"
-        ],
         "continents": [
             "Africa"
         ],
@@ -6296,12 +5575,6 @@ const countries = [
                 "name": "Norwegian krone",
                 "symbol": "kr"
             }
-        },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "7"
-            ]
         },
         "capital": [
             "Oslo"
@@ -6343,9 +5616,6 @@ const countries = [
             "2018": 27.6
         },
         "fifa": "NOR",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -6382,12 +5652,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "345"
-            ]
-        },
         "capital": [
             "George Town"
         ],
@@ -6418,9 +5682,6 @@ const countries = [
         },
         "population": 65720,
         "fifa": "CAY",
-        "timezones": [
-            "UTC-05:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -6461,12 +5722,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "82"
-            ]
-        },
         "capital": [
             "Avarua"
         ],
@@ -6499,9 +5754,6 @@ const countries = [
         },
         "population": 18100,
         "fifa": "COK",
-        "timezones": [
-            "UTC-10:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -6537,12 +5789,6 @@ const countries = [
                 "name": "Albanian lek",
                 "symbol": "L"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "55"
-            ]
         },
         "capital": [
             "Tirana"
@@ -6580,9 +5826,6 @@ const countries = [
             "2017": 33.2
         },
         "fifa": "ALB",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -6619,12 +5862,6 @@ const countries = [
                 "symbol": "Esc"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "38"
-            ]
-        },
         "capital": [
             "Praia"
         ],
@@ -6660,9 +5897,6 @@ const countries = [
             "2015": 42.4
         },
         "fifa": "CPV",
-        "timezones": [
-            "UTC-01:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -6702,12 +5936,6 @@ const countries = [
                 "symbol": "£"
             }
         },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "4"
-            ]
-        },
         "capital": [
             "St. Peter Port"
         ],
@@ -6741,9 +5969,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/270009"
         },
         "population": 62999,
-        "timezones": [
-            "UTC+00:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -6780,12 +6005,6 @@ const countries = [
                 "symbol": "zł"
             }
         },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "8"
-            ]
-        },
         "capital": [
             "Warsaw"
         ],
@@ -6821,9 +6040,6 @@ const countries = [
             "2018": 30.2
         },
         "fifa": "POL",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -6859,12 +6075,6 @@ const countries = [
                 "name": "Rwandan franc",
                 "symbol": "Fr"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "50"
-            ]
         },
         "capital": [
             "Kigali"
@@ -6904,9 +6114,6 @@ const countries = [
             "2016": 43.7
         },
         "fifa": "RWA",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -6944,12 +6151,6 @@ const countries = [
                 "symbol": "£"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "0"
-            ]
-        },
         "capital": [
             "Cairo"
         ],
@@ -6984,9 +6185,6 @@ const countries = [
             "2017": 31.5
         },
         "fifa": "EGY",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -7022,12 +6220,6 @@ const countries = [
                 "name": "Romanian leu",
                 "symbol": "lei"
             }
-        },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "0"
-            ]
         },
         "capital": [
             "Bucharest"
@@ -7065,9 +6257,6 @@ const countries = [
             "2018": 35.8
         },
         "fifa": "ROU",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -7104,12 +6293,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "93"
-            ]
-        },
         "capital": [
             "Quito"
         ],
@@ -7145,10 +6328,6 @@ const countries = [
             "2019": 45.7
         },
         "fifa": "ECU",
-        "timezones": [
-            "UTC-06:00",
-            "UTC-05:00"
-        ],
         "continents": [
             "South America"
         ],
@@ -7184,12 +6363,6 @@ const countries = [
                 "name": "Swiss franc",
                 "symbol": "Fr."
             }
-        },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "1"
-            ]
         },
         "capital": [
             "Bern"
@@ -7232,9 +6405,6 @@ const countries = [
             "2018": 33.1
         },
         "fifa": "SUI",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -7271,12 +6441,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "80"
-            ]
-        },
         "capital": [
             "Ngerulmud"
         ],
@@ -7309,9 +6473,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/571805"
         },
         "population": 18092,
-        "timezones": [
-            "UTC+09:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -7348,12 +6509,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "767"
-            ]
-        },
         "capital": [
             "Roseau"
         ],
@@ -7387,9 +6542,6 @@ const countries = [
         },
         "population": 71991,
         "fifa": "DMA",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -7424,12 +6576,6 @@ const countries = [
                 "name": "Netherlands Antillean guilder",
                 "symbol": "ƒ"
             }
-        },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "99"
-            ]
         },
         "capital": [
             "Willemstad"
@@ -7468,9 +6614,6 @@ const countries = [
         },
         "population": 155014,
         "fifa": "CUW",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -7507,12 +6650,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "78"
-            ]
-        },
         "capital": [
             "City of San Marino"
         ],
@@ -7545,9 +6682,6 @@ const countries = [
         },
         "population": 33938,
         "fifa": "SMR",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -7583,12 +6717,6 @@ const countries = [
                 "name": "Samoan tālā",
                 "symbol": "T"
             }
-        },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "85"
-            ]
         },
         "capital": [
             "Apia"
@@ -7626,9 +6754,6 @@ const countries = [
             "2013": 38.7
         },
         "fifa": "SAM",
-        "timezones": [
-            "UTC+13:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -7664,12 +6789,6 @@ const countries = [
                 "name": "Indian rupee",
                 "symbol": "₹"
             }
-        },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "1"
-            ]
         },
         "capital": [
             "New Delhi"
@@ -7710,9 +6829,6 @@ const countries = [
             "2011": 35.7
         },
         "fifa": "IND",
-        "timezones": [
-            "UTC+05:30"
-        ],
         "continents": [
             "Asia"
         ],
@@ -7750,12 +6866,6 @@ const countries = [
                 "symbol": "د.إ"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "71"
-            ]
-        },
         "capital": [
             "Abu Dhabi"
         ],
@@ -7791,9 +6901,6 @@ const countries = [
             "2018": 26.0
         },
         "fifa": "UAE",
-        "timezones": [
-            "UTC+04:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -7829,12 +6936,6 @@ const countries = [
                 "name": "Tajikistani somoni",
                 "symbol": "ЅМ"
             }
-        },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "92"
-            ]
         },
         "capital": [
             "Dushanbe"
@@ -7874,9 +6975,6 @@ const countries = [
             "2015": 34.0
         },
         "fifa": "TJK",
-        "timezones": [
-            "UTC+05:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -7906,9 +7004,6 @@ const countries = [
         "independent": false,
         "status": "officially-assigned",
         "unMember": false,
-        "idd": {
-
-        },
         "altSpellings": [
             "AQ"
         ],
@@ -7931,16 +7026,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/node/36966060"
         },
         "population": 1000,
-        "timezones": [
-            "UTC-03:00",
-            "UTC+03:00",
-            "UTC+05:00",
-            "UTC+06:00",
-            "UTC+07:00",
-            "UTC+08:00",
-            "UTC+10:00",
-            "UTC+12:00"
-        ],
         "continents": [
             "Antarctica"
         ],
@@ -7977,12 +7062,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "9"
-            ]
-        },
         "capital": [
             "Berlin"
         ],
@@ -8018,9 +7097,6 @@ const countries = [
             "2016": 31.9
         },
         "fifa": "GER",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -8056,12 +7132,6 @@ const countries = [
                 "name": "Bolivian boliviano",
                 "symbol": "Bs."
             }
-        },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "91"
-            ]
         },
         "capital": [
             "Sucre"
@@ -8107,9 +7177,6 @@ const countries = [
             "2019": 41.6
         },
         "fifa": "BOL",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "South America"
         ],
@@ -8148,16 +7215,6 @@ const countries = [
                 "symbol": "₽"
             }
         },
-        "idd": {
-            "root": "+7",
-            "suffixes": [
-                "3",
-                "4",
-                "5",
-                "8",
-                "9"
-            ]
-        },
         "capital": [
             "Moscow"
         ],
@@ -8193,17 +7250,6 @@ const countries = [
             "2018": 37.5
         },
         "fifa": "RUS",
-        "timezones": [
-            "UTC+03:00",
-            "UTC+04:00",
-            "UTC+06:00",
-            "UTC+07:00",
-            "UTC+08:00",
-            "UTC+09:00",
-            "UTC+10:00",
-            "UTC+11:00",
-            "UTC+12:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -8240,12 +7286,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "876"
-            ]
-        },
         "capital": [
             "Kingston"
         ],
@@ -8280,9 +7320,6 @@ const countries = [
             "2004": 45.5
         },
         "fifa": "JAM",
-        "timezones": [
-            "UTC-05:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -8318,12 +7355,6 @@ const countries = [
                 "name": "Turkish lira",
                 "symbol": "₺"
             }
-        },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "0"
-            ]
         },
         "capital": [
             "Ankara"
@@ -8361,9 +7392,6 @@ const countries = [
             "2019": 41.9
         },
         "fifa": "TUR",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -8399,12 +7427,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "62"
-            ]
-        },
         "capital": [
             "Mamoudzou"
         ],
@@ -8436,9 +7458,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1259885"
         },
         "population": 226915,
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -8474,12 +7493,6 @@ const countries = [
                 "name": "Peruvian sol",
                 "symbol": "S/ "
             }
-        },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "1"
-            ]
         },
         "capital": [
             "Lima"
@@ -8518,9 +7531,6 @@ const countries = [
             "2019": 41.5
         },
         "fifa": "PER",
-        "timezones": [
-            "UTC-05:00"
-        ],
         "continents": [
             "South America"
         ],
@@ -8556,12 +7566,6 @@ const countries = [
                 "name": "Tanzanian shilling",
                 "symbol": "Sh"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "55"
-            ]
         },
         "capital": [
             "Dodoma"
@@ -8600,9 +7604,6 @@ const countries = [
             "2017": 40.5
         },
         "fifa": "TAN",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -8638,12 +7639,6 @@ const countries = [
                 "name": "Euro",
                 "symbol": "€"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "57"
-            ]
         },
         "capital": [
             "Nicosia"
@@ -8684,9 +7679,6 @@ const countries = [
             "2018": 32.7
         },
         "fifa": "CYP",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -8722,12 +7714,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "90"
-            ]
-        },
         "capital": [
             "Basse-Terre"
         ],
@@ -8758,9 +7744,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/7109289"
         },
         "population": 400132,
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -8797,14 +7780,8 @@ const countries = [
                 "symbol": "L"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "73"
-            ]
-        },
         "capital": [
-            "Chișinău"
+            "Chisinau"
         ],
         "altSpellings": [
             "MD",
@@ -8839,9 +7816,6 @@ const countries = [
             "2018": 25.7
         },
         "fifa": "MDA",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -8882,12 +7856,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+8",
-            "suffixes": [
-                "55"
-            ]
-        },
         "capital": [
             "Phnom Penh"
         ],
@@ -8919,9 +7887,6 @@ const countries = [
         },
         "population": 16718971,
         "fifa": "CAM",
-        "timezones": [
-            "UTC+07:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -8957,12 +7922,6 @@ const countries = [
                 "name": "Lao kip",
                 "symbol": "₭"
             }
-        },
-        "idd": {
-            "root": "+8",
-            "suffixes": [
-                "56"
-            ]
         },
         "capital": [
             "Vientiane"
@@ -9000,9 +7959,6 @@ const countries = [
             "2018": 38.8
         },
         "fifa": "LAO",
-        "timezones": [
-            "UTC+07:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -9033,9 +7989,6 @@ const countries = [
         "independent": false,
         "status": "officially-assigned",
         "unMember": false,
-        "idd": {
-
-        },
         "altSpellings": [
             "HM",
             "Heard Island and McDonald Islands"
@@ -9058,9 +8011,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2177227"
         },
         "population": 0,
-        "timezones": [
-            "UTC+05:00"
-        ],
         "continents": [
             "Antarctica"
         ],
@@ -9097,12 +8047,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "758"
-            ]
-        },
         "capital": [
             "Castries"
         ],
@@ -9136,9 +8080,6 @@ const countries = [
             "2016": 51.2
         },
         "fifa": "LCA",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -9175,12 +8116,6 @@ const countries = [
                 "symbol": "Fr"
             }
         },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "23"
-            ]
-        },
         "capital": [
             "Vaduz"
         ],
@@ -9213,9 +8148,6 @@ const countries = [
         },
         "population": 38137,
         "fifa": "LIE",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -9251,12 +8183,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "1"
-            ]
-        },
         "capital": [
             "West Island"
         ],
@@ -9284,9 +8210,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/82636"
         },
         "population": 544,
-        "timezones": [
-            "UTC+06:30"
-        ],
         "continents": [
             "Asia"
         ],
@@ -9323,12 +8246,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "90"
-            ]
-        },
         "capital": [
             "Marigot"
         ],
@@ -9361,9 +8278,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/63064"
         },
         "population": 38659,
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -9400,12 +8314,6 @@ const countries = [
                 "symbol": "MT"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "58"
-            ]
-        },
         "capital": [
             "Maputo"
         ],
@@ -9441,9 +8349,6 @@ const countries = [
             "2014": 54.0
         },
         "fifa": "MOZ",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -9480,12 +8385,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "76"
-            ]
-        },
         "capital": [
             "Andorra la Vella"
         ],
@@ -9518,9 +8417,6 @@ const countries = [
         },
         "population": 77265,
         "fifa": "AND",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -9559,12 +8455,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "5"
-            ]
-        },
         "capital": [
             "Singapore"
         ],
@@ -9601,9 +8491,6 @@ const countries = [
         },
         "population": 5685807,
         "fifa": "SIN",
-        "timezones": [
-            "UTC+08:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -9639,12 +8526,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "83"
-            ]
-        },
         "capital": [
             "Alofi"
         ],
@@ -9675,9 +8556,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1558556"
         },
         "population": 1470,
-        "timezones": [
-            "UTC-11:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -9714,12 +8592,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "340"
-            ]
-        },
         "capital": [
             "Charlotte Amalie"
         ],
@@ -9747,9 +8619,6 @@ const countries = [
         },
         "population": 106290,
         "fifa": "VIR",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -9785,12 +8654,6 @@ const countries = [
                 "name": "Euro",
                 "symbol": "€"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "72"
-            ]
         },
         "capital": [
             "Tallinn"
@@ -9828,9 +8691,6 @@ const countries = [
             "2018": 30.3
         },
         "fifa": "EST",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -9866,12 +8726,6 @@ const countries = [
                 "name": "Somali shilling",
                 "symbol": "Sh"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "52"
-            ]
         },
         "capital": [
             "Mogadishu"
@@ -9911,9 +8765,6 @@ const countries = [
             "2017": 36.8
         },
         "fifa": "SOM",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -9950,12 +8801,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "9"
-            ]
-        },
         "capital": [
             "Rome"
         ],
@@ -9991,9 +8836,6 @@ const countries = [
             "2017": 35.9
         },
         "fifa": "ITA",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -10029,12 +8871,6 @@ const countries = [
                 "symbol": "₣"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "89"
-            ]
-        },
         "capital": [
             "Papeetē"
         ],
@@ -10067,11 +8903,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/3412620"
         },
         "population": 280904,
-        "timezones": [
-            "UTC-10:00",
-            "UTC-09:30",
-            "UTC-09:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -10108,12 +8939,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "441"
-            ]
-        },
         "capital": [
             "Hamilton"
         ],
@@ -10147,9 +8972,6 @@ const countries = [
         },
         "population": 63903,
         "fifa": "BER",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -10187,12 +9009,6 @@ const countries = [
                 "symbol": "د.م."
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "12"
-            ]
-        },
         "capital": [
             "Rabat"
         ],
@@ -10229,9 +9045,6 @@ const countries = [
             "2013": 39.5
         },
         "fifa": "MAR",
-        "timezones": [
-            "UTC"
-        ],
         "continents": [
             "Africa"
         ],
@@ -10267,12 +9080,6 @@ const countries = [
                 "name": "Euro",
                 "symbol": "€"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "58"
-            ]
         },
         "capital": [
             "Helsinki"
@@ -10312,9 +9119,6 @@ const countries = [
             "2018": 27.3
         },
         "fifa": "FIN",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -10351,12 +9155,6 @@ const countries = [
                 "symbol": "﷼"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "67"
-            ]
-        },
         "capital": [
             "Sana'a"
         ],
@@ -10392,9 +9190,6 @@ const countries = [
             "2014": 36.7
         },
         "fifa": "YEM",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -10432,12 +9227,6 @@ const countries = [
                 "symbol": "₴"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "80"
-            ]
-        },
         "capital": [
             "Kyiv"
         ],
@@ -10472,9 +9261,6 @@ const countries = [
             "2019": 26.6
         },
         "fifa": "UKR",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -10511,328 +9297,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "201",
-                "202",
-                "203",
-                "205",
-                "206",
-                "207",
-                "208",
-                "209",
-                "210",
-                "212",
-                "213",
-                "214",
-                "215",
-                "216",
-                "217",
-                "218",
-                "219",
-                "220",
-                "224",
-                "225",
-                "227",
-                "228",
-                "229",
-                "231",
-                "234",
-                "239",
-                "240",
-                "248",
-                "251",
-                "252",
-                "253",
-                "254",
-                "256",
-                "260",
-                "262",
-                "267",
-                "269",
-                "270",
-                "272",
-                "274",
-                "276",
-                "281",
-                "283",
-                "301",
-                "302",
-                "303",
-                "304",
-                "305",
-                "307",
-                "308",
-                "309",
-                "310",
-                "312",
-                "313",
-                "314",
-                "315",
-                "316",
-                "317",
-                "318",
-                "319",
-                "320",
-                "321",
-                "323",
-                "325",
-                "327",
-                "330",
-                "331",
-                "334",
-                "336",
-                "337",
-                "339",
-                "346",
-                "347",
-                "351",
-                "352",
-                "360",
-                "361",
-                "364",
-                "380",
-                "385",
-                "386",
-                "401",
-                "402",
-                "404",
-                "405",
-                "406",
-                "407",
-                "408",
-                "409",
-                "410",
-                "412",
-                "413",
-                "414",
-                "415",
-                "417",
-                "419",
-                "423",
-                "424",
-                "425",
-                "430",
-                "432",
-                "434",
-                "435",
-                "440",
-                "442",
-                "443",
-                "447",
-                "458",
-                "463",
-                "464",
-                "469",
-                "470",
-                "475",
-                "478",
-                "479",
-                "480",
-                "484",
-                "501",
-                "502",
-                "503",
-                "504",
-                "505",
-                "507",
-                "508",
-                "509",
-                "510",
-                "512",
-                "513",
-                "515",
-                "516",
-                "517",
-                "518",
-                "520",
-                "530",
-                "531",
-                "534",
-                "539",
-                "540",
-                "541",
-                "551",
-                "559",
-                "561",
-                "562",
-                "563",
-                "564",
-                "567",
-                "570",
-                "571",
-                "573",
-                "574",
-                "575",
-                "580",
-                "585",
-                "586",
-                "601",
-                "602",
-                "603",
-                "605",
-                "606",
-                "607",
-                "608",
-                "609",
-                "610",
-                "612",
-                "614",
-                "615",
-                "616",
-                "617",
-                "618",
-                "619",
-                "620",
-                "623",
-                "626",
-                "628",
-                "629",
-                "630",
-                "631",
-                "636",
-                "641",
-                "646",
-                "650",
-                "651",
-                "657",
-                "660",
-                "661",
-                "662",
-                "667",
-                "669",
-                "678",
-                "681",
-                "682",
-                "701",
-                "702",
-                "703",
-                "704",
-                "706",
-                "707",
-                "708",
-                "712",
-                "713",
-                "714",
-                "715",
-                "716",
-                "717",
-                "718",
-                "719",
-                "720",
-                "724",
-                "725",
-                "727",
-                "730",
-                "731",
-                "732",
-                "734",
-                "737",
-                "740",
-                "743",
-                "747",
-                "754",
-                "757",
-                "760",
-                "762",
-                "763",
-                "765",
-                "769",
-                "770",
-                "772",
-                "773",
-                "774",
-                "775",
-                "779",
-                "781",
-                "785",
-                "786",
-                "801",
-                "802",
-                "803",
-                "804",
-                "805",
-                "806",
-                "808",
-                "810",
-                "812",
-                "813",
-                "814",
-                "815",
-                "816",
-                "817",
-                "818",
-                "828",
-                "830",
-                "831",
-                "832",
-                "843",
-                "845",
-                "847",
-                "848",
-                "850",
-                "854",
-                "856",
-                "857",
-                "858",
-                "859",
-                "860",
-                "862",
-                "863",
-                "864",
-                "865",
-                "870",
-                "872",
-                "878",
-                "901",
-                "903",
-                "904",
-                "906",
-                "907",
-                "908",
-                "909",
-                "910",
-                "912",
-                "913",
-                "914",
-                "915",
-                "916",
-                "917",
-                "918",
-                "919",
-                "920",
-                "925",
-                "928",
-                "929",
-                "930",
-                "931",
-                "934",
-                "936",
-                "937",
-                "938",
-                "940",
-                "941",
-                "947",
-                "949",
-                "951",
-                "952",
-                "954",
-                "956",
-                "959",
-                "970",
-                "971",
-                "972",
-                "973",
-                "975",
-                "978",
-                "979",
-                "980",
-                "984",
-                "985",
-                "989"
-            ]
-        },
         "capital": [
             "Washington, D.C."
         ],
@@ -10868,19 +9332,6 @@ const countries = [
             "2018": 41.4
         },
         "fifa": "USA",
-        "timezones": [
-            "UTC-12:00",
-            "UTC-11:00",
-            "UTC-10:00",
-            "UTC-09:00",
-            "UTC-08:00",
-            "UTC-07:00",
-            "UTC-06:00",
-            "UTC-05:00",
-            "UTC-04:00",
-            "UTC+10:00",
-            "UTC+12:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -10889,11 +9340,12 @@ const countries = [
             "https://flagcdn.com/w320/us.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://wallpaperaccess.com/full/2480992.jpg",
+            "https://wallpaperstock.net/santa-mar%C3%ADa-del-lago-usa-wallpapers_47059_2560x1600.jpg",
+            "https://images7.alphacoders.com/418/418009.jpg",
+            "https://wallpaperaccess.com/full/1437107.jpg",
+            "https://www.teahub.io/photos/full/18-183062_grand-canyon-arizona.jpg",
+            "https://www.1zoom.me/big2/309/275441-alexfas01.jpg"
         ]
     },
     {
@@ -10916,12 +9368,6 @@ const countries = [
                 "name": "Sierra Leonean leone",
                 "symbol": "Le"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "32"
-            ]
         },
         "capital": [
             "Freetown"
@@ -10957,9 +9403,6 @@ const countries = [
             "2018": 35.7
         },
         "fifa": "SLE",
-        "timezones": [
-            "UTC"
-        ],
         "continents": [
             "Africa"
         ],
@@ -10995,12 +9438,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "1"
-            ]
-        },
         "capital": [
             "Flying Fish Cove"
         ],
@@ -11027,9 +9464,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/6365444"
         },
         "population": 2072,
-        "timezones": [
-            "UTC+07:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -11065,12 +9499,6 @@ const countries = [
                 "name": "Congolese franc",
                 "symbol": "FC"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "43"
-            ]
         },
         "capital": [
             "Kinshasa"
@@ -11114,10 +9542,6 @@ const countries = [
             "2012": 42.1
         },
         "fifa": "COD",
-        "timezones": [
-            "UTC+01:00",
-            "UTC+02:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -11153,12 +9577,6 @@ const countries = [
                 "name": "Euro",
                 "symbol": "€"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "52"
-            ]
         },
         "capital": [
             "Luxembourg"
@@ -11199,9 +9617,6 @@ const countries = [
             "2018": 35.4
         },
         "fifa": "LUX",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -11232,12 +9647,6 @@ const countries = [
                 "name": "Euro",
                 "symbol": "€"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "83"
-            ]
         },
         "capital": [
             "Pristina"
@@ -11274,9 +9683,6 @@ const countries = [
             "2017": 29.0
         },
         "fifa": "KVX",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -11312,12 +9718,6 @@ const countries = [
                 "name": "Argentine peso",
                 "symbol": "$"
             }
-        },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "4"
-            ]
         },
         "capital": [
             "Buenos Aires"
@@ -11355,9 +9755,6 @@ const countries = [
             "2019": 42.9
         },
         "fifa": "ARG",
-        "timezones": [
-            "UTC-03:00"
-        ],
         "continents": [
             "South America"
         ],
@@ -11393,12 +9790,6 @@ const countries = [
                 "name": "Zimbabwean dollar",
                 "symbol": "$"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "63"
-            ]
         },
         "capital": [
             "Harare"
@@ -11448,9 +9839,6 @@ const countries = [
             "2019": 50.3
         },
         "fifa": "ZIM",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -11486,12 +9874,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "68"
-            ]
-        },
         "altSpellings": [
             "UM"
         ],
@@ -11514,11 +9896,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/6430384"
         },
         "population": 300,
-        "timezones": [
-            "UTC-11:00",
-            "UTC-10:00",
-            "UTC+12:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -11554,12 +9931,6 @@ const countries = [
                 "name": "Central African CFA franc",
                 "symbol": "Fr"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "42"
-            ]
         },
         "capital": [
             "Brazzaville"
@@ -11598,9 +9969,6 @@ const countries = [
             "2011": 48.9
         },
         "fifa": "CGO",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -11640,12 +10008,6 @@ const countries = [
                 "symbol": "£"
             }
         },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "4"
-            ]
-        },
         "capital": [
             "Douglas"
         ],
@@ -11675,9 +10037,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/62269"
         },
         "population": 85032,
-        "timezones": [
-            "UTC+00:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -11714,12 +10073,6 @@ const countries = [
                 "symbol": "؋"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "3"
-            ]
-        },
         "capital": [
             "Kabul"
         ],
@@ -11753,9 +10106,6 @@ const countries = [
         },
         "population": 40218234,
         "fifa": "AFG",
-        "timezones": [
-            "UTC+04:30"
-        ],
         "continents": [
             "Asia"
         ],
@@ -11791,12 +10141,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "62"
-            ]
-        },
         "capital": [
             "Saint-Denis"
         ],
@@ -11827,9 +10171,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1785276"
         },
         "population": 840974,
-        "timezones": [
-            "UTC+04:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -11867,12 +10208,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+8",
-            "suffixes": [
-                "52"
-            ]
-        },
         "capital": [
             "City of Victoria"
         ],
@@ -11904,9 +10239,6 @@ const countries = [
         },
         "population": 7500700,
         "fifa": "HKG",
-        "timezones": [
-            "UTC+08:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -11944,12 +10276,6 @@ const countries = [
                 "symbol": "د.ج"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "13"
-            ]
-        },
         "capital": [
             "Algiers"
         ],
@@ -11985,9 +10311,6 @@ const countries = [
             "2011": 27.6
         },
         "fifa": "ALG",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -12024,12 +10347,6 @@ const countries = [
                 "name": "Serbian dinar",
                 "symbol": "дин."
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "81"
-            ]
         },
         "capital": [
             "Belgrade"
@@ -12068,9 +10385,6 @@ const countries = [
             "2017": 36.2
         },
         "fifa": "SRB",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -12106,12 +10420,6 @@ const countries = [
                 "name": "Seychellois rupee",
                 "symbol": "₨"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "48"
-            ]
         },
         "capital": [
             "Victoria"
@@ -12151,9 +10459,6 @@ const countries = [
             "2018": 32.1
         },
         "fifa": "SEY",
-        "timezones": [
-            "UTC+04:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -12190,12 +10495,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "246"
-            ]
-        },
         "capital": [
             "Bridgetown"
         ],
@@ -12226,9 +10525,6 @@ const countries = [
         },
         "population": 287371,
         "fifa": "BRB",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -12264,12 +10560,6 @@ const countries = [
                 "name": "Haitian gourde",
                 "symbol": "G"
             }
-        },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "09"
-            ]
         },
         "capital": [
             "Port-au-Prince"
@@ -12308,9 +10598,6 @@ const countries = [
             "2012": 41.1
         },
         "fifa": "HAI",
-        "timezones": [
-            "UTC-05:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -12346,12 +10633,6 @@ const countries = [
                 "name": "Malagasy ariary",
                 "symbol": "Ar"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "61"
-            ]
         },
         "capital": [
             "Antananarivo"
@@ -12390,9 +10671,6 @@ const countries = [
             "2012": 42.6
         },
         "fifa": "MAD",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -12428,12 +10706,6 @@ const countries = [
                 "name": "Vietnamese đồng",
                 "symbol": "₫"
             }
-        },
-        "idd": {
-            "root": "+8",
-            "suffixes": [
-                "4"
-            ]
         },
         "capital": [
             "Hanoi"
@@ -12471,9 +10743,6 @@ const countries = [
             "2018": 35.7
         },
         "fifa": "VIE",
-        "timezones": [
-            "UTC+07:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -12509,12 +10778,6 @@ const countries = [
                 "name": "Botswana pula",
                 "symbol": "P"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "67"
-            ]
         },
         "capital": [
             "Gaborone"
@@ -12552,9 +10815,6 @@ const countries = [
             "2015": 53.3
         },
         "fifa": "BOT",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -12590,12 +10850,6 @@ const countries = [
                 "name": "Burmese kyat",
                 "symbol": "Ks"
             }
-        },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "5"
-            ]
         },
         "capital": [
             "Naypyidaw"
@@ -12633,9 +10887,6 @@ const countries = [
             "2017": 30.7
         },
         "fifa": "MYA",
-        "timezones": [
-            "UTC+06:30"
-        ],
         "continents": [
             "Asia"
         ],
@@ -12672,12 +10923,6 @@ const countries = [
                 "symbol": "₨"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "77"
-            ]
-        },
         "capital": [
             "Kathmandu"
         ],
@@ -12713,9 +10958,6 @@ const countries = [
             "2010": 32.8
         },
         "fifa": "NEP",
-        "timezones": [
-            "UTC+05:45"
-        ],
         "continents": [
             "Asia"
         ],
@@ -12751,12 +10993,6 @@ const countries = [
                 "name": "São Tomé and Príncipe dobra",
                 "symbol": "Db"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "39"
-            ]
         },
         "capital": [
             "São Tomé"
@@ -12794,9 +11030,6 @@ const countries = [
             "2017": 56.3
         },
         "fifa": "STP",
-        "timezones": [
-            "UTC"
-        ],
         "continents": [
             "Africa"
         ],
@@ -12833,12 +11066,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "684"
-            ]
-        },
         "capital": [
             "Pago Pago"
         ],
@@ -12873,9 +11100,6 @@ const countries = [
         },
         "population": 55197,
         "fifa": "ASA",
-        "timezones": [
-            "UTC-11:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -12912,12 +11136,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "3"
-            ]
-        },
         "capital": [
             "Vienna"
         ],
@@ -12953,9 +11171,6 @@ const countries = [
             "2018": 30.8
         },
         "fifa": "AUT",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -12992,12 +11207,6 @@ const countries = [
                 "symbol": "Rp"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "2"
-            ]
-        },
         "capital": [
             "Jakarta"
         ],
@@ -13033,11 +11242,6 @@ const countries = [
             "2019": 38.2
         },
         "fifa": "IDN",
-        "timezones": [
-            "UTC+07:00",
-            "UTC+08:00",
-            "UTC+09:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -13074,12 +11278,6 @@ const countries = [
                 "symbol": "MK"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "65"
-            ]
-        },
         "capital": [
             "Lilongwe"
         ],
@@ -13115,9 +11313,6 @@ const countries = [
             "2016": 44.7
         },
         "fifa": "MWI",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -13158,12 +11353,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "07"
-            ]
-        },
         "capital": [
             "Panama City"
         ],
@@ -13199,9 +11388,6 @@ const countries = [
             "2019": 49.8
         },
         "fifa": "PAN",
-        "timezones": [
-            "UTC-05:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -13239,12 +11425,6 @@ const countries = [
                 "symbol": "ر.س"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "66"
-            ]
-        },
         "capital": [
             "Riyadh"
         ],
@@ -13278,9 +11458,6 @@ const countries = [
         },
         "population": 34813867,
         "fifa": "KSA",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -13316,12 +11493,6 @@ const countries = [
                 "name": "Fijian dollar",
                 "symbol": "$"
             }
-        },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "79"
-            ]
         },
         "capital": [
             "Suva"
@@ -13362,9 +11533,6 @@ const countries = [
             "2013": 36.7
         },
         "fifa": "FIJ",
-        "timezones": [
-            "UTC+12:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -13400,12 +11568,6 @@ const countries = [
                 "name": "Icelandic króna",
                 "symbol": "kr"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "54"
-            ]
         },
         "capital": [
             "Reykjavik"
@@ -13443,9 +11605,6 @@ const countries = [
             "2017": 26.1
         },
         "fifa": "ISL",
-        "timezones": [
-            "UTC"
-        ],
         "continents": [
             "Europe"
         ],
@@ -13482,12 +11641,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "671"
-            ]
-        },
         "capital": [
             "Hagåtña"
         ],
@@ -13517,9 +11670,6 @@ const countries = [
         },
         "population": 168783,
         "fifa": "GUM",
-        "timezones": [
-            "UTC+10:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -13556,12 +11706,6 @@ const countries = [
                 "symbol": "UM"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "22"
-            ]
-        },
         "capital": [
             "Nouakchott"
         ],
@@ -13597,9 +11741,6 @@ const countries = [
             "2014": 32.6
         },
         "fifa": "MTN",
-        "timezones": [
-            "UTC"
-        ],
         "continents": [
             "Africa"
         ],
@@ -13635,12 +11776,6 @@ const countries = [
                 "name": "Maldivian rufiyaa",
                 "symbol": ".ރ"
             }
-        },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "60"
-            ]
         },
         "capital": [
             "Malé"
@@ -13678,9 +11813,6 @@ const countries = [
             "2016": 31.3
         },
         "fifa": "MDV",
-        "timezones": [
-            "UTC+05:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -13719,12 +11851,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+8",
-            "suffixes": [
-                "86"
-            ]
-        },
         "capital": [
             "Taipei"
         ],
@@ -13760,9 +11886,6 @@ const countries = [
         },
         "population": 23503349,
         "fifa": "TPE",
-        "timezones": [
-            "UTC+08:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -13798,12 +11921,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "96"
-            ]
-        },
         "capital": [
             "Fort-de-France"
         ],
@@ -13833,9 +11950,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2473088"
         },
         "population": 378243,
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -13872,12 +11986,6 @@ const countries = [
                 "symbol": "Ft"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "6"
-            ]
-        },
         "capital": [
             "Budapest"
         ],
@@ -13911,9 +12019,6 @@ const countries = [
             "2018": 29.6
         },
         "fifa": "HUN",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -13950,12 +12055,6 @@ const countries = [
                 "name": "Thai baht",
                 "symbol": "฿"
             }
-        },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "6"
-            ]
         },
         "capital": [
             "Bangkok"
@@ -13995,9 +12094,6 @@ const countries = [
             "2019": 34.9
         },
         "fifa": "THA",
-        "timezones": [
-            "UTC+07:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -14034,12 +12130,6 @@ const countries = [
                 "symbol": "د.ت"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "16"
-            ]
-        },
         "capital": [
             "Tunis"
         ],
@@ -14075,9 +12165,6 @@ const countries = [
             "2015": 32.8
         },
         "fifa": "TUN",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -14113,12 +12200,6 @@ const countries = [
                 "name": "Armenian dram",
                 "symbol": "֏"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "74"
-            ]
         },
         "capital": [
             "Yerevan"
@@ -14156,9 +12237,6 @@ const countries = [
             "2019": 29.9
         },
         "fifa": "ARM",
-        "timezones": [
-            "UTC+04:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -14195,12 +12273,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "82"
-            ]
-        },
         "capital": [
             "Podgorica"
         ],
@@ -14235,9 +12307,6 @@ const countries = [
             "2016": 38.5
         },
         "fifa": "MNE",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -14277,12 +12346,6 @@ const countries = [
                 "name": "South African rand",
                 "symbol": "R"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "68"
-            ]
         },
         "capital": [
             "Mbabane"
@@ -14324,9 +12387,6 @@ const countries = [
             "2016": 54.6
         },
         "fifa": "SWZ",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -14362,12 +12422,6 @@ const countries = [
                 "name": "Euro",
                 "symbol": "€"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "51"
-            ]
         },
         "capital": [
             "Lisbon"
@@ -14405,10 +12459,6 @@ const countries = [
             "2018": 33.5
         },
         "fifa": "POR",
-        "timezones": [
-            "UTC-01:00",
-            "UTC"
-        ],
         "continents": [
             "Europe"
         ],
@@ -14445,12 +12495,6 @@ const countries = [
                 "symbol": "ƒ"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "97"
-            ]
-        },
         "capital": [
             "Oranjestad"
         ],
@@ -14482,9 +12526,6 @@ const countries = [
         },
         "population": 106766,
         "fifa": "ARU",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -14520,12 +12561,6 @@ const countries = [
                 "name": "Danish krone",
                 "symbol": "kr"
             }
-        },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "5"
-            ]
         },
         "capital": [
             "Copenhagen"
@@ -14563,13 +12598,6 @@ const countries = [
             "2018": 28.2
         },
         "fifa": "DEN",
-        "timezones": [
-            "UTC-04:00",
-            "UTC-03:00",
-            "UTC-01:00",
-            "UTC",
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -14606,12 +12634,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "92"
-            ]
-        },
         "capital": [
             "Majuro"
         ],
@@ -14644,9 +12666,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/571771"
         },
         "population": 59194,
-        "timezones": [
-            "UTC+12:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -14682,12 +12701,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "264"
-            ]
-        },
         "capital": [
             "The Valley"
         ],
@@ -14718,9 +12731,6 @@ const countries = [
         },
         "population": 13452,
         "fifa": "AIA",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -14756,12 +12766,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "90"
-            ]
-        },
         "capital": [
             "Gustavia"
         ],
@@ -14794,9 +12798,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/7552779"
         },
         "population": 4255,
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -14833,12 +12834,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "71"
-            ]
-        },
         "capital": [
             "Riga"
         ],
@@ -14874,9 +12869,6 @@ const countries = [
             "2018": 35.1
         },
         "fifa": "LVA",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -14912,12 +12904,6 @@ const countries = [
                 "name": "Central African CFA franc",
                 "symbol": "Fr"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "40"
-            ]
         },
         "capital": [
             "Malabo"
@@ -14955,9 +12941,6 @@ const countries = [
         },
         "population": 1402985,
         "fifa": "EQG",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -14994,12 +12977,6 @@ const countries = [
                 "symbol": "L"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "04"
-            ]
-        },
         "capital": [
             "Tegucigalpa"
         ],
@@ -15035,9 +13012,6 @@ const countries = [
             "2019": 48.2
         },
         "fifa": "HON",
-        "timezones": [
-            "UTC-06:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -15075,12 +13049,6 @@ const countries = [
                 "symbol": "¥"
             }
         },
-        "idd": {
-            "root": "+8",
-            "suffixes": [
-                "1"
-            ]
-        },
         "capital": [
             "Tokyo"
         ],
@@ -15116,9 +13084,6 @@ const countries = [
             "2013": 32.9
         },
         "fifa": "JPN",
-        "timezones": [
-            "UTC+09:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -15155,12 +13120,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "31"
-            ]
-        },
         "capital": [
             "Monrovia"
         ],
@@ -15195,9 +13154,6 @@ const countries = [
             "2016": 35.3
         },
         "fifa": "LBR",
-        "timezones": [
-            "UTC"
-        ],
         "continents": [
             "Africa"
         ],
@@ -15238,12 +13194,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "3"
-            ]
-        },
         "capital": [
             "Havana"
         ],
@@ -15276,9 +13226,6 @@ const countries = [
         },
         "population": 11326616,
         "fifa": "CUB",
-        "timezones": [
-            "UTC-05:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -15315,12 +13262,6 @@ const countries = [
                 "symbol": "RM"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "0"
-            ]
-        },
         "capital": [
             "Kuala Lumpur"
         ],
@@ -15355,9 +13296,6 @@ const countries = [
             "2015": 41.1
         },
         "fifa": "MAS",
-        "timezones": [
-            "UTC+08:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -15394,13 +13332,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "787",
-                "939"
-            ]
-        },
         "capital": [
             "San Juan"
         ],
@@ -15434,9 +13365,6 @@ const countries = [
         },
         "population": 3194034,
         "fifa": "PUR",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -15473,12 +13401,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "03"
-            ]
-        },
         "capital": [
             "San Salvador"
         ],
@@ -15514,9 +13436,6 @@ const countries = [
             "2019": 38.8
         },
         "fifa": "SLV",
-        "timezones": [
-            "UTC-06:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -15552,12 +13471,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "90"
-            ]
-        },
         "capital": [
             "Fakaofo"
         ],
@@ -15585,9 +13498,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2186600"
         },
         "population": 1411,
-        "timezones": [
-            "UTC+13:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -15623,12 +13533,6 @@ const countries = [
                 "name": "Euro",
                 "symbol": "€"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "53"
-            ]
         },
         "capital": [
             "Dublin"
@@ -15667,9 +13571,6 @@ const countries = [
             "2017": 31.4
         },
         "fifa": "IRL",
-        "timezones": [
-            "UTC"
-        ],
         "continents": [
             "Europe"
         ],
@@ -15710,12 +13611,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "86"
-            ]
-        },
         "capital": [
             "South Tarawa"
         ],
@@ -15751,11 +13646,6 @@ const countries = [
         "gini": {
             "2006": 37.0
         },
-        "timezones": [
-            "UTC+12:00",
-            "UTC+13:00",
-            "UTC+14:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -15792,12 +13682,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "4"
-            ]
-        },
         "capital": [
             "Wellington"
         ],
@@ -15831,13 +13715,6 @@ const countries = [
         },
         "population": 5084300,
         "fifa": "NZL",
-        "timezones": [
-            "UTC-11:00",
-            "UTC-10:00",
-            "UTC+12:00",
-            "UTC+12:45",
-            "UTC+13:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -15874,12 +13751,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "268"
-            ]
-        },
         "capital": [
             "Saint John's"
         ],
@@ -15910,9 +13781,6 @@ const countries = [
         },
         "population": 97928,
         "fifa": "ATG",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -15948,12 +13816,6 @@ const countries = [
                 "name": "West African CFA franc",
                 "symbol": "Fr"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "28"
-            ]
         },
         "capital": [
             "Lomé"
@@ -15991,9 +13853,6 @@ const countries = [
             "2015": 43.1
         },
         "fifa": "TOG",
-        "timezones": [
-            "UTC"
-        ],
         "continents": [
             "Africa"
         ],
@@ -16029,12 +13888,6 @@ const countries = [
                 "name": "Uzbekistani soʻm",
                 "symbol": "so'm"
             }
-        },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "98"
-            ]
         },
         "capital": [
             "Tashkent"
@@ -16073,9 +13926,6 @@ const countries = [
             "2003": 35.3
         },
         "fifa": "UZB",
-        "timezones": [
-            "UTC+05:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -16112,12 +13962,6 @@ const countries = [
                 "symbol": "₾"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "95"
-            ]
-        },
         "capital": [
             "Tbilisi"
         ],
@@ -16152,9 +13996,6 @@ const countries = [
             "2019": 35.9
         },
         "fifa": "GEO",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -16190,12 +14031,6 @@ const countries = [
                 "name": "Kyrgyzstani som",
                 "symbol": "с"
             }
-        },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "96"
-            ]
         },
         "capital": [
             "Bishkek"
@@ -16235,9 +14070,6 @@ const countries = [
             "2019": 29.7
         },
         "fifa": "KGZ",
-        "timezones": [
-            "UTC+06:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -16273,12 +14105,6 @@ const countries = [
                 "name": "Philippine peso",
                 "symbol": "₱"
             }
-        },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "3"
-            ]
         },
         "capital": [
             "Manila"
@@ -16316,9 +14142,6 @@ const countries = [
             "2018": 42.3
         },
         "fifa": "PHI",
-        "timezones": [
-            "UTC+08:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -16354,12 +14177,6 @@ const countries = [
                 "name": "North Korean won",
                 "symbol": "₩"
             }
-        },
-        "idd": {
-            "root": "+8",
-            "suffixes": [
-                "50"
-            ]
         },
         "capital": [
             "Pyongyang"
@@ -16398,9 +14215,6 @@ const countries = [
         },
         "population": 25778815,
         "fifa": "PRK",
-        "timezones": [
-            "UTC+09:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -16441,12 +14255,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "88"
-            ]
-        },
         "capital": [
             "Funafuti"
         ],
@@ -16480,9 +14288,6 @@ const countries = [
         "gini": {
             "2010": 39.1
         },
-        "timezones": [
-            "UTC+12:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -16519,12 +14324,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "98"
-            ]
-        },
         "capital": [
             "Montevideo"
         ],
@@ -16560,9 +14359,6 @@ const countries = [
             "2019": 39.7
         },
         "fifa": "URU",
-        "timezones": [
-            "UTC-03:00"
-        ],
         "continents": [
             "South America"
         ],
@@ -16598,12 +14394,6 @@ const countries = [
                 "name": "Belarusian ruble",
                 "symbol": "Br"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "75"
-            ]
         },
         "capital": [
             "Minsk"
@@ -16643,9 +14433,6 @@ const countries = [
             "2019": 25.3
         },
         "fifa": "BLR",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -16682,12 +14469,6 @@ const countries = [
                 "symbol": "kr"
             }
         },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "6"
-            ]
-        },
         "capital": [
             "Stockholm"
         ],
@@ -16723,9 +14504,6 @@ const countries = [
             "2018": 30.0
         },
         "fifa": "SWE",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -16761,12 +14539,6 @@ const countries = [
                 "symbol": "£"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "11"
-            ]
-        },
         "capital": [
             "Juba"
         ],
@@ -16800,9 +14572,6 @@ const countries = [
             "2016": 44.1
         },
         "fifa": "SSD",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -16838,12 +14607,6 @@ const countries = [
                 "symbol": "P"
             }
         },
-        "idd": {
-            "root": "+8",
-            "suffixes": [
-                "53"
-            ]
-        },
         "altSpellings": [
             "MO",
             "澳门",
@@ -16877,9 +14640,6 @@ const countries = [
         },
         "population": 649342,
         "fifa": "MAC",
-        "timezones": [
-            "UTC+08:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -16914,12 +14674,6 @@ const countries = [
             "SDG": {
                 "name": "Sudanese pound"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "49"
-            ]
         },
         "capital": [
             "Khartoum"
@@ -16957,9 +14711,6 @@ const countries = [
             "2014": 34.2
         },
         "fifa": "SDN",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -16995,12 +14746,6 @@ const countries = [
                 "name": "Euro",
                 "symbol": "€"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "1"
-            ]
         },
         "capital": [
             "Amsterdam"
@@ -17038,10 +14783,6 @@ const countries = [
             "2018": 28.1
         },
         "fifa": "NED",
-        "timezones": [
-            "UTC-04:00",
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -17078,12 +14819,6 @@ const countries = [
                 "symbol": "Fr"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "41"
-            ]
-        },
         "capital": [
             "Libreville"
         ],
@@ -17119,9 +14854,6 @@ const countries = [
             "2017": 38.0
         },
         "fifa": "GAB",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -17157,12 +14889,6 @@ const countries = [
                 "name": "West African CFA franc",
                 "symbol": "Fr"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "25"
-            ]
         },
         "capital": [
             "Yamoussoukro"
@@ -17201,9 +14927,6 @@ const countries = [
             "2015": 41.5
         },
         "fifa": "CIV",
-        "timezones": [
-            "UTC"
-        ],
         "continents": [
             "Africa"
         ],
@@ -17239,12 +14962,6 @@ const countries = [
                 "name": "South African rand",
                 "symbol": "R"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "7"
-            ]
         },
         "capital": [
             "Pretoria",
@@ -17294,9 +15011,6 @@ const countries = [
             "2014": 63.0
         },
         "fifa": "RSA",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -17337,12 +15051,6 @@ const countries = [
                 "symbol": "¥"
             }
         },
-        "idd": {
-            "root": "+8",
-            "suffixes": [
-                "6"
-            ]
-        },
         "capital": [
             "Beijing"
         ],
@@ -17382,9 +15090,6 @@ const countries = [
             "2016": 38.5
         },
         "fifa": "CHN",
-        "timezones": [
-            "UTC+08:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -17420,12 +15125,6 @@ const countries = [
                 "name": "Djiboutian franc",
                 "symbol": "Fr"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "53"
-            ]
         },
         "capital": [
             "Djibouti"
@@ -17467,9 +15166,6 @@ const countries = [
             "2017": 41.6
         },
         "fifa": "DJI",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -17507,12 +15203,6 @@ const countries = [
                 "symbol": "﷼"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "8"
-            ]
-        },
         "capital": [
             "Tehran"
         ],
@@ -17549,9 +15239,6 @@ const countries = [
             "2018": 42.0
         },
         "fifa": "IRN",
-        "timezones": [
-            "UTC+03:30"
-        ],
         "continents": [
             "Asia"
         ],
@@ -17587,12 +15274,6 @@ const countries = [
                 "name": "Australian dollar",
                 "symbol": "$"
             }
-        },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "74"
-            ]
         },
         "capital": [
             "Yaren"
@@ -17631,9 +15312,6 @@ const countries = [
         "gini": {
             "2012": 34.8
         },
-        "timezones": [
-            "UTC+12:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -17670,12 +15348,6 @@ const countries = [
                 "symbol": "£"
             }
         },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "4"
-            ]
-        },
         "capital": [
             "London"
         ],
@@ -17710,17 +15382,6 @@ const countries = [
         "gini": {
             "2017": 35.1
         },
-        "timezones": [
-            "UTC-08:00",
-            "UTC-05:00",
-            "UTC-04:00",
-            "UTC-03:00",
-            "UTC-02:00",
-            "UTC",
-            "UTC+01:00",
-            "UTC+02:00",
-            "UTC+06:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -17757,12 +15418,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "868"
-            ]
-        },
         "capital": [
             "Port of Spain"
         ],
@@ -17797,9 +15452,6 @@ const countries = [
             "1992": 40.3
         },
         "fifa": "TRI",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -17835,12 +15487,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "72"
-            ]
-        },
         "capital": [
             "Kingston"
         ],
@@ -17873,9 +15519,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2574988"
         },
         "population": 2302,
-        "timezones": [
-            "UTC+11:30"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -17911,12 +15554,6 @@ const countries = [
                 "name": "Central African CFA franc",
                 "symbol": "Fr"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "37"
-            ]
         },
         "capital": [
             "Yaoundé"
@@ -17954,9 +15591,6 @@ const countries = [
             "2014": 46.6
         },
         "fifa": "CMR",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -17993,12 +15627,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "473"
-            ]
-        },
         "capital": [
             "St. George's"
         ],
@@ -18029,9 +15657,6 @@ const countries = [
         },
         "population": 112519,
         "fifa": "GRN",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -18067,12 +15692,6 @@ const countries = [
                 "name": "denar",
                 "symbol": "den"
             }
-        },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "89"
-            ]
         },
         "capital": [
             "Skopje"
@@ -18111,9 +15730,6 @@ const countries = [
             "2018": 33.0
         },
         "fifa": "MKD",
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -18150,12 +15766,6 @@ const countries = [
                 "symbol": ".د.ب"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "73"
-            ]
-        },
         "capital": [
             "Manama"
         ],
@@ -18188,9 +15798,6 @@ const countries = [
         },
         "population": 1701583,
         "fifa": "BHR",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -18227,12 +15834,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "4"
-            ]
-        },
         "capital": [
             "Madrid"
         ],
@@ -18268,10 +15869,6 @@ const countries = [
             "2018": 34.7
         },
         "fifa": "ESP",
-        "timezones": [
-            "UTC",
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -18308,12 +15905,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "1"
-            ]
-        },
         "capital": [
             "Canberra"
         ],
@@ -18347,16 +15938,6 @@ const countries = [
             "2014": 34.4
         },
         "fifa": "AUS",
-        "timezones": [
-            "UTC+05:00",
-            "UTC+06:30",
-            "UTC+07:00",
-            "UTC+08:00",
-            "UTC+09:30",
-            "UTC+10:00",
-            "UTC+10:30",
-            "UTC+11:30"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -18393,12 +15974,6 @@ const countries = [
                 "symbol": "ر.ع."
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "68"
-            ]
-        },
         "capital": [
             "Muscat"
         ],
@@ -18431,9 +16006,6 @@ const countries = [
         },
         "population": 5106622,
         "fifa": "OMA",
-        "timezones": [
-            "UTC+04:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -18470,12 +16042,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "92"
-            ]
-        },
         "capital": [
             "Georgetown"
         ],
@@ -18510,9 +16076,6 @@ const countries = [
             "1998": 45.1
         },
         "fifa": "GUY",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "South America"
         ],
@@ -18551,12 +16114,6 @@ const countries = [
                 "symbol": "Rs  රු"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "4"
-            ]
-        },
         "capital": [
             "Sri Jayawardenepura Kotte"
         ],
@@ -18593,9 +16150,6 @@ const countries = [
             "2016": 39.3
         },
         "fifa": "SRI",
-        "timezones": [
-            "UTC+05:30"
-        ],
         "continents": [
             "Asia"
         ],
@@ -18632,12 +16186,6 @@ const countries = [
                 "symbol": "Q"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "02"
-            ]
-        },
         "capital": [
             "Guatemala City"
         ],
@@ -18671,9 +16219,6 @@ const countries = [
             "2014": 48.3
         },
         "fifa": "GUA",
-        "timezones": [
-            "UTC-06:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -18711,12 +16256,6 @@ const countries = [
                 "symbol": "د.ا"
             }
         },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "62"
-            ]
-        },
         "capital": [
             "Amman"
         ],
@@ -18752,9 +16291,6 @@ const countries = [
             "2010": 33.7
         },
         "fifa": "JOR",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -18791,12 +16327,6 @@ const countries = [
                 "symbol": "Fr"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "21"
-            ]
-        },
         "capital": [
             "Dakar"
         ],
@@ -18832,9 +16362,6 @@ const countries = [
             "2011": 40.3
         },
         "fifa": "SEN",
-        "timezones": [
-            "UTC"
-        ],
         "continents": [
             "Africa"
         ],
@@ -18871,12 +16398,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+3",
-            "suffixes": [
-                "3"
-            ]
-        },
         "capital": [
             "Paris"
         ],
@@ -18912,22 +16433,6 @@ const countries = [
             "2018": 32.4
         },
         "fifa": "FRA",
-        "timezones": [
-            "UTC-10:00",
-            "UTC-09:30",
-            "UTC-09:00",
-            "UTC-08:00",
-            "UTC-04:00",
-            "UTC-03:00",
-            "UTC+01:00",
-            "UTC+02:00",
-            "UTC+03:00",
-            "UTC+04:00",
-            "UTC+05:00",
-            "UTC+10:00",
-            "UTC+11:00",
-            "UTC+12:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -18963,12 +16468,6 @@ const countries = [
                 "symbol": "₣"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "81"
-            ]
-        },
         "capital": [
             "Mata-Utu"
         ],
@@ -18996,9 +16495,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/3412448"
         },
         "population": 11750,
-        "timezones": [
-            "UTC+12:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -19035,12 +16531,6 @@ const countries = [
                 "symbol": "ZK"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "60"
-            ]
-        },
         "capital": [
             "Lusaka"
         ],
@@ -19075,9 +16565,6 @@ const countries = [
             "2015": 57.1
         },
         "fifa": "ZAM",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -19113,12 +16600,6 @@ const countries = [
                 "name": "Brazilian real",
                 "symbol": "R$"
             }
-        },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "5"
-            ]
         },
         "capital": [
             "Brasília"
@@ -19156,12 +16637,6 @@ const countries = [
             "2019": 53.4
         },
         "fifa": "BRA",
-        "timezones": [
-            "UTC-05:00",
-            "UTC-04:00",
-            "UTC-03:00",
-            "UTC-02:00"
-        ],
         "continents": [
             "South America"
         ],
@@ -19198,14 +16673,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "809",
-                "829",
-                "849"
-            ]
-        },
         "capital": [
             "Santo Domingo"
         ],
@@ -19239,9 +16706,6 @@ const countries = [
             "2019": 41.9
         },
         "fifa": "DOM",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -19278,12 +16742,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+1",
-            "suffixes": [
-                "869"
-            ]
-        },
         "capital": [
             "Basseterre"
         ],
@@ -19315,9 +16773,6 @@ const countries = [
         },
         "population": 53192,
         "fifa": "SKN",
-        "timezones": [
-            "UTC-04:00"
-        ],
         "continents": [
             "North America"
         ],
@@ -19353,12 +16808,6 @@ const countries = [
                 "name": "Eritrean nakfa",
                 "symbol": "Nfk"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "91"
-            ]
         },
         "capital": [
             "Asmara"
@@ -19397,9 +16846,6 @@ const countries = [
         },
         "population": 5352000,
         "fifa": "ERI",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -19435,12 +16881,6 @@ const countries = [
                 "symbol": "€"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "62"
-            ]
-        },
         "capital": [
             "Port-aux-Français"
         ],
@@ -19470,9 +16910,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2186658"
         },
         "population": 400,
-        "timezones": [
-            "UTC+05:00"
-        ],
         "continents": [
             "Antarctica"
         ],
@@ -19508,12 +16945,6 @@ const countries = [
                 "name": "Ethiopian birr",
                 "symbol": "Br"
             }
-        },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "51"
-            ]
         },
         "capital": [
             "Addis Ababa"
@@ -19551,9 +16982,6 @@ const countries = [
             "2015": 35.0
         },
         "fifa": "ETH",
-        "timezones": [
-            "UTC+03:00"
-        ],
         "continents": [
             "Africa"
         ],
@@ -19589,12 +17017,6 @@ const countries = [
                 "name": "Israeli new shekel",
                 "symbol": "₪"
             }
-        },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "72"
-            ]
         },
         "capital": [
             "Jerusalem"
@@ -19632,9 +17054,6 @@ const countries = [
             "2016": 39.0
         },
         "fifa": "ISR",
-        "timezones": [
-            "UTC+02:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -19670,12 +17089,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "46"
-            ]
-        },
         "capital": [
             "Diego Garcia"
         ],
@@ -19701,9 +17114,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1993867"
         },
         "population": 3000,
-        "timezones": [
-            "UTC+06:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -19743,12 +17153,6 @@ const countries = [
                 "symbol": "£"
             }
         },
-        "idd": {
-            "root": "+4",
-            "suffixes": [
-                "4"
-            ]
-        },
         "capital": [
             "Saint Helier"
         ],
@@ -19783,9 +17187,6 @@ const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/367988"
         },
         "population": 100800,
-        "timezones": [
-            "UTC+01:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -19822,12 +17223,6 @@ const countries = [
                 "symbol": "$"
             }
         },
-        "idd": {
-            "root": "+5",
-            "suffixes": [
-                "6"
-            ]
-        },
         "capital": [
             "Santiago"
         ],
@@ -19863,10 +17258,6 @@ const countries = [
             "2017": 44.4
         },
         "fifa": "CHI",
-        "timezones": [
-            "UTC-06:00",
-            "UTC-04:00"
-        ],
         "continents": [
             "South America"
         ],
@@ -19903,12 +17294,6 @@ const countries = [
                 "symbol": "T$"
             }
         },
-        "idd": {
-            "root": "+6",
-            "suffixes": [
-                "76"
-            ]
-        },
         "capital": [
             "Nuku'alofa"
         ],
@@ -19943,9 +17328,6 @@ const countries = [
             "2015": 37.6
         },
         "fifa": "TGA",
-        "timezones": [
-            "UTC+13:00"
-        ],
         "continents": [
             "Oceania"
         ],
@@ -19982,12 +17364,6 @@ const countries = [
                 "symbol": "Fr"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "23"
-            ]
-        },
         "capital": [
             "Bamako"
         ],
@@ -20023,9 +17399,6 @@ const countries = [
             "2009": 33.0
         },
         "fifa": "MLI",
-        "timezones": [
-            "UTC"
-        ],
         "continents": [
             "Africa"
         ],
@@ -20065,12 +17438,6 @@ const countries = [
                 "symbol": "kr"
             }
         },
-        "idd": {
-            "root": "+2",
-            "suffixes": [
-                "98"
-            ]
-        },
         "capital": [
             "Tórshavn"
         ],
@@ -20104,9 +17471,6 @@ const countries = [
         },
         "population": 48865,
         "fifa": "FRO",
-        "timezones": [
-            "UTC+00:00"
-        ],
         "continents": [
             "Europe"
         ],
@@ -20143,13 +17507,6 @@ const countries = [
                 "name": "Kazakhstani tenge",
                 "symbol": "₸"
             }
-        },
-        "idd": {
-            "root": "+7",
-            "suffixes": [
-                "6",
-                "7"
-            ]
         },
         "capital": [
             "Nur-Sultan"
@@ -20192,10 +17549,6 @@ const countries = [
             "2018": 27.8
         },
         "fifa": "KAZ",
-        "timezones": [
-            "UTC+05:00",
-            "UTC+06:00"
-        ],
         "continents": [
             "Asia"
         ],
@@ -20231,12 +17584,6 @@ const countries = [
                 "name": "Pakistani rupee",
                 "symbol": "₨"
             }
-        },
-        "idd": {
-            "root": "+9",
-            "suffixes": [
-                "2"
-            ]
         },
         "capital": [
             "Islamabad"
@@ -20275,9 +17622,6 @@ const countries = [
             "2018": 31.6
         },
         "fifa": "PAK",
-        "timezones": [
-            "UTC+05:00"
-        ],
         "continents": [
             "Asia"
         ],
