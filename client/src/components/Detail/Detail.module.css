@@ -53,7 +53,6 @@ h4 {
     font-weight: bold;
     font-size: 25px;
     cursor: pointer;
-    padding: 0 15px;
     top: 0;
     bottom: 0;
 
@@ -64,14 +63,18 @@ h4 {
     scale: .8;
 }
 
-.carouselDiv:hover>.arrow:nth-child(1) {
+.carouselDiv:hover>.arrow:nth-child(1) span {
+    border-radius: 4px;
+    padding: 10px 5px 10px 12px;
     color: #fff;
-    background-color: #0000001e;
+    background-color: #0000004a;
 }
 
-.carouselDiv:hover>.arrow:nth-child(2) {
+.carouselDiv:hover>.arrow:nth-child(2) span {
+    border-radius: 4px;
+    padding: 10px 9px 10px 9px;
     color: #fff;
-    background-color: #0000001e;
+    background-color: #0000004a;
 }
 
 
@@ -84,7 +87,7 @@ h4 {
 }
 
 
-.carouselDiv:hover>.arrow:disabled {
+.carouselDiv:hover>.arrow:disabled span {
     background-color: transparent;
     color: transparent;
     cursor: auto;
