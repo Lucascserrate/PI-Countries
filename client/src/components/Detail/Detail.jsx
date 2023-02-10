@@ -16,14 +16,11 @@ const Detail = () => {
 
     let max = country?.images.length
 
-    console.log(image)
-    console.log(max)
-
     return (
         <div className={s.container}>
-            <nav>
+            <div className={s.nav}>
                 <Nav back='true' />
-            </nav>
+            </div>
             <div className={s.flex}>
                 <div className={s.card}>
                     <div className={s.carousel}>
@@ -43,7 +40,7 @@ const Detail = () => {
                         <div className={s.imgsContainer}>
                             {
                                 country
-                                    ? country.images?.map((e, i) => (
+                                    ? country.images?.slice(0, 5).map((e, i) => (
                                         <div key={i}>
                                             <img className={s.imgs} src={e} alt="" onClick={() => setImage(i)} />
                                         </div>

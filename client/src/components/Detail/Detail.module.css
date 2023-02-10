@@ -3,7 +3,7 @@
     width: 100%;
 }
 
-nav {
+.nav {
     padding-bottom: 80px;
 }
 
@@ -37,7 +37,7 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .carouselDiv {
@@ -98,6 +98,9 @@ h4 {
 }
 
 .imgsContainer {
+    background-color: #0a0f17;
+    border-radius: 6px;
+    padding: 15px 40px;
 
     display: flex;
     gap: 20px;
