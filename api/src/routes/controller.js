@@ -20,8 +20,6 @@ const getAllCountries = async () => {
                 images: e.images
             }
         })
-        api = api.filter(e => e.name !== 'Moldova')
-
         let bdd = await Country.findAll()
         if (!bdd.length) {
             await Country.bulkCreate(api)
