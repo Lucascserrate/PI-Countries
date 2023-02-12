@@ -8448,11 +8448,11 @@ const countries = [
             "https://flagcdn.com/w320/ad.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://wallpapercrafter.com/desktop/133509-nature-landscape-winter-snow-clouds-Soldeu-Andorra-mountains-path-Ski-snowy-peak.jpg",
+            "https://www.triptemptation.com/media/cd025bbb-de48-4107-8136-379238fa37ec/3FGx3g/Wallpapers/Andorra/i-love-andorra-1/1920x1080_0043_i-love-andorra-wallpaper-9.jpg",
+            "https://wallpapercave.com/wp/wp2174622.jpg",
+            "https://descargas360.com/wp-content/uploads/2021/05/Andorra-360-Descargas360.jpg",
+            "https://wallpapercave.com/wp/wp2174623.jpg"
         ]
     },
     {
@@ -10137,11 +10137,11 @@ const countries = [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://i.natgeofe.com/n/10c07019-fa3e-47f2-984b-a02e2af62334/STOCK_MM9537_Hayeri_AKDN_Badakhshan_0035_2x1.jpg",
+            "https://wallpaperaccess.com/full/1968846.jpg",
+            "https://cdn.wallpapersafari.com/94/36/VALhjy.jpg",
+            "https://rare-gallery.com/uploads/posts/107763-afghanistan-5k-4k-wallpaper-mountain-road-clouds.jpg",
+            "https://www.globalconnections.org.uk/sites/newgc.localhost/files/images/countries/mazari_sharif_afghanistan_-_farin_sadiq.jpg"
         ]
     },
     {
@@ -12557,11 +12557,11 @@ const countries = [
             "https://flagcdn.com/w320/aw.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://images3.alphacoders.com/683/683888.jpg",
+            "https://cdn.wallpapersafari.com/19/13/ITPWQ6.jpg",
+            "https://free4kwallpapers.com/uploads/originals/2015/10/04/aruba-beach-at-night-hd.jpg",
+            "https://d2p1cf6997m1ir.cloudfront.net/media/places/countries/e7/b2/d5/e273/aruba.jpg",
+            "https://cf.bstatic.com/xdata/images/xphoto/1920x1080/115254786.jpg?k=83963614728c3ba7bfc151ded8e9bff531aa0719201311af54e2a75fedc226cc&o="
         ]
     },
     {
