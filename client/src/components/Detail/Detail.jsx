@@ -35,7 +35,7 @@ const Detail = () => {
                                     arrow_forward_ios
                                 </span>
                             </button>
-                            <img className={s.bigImg} src={country ? country.images[image] : undefined} />
+                            <img className={s.bigImg} src={country ? country.images[image] : undefined} alt='' />
                         </div>
                         <div className={s.imgsContainer}>
                             {
