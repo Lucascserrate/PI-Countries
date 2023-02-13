@@ -14,7 +14,7 @@ const Detail = () => {
 
     }, [id])
 
-    let max = country?.images.length
+    let max = country?.images?.length
 
     return (
         <div className={s.container}>
@@ -35,7 +35,7 @@ const Detail = () => {
                                     arrow_forward_ios
                                 </span>
                             </button>
-                            <img className={s.bigImg} src={country?.images[image]} />
+                            <img className={s.bigImg} src={country ? country.images[image] : undefined} />
                         </div>
                         <div className={s.imgsContainer}>
                             {
