@@ -10,6 +10,7 @@ import cloud4 from '../../Assets/cloud4.png';
 import bg from '../../Assets/bg.png';
 import linkedin from '../../Assets/linkedin-logo.svg'
 import github from '../../Assets/github-logo.svg'
+import Button from '../Button/Button';
 
 
 const LandingPage = () => {
@@ -24,7 +25,7 @@ const LandingPage = () => {
                         Enjoy  {':)'}
                     </p>
                     <Link to='/home'>
-                        <button className={s.btn}>Start</button>
+                        <Button value='Start' scale='1.2' />
                     </Link>
                 </div>
             </div>
