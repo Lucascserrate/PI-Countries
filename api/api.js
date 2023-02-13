@@ -9798,11 +9798,11 @@ const countries = [
             "https://flagcdn.com/w320/ar.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://www.cepal.org/sites/default/files/styles/1920x1080/public/regionaloffice/images/buenos_aires.jpg?itok=G6IZhj58",
+            "https://imgproxy.natucate.com/HVxX5R02xnwhtsNM9BJR5tXy5tzhUehPTzGbke5_iLU/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlemllbGUvMTM2ZGMwNjYtYjcwZC00NjhkLTk3ZmQtMDJhMDYwZTEyNzQyLzcwYTM0NWRlZmItMTU1OTY1ODkxMi9hcmdlbnRpbmllbi1sYWVuZGVyaW5mb3JtYXRpb25lbi1nbGV0c2NoZXItcGVyaXRvLW1vcmVuby1uYXR1Y2F0ZS5qcGc",
+            "https://www.sela.org/media/3218789/argentina_u77.jpg",
+            "https://travellersworldwide.com/wp-content/uploads/2022/05/shutterstock_619683470.jpg.webp",
+            "https://travellersworldwide.com/wp-content/uploads/2022/07/Shutterstock_1371228326.jpg.webp"
         ]
     },
     {
