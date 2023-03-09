@@ -9882,11 +9882,11 @@ const countries = [
             "https://flagcdn.com/w320/zw.png"
         ],
         "images": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "https://images3.alphacoders.com/102/102647.jpg",
+            "https://wallpapercave.com/wp/wp2278393.jpg",
+            "https://wallpapers.com/images/hd/zimbabwe-s-curtain-of-water-18ri8k46r3p3ivmc.jpg",
+            "https://cdn.britannica.com/70/185170-050-14AA397A/Great-Zimbabwe-stone-ruins-Great-Enclosure-southeastern-Zimbabwe.jpg",
+            "https://images.pling.com/img/00/00/59/57/30/1545212/906e7eea8c81320be360968519e918ef6eee4ef9bbf4bf1ea4d94cac41657a9fcae5.jpg"
         ]
     },
     {
